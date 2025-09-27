@@ -36,6 +36,10 @@
       "mark": {"type": "geoshape"},
       "encoding": {
         "color": {
+          "condition": {
+            "test": "datum.BestSeconds === 'N/A'",
+            "value": "white"
+          },
           "field": "BestSeconds",
           "type": "quantitative",
           "scale": {
@@ -51,8 +55,7 @@
             "field": "BestSeconds",
             "type": "quantitative",
             "title": "Best Time",
-            "format": ".2f",
-            "condition": {"test": "datum.BestSeconds === 'N/A'", "value": "N/A"}
+            "format": ".2f"
           },
           {
             "field": "Person",
@@ -64,7 +67,7 @@
     }
   ],
   "config": {
-    "mark": {"invalid": "#f7fcf5"},
+    "mark": {"invalid": "white"},
     "view": {"stroke": "transparent"}
   }
 }
