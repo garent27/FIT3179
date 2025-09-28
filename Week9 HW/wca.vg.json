@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Fastest Rubik's Cube Solves by Country",
+    "text": "Fastest 3x3 Rubik's Cube Solves by Country",
     "fontSize": 20,
     "anchor": "middle"
   },
@@ -38,7 +38,7 @@
         "color": {
           "condition": {
             "test": "datum.BestSeconds === 'N/A'",
-            "value": "white"
+            "value": "#CFCFCF"
           },
           "field": "BestSeconds",
           "type": "quantitative",
