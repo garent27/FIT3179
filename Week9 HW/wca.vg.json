@@ -5,8 +5,8 @@
     "fontSize": 20,
     "anchor": "middle"
   },
-  "width": 1200,
-  "height": 700,
+  "width": 1000,
+  "height": 500,
   "projection": {"type": "equalEarth"},
   "layer": [
     {
