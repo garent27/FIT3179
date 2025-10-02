@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Fastest 3x3 Rubik's Cube Solves by Country",
+    "fontSize": 20,
+    "anchor": "middle"
+  },
+  "width": 900,
+  "height": 500,
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "sphere": true,
+        "graticule": true
+      },
+      "mark": {"type": "geoshape", "fill": "lightblue", "stroke": "#D3DDDF"}
+    },
+    {
+      "data": {
+        "url": "ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "data/fastest_solve_corrected.csv"
+            },
+            "key": "Country",
+            "fields": ["BestSeconds", "Person"]
+          },
+          "default": {"BestSeconds": "N/A", "Person": "No Data"}
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.BestSeconds === 'N/A'",
+            "value": "#CFCFCF"
+          },
+          "field": "BestSeconds",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [4, 8, 12, 16],
+            "range": ["#006837", "#31a354", "#78c679", "#c2e699", "#ffffcc"]
+          },
+          "title": "Solve Time (seconds)"
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {
+            "field": "BestSeconds",
+            "type": "quantitative",
+            "title": "Best Time",
+            "format": ".2f"
+          },
+          {
+            "field": "Person",
+            "type": "nominal",
+            "title": "Solver"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "mark": {"invalid": "white"},
+    "view": {"stroke": "transparent"}
+  }
+}

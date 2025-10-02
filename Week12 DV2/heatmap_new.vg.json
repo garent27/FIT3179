@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Rubik's Cube Competition Activity: Year vs Continent",
+    "fontSize": 20,
+    "anchor": "start"
+  },
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "data/competitions_with_fastest.csv"
+  },
+  "transform": [
+    {
+      "lookup": "countryId",
+      "from": {
+        "data": {
+          "url": "data/country_coordinates.csv",
+          "format": {"type": "csv"}
+        },
+        "key": "country",
+        "fields": ["continent"]
+      }
+    },
+    {
+      "filter": "datum.continent != null"
+    },
+    {
+      "aggregate": [{"op": "sum", "field": "competitions", "as": "total_competitions"}],
+      "groupby": ["year", "continent"]
+    }
+  ],
+  "mark": "rect",
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "continent",
+      "type": "nominal",
+      "title": "Continent",
+      "sort": ["North America", "South America", "Europe", "Asia", "Africa", "Oceania"]
+    },
+    "color": {
+      "field": "total_competitions",
+      "type": "quantitative",
+      "title": "Total Competitions",
+      "scale": {
+        "type": "sequential",
+        "scheme": "blues",
+        "range": ["#f7fbff", "#08519c"]
+      },
+      "legend": {
+        "title": "Competitions Count",
+        "orient": "right"
+      }
+    },
+    "tooltip": [
+      {"field": "continent", "type": "nominal", "title": "Continent"},
+      {"field": "year", "type": "ordinal", "title": "Year"},
+      {"field": "total_competitions", "type": "quantitative", "title": "Total Competitions"}
+    ]
+  }
+}
