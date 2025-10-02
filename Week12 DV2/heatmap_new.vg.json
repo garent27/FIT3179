@@ -30,7 +30,7 @@
       "groupby": ["year", "continent"]
     }
   ],
-  "mark": "rect",
+  "mark": {"type": "rect", "cursor": "pointer"},
   "encoding": {
     "x": {
       "field": "year",
