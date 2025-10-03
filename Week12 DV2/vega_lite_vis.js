@@ -45,3 +45,8 @@ var vg_6 = "top5_fastest_bar.vg.json";
 vegaEmbed('#top5_fastest', vg_6).then(function(result) {
     // Access the Vega view instance as result.view
 }).catch(console.error);
+
+var vg_7 = "treemap.vg.json";
+vegaEmbed('#treemap', vg_7).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Treemap of Rubik's Cube competition solves by event",
+  "width": 800,
+  "height": 500,
+  "padding": 5,
+  
+  "title": {
+    "text": {"signal": "'Competition Solves by Event (' + yearSelect + ')'"},
+    "fontSize": 18,
+    "anchor": "start"
+  },
+
+  "signals": [
+    {
+      "name": "yearSelect",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2025,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+
+  "data": [
+    {
+      "name": "table",
+      "url": "data/solves_per_event_per_year.csv",
+      "format": {"type": "csv", "parse": "auto"},
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.year == yearSelect"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.eventId == '333' ? '3x3x3 Cube' : datum.eventId == '222' ? '2x2x2 Cube' : datum.eventId == '444' ? '4x4x4 Cube' : datum.eventId == '555' ? '5x5x5 Cube' : datum.eventId == '666' ? '6x6x6 Cube' : datum.eventId == '777' ? '7x7x7 Cube' : datum.eventId == '333bf' ? '3x3x3 Blindfolded' : datum.eventId == '333fm' ? '3x3x3 Fewest Moves' : datum.eventId == '333oh' ? '3x3x3 One-Handed' : datum.eventId == '444bf' ? '4x4x4 Blindfolded' : datum.eventId == '555bf' ? '5x5x5 Blindfolded' : datum.eventId == '333mbf' ? '3x3x3 Multi-Blind' : datum.eventId == 'clock' ? 'Clock' : datum.eventId == 'minx' ? 'Megaminx' : datum.eventId == 'pyram' ? 'Pyraminx' : datum.eventId == 'skewb' ? 'Skewb' : datum.eventId == 'sq1' ? 'Square-1' : datum.eventId == '333ft' ? '3x3x3 With Feet' : datum.eventId == 'magic' ? 'Magic' : datum.eventId == 'mmagic' ? 'Master Magic' : datum.eventId",
+          "as": "event_name"
+        }
+      ]
+    },
+    {
+      "name": "tree",
+      "values": [
+        {"id": "Events", "parent": "", "total_solves": 0}
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "{id: 'Events', children: data('table')}",
+          "as": "root"
+        }
+      ]
+    },
+    {
+      "name": "treemap_data",
+      "source": "table",
+      "transform": [
+        {
+          "type": "nest",
+          "keys": ["event_name"],
+          "generate": true
+        },
+        {
+          "type": "treemap",
+          "field": "total_solves",
+          "sort": {"field": "total_solves", "order": "descending"},
+          "round": true,
+          "method": "squarify",
+          "paddingInner": 2,
+          "paddingOuter": 3,
+          "size": [{"signal": "width"}, {"signal": "height"}]
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "log",
+      "domain": [1, 1500000],
+      "range": {"scheme": "blues"}
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "treemap_data"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "total_solves"},
+          "tooltip": {
+            "signal": "{title: datum.event_name || datum.id, 'Total Solves': format(datum.total_solves || datum.value, ','), 'Year': yearSelect}"
+          }
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "treemap_data"},
+      "encode": {
+        "enter": {
+          "font": {"value": "Arial, sans-serif"},
+          "fontWeight": {"value": "bold"},
+          "fontSize": {"value": 12},
+          "fill": {"value": "white"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"}
+        },
+        "update": {
+          "x": {"signal": "(datum.x0 + datum.x1) / 2"},
+          "y": {"signal": "(datum.y0 + datum.y1) / 2 - 6"},
+          "text": {
+            "signal": "(datum.x1 - datum.x0) > 60 && (datum.y1 - datum.y0) > 30 ? (datum.event_name || datum.id) : ''"
+          },
+          "fontSize": {
+            "signal": "min(12, (datum.x1 - datum.x0) / 8)"
+          }
+        }
+      }
+    }
+  ],
+
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Number of Solves",
+      "orient": "right",
+      "type": "gradient",
+      "gradientLength": 300,
+      "format": ","
+    }
+  ]
+}

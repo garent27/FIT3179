@@ -1,74 +1,229 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Interactive world map showing fastest Rubik's Cube solves by country with pan and zoom.",
+  "width": 900,
+  "height": 500,
+  "autosize": "none",
   "title": {
     "text": "Fastest 3x3 Rubik's Cube Solves by Country",
     "fontSize": 20,
-    "anchor": "middle"
+    "anchor": "start"
   },
-  "width": 900,
-  "height": 500,
-  "projection": {"type": "equalEarth"},
-  "layer": [
+  "background": "#f8f9fa",
+
+  "signals": [
+    { "name": "tx", "update": "width / 2" },
+    { "name": "ty", "update": "height / 2" },
     {
-      "data": {
-        "sphere": true,
-        "graticule": true
-      },
-      "mark": {"type": "geoshape", "fill": "lightblue", "stroke": "#D3DDDF"}
+      "name": "scale",
+      "value": 150,
+      "on": [{
+        "events": {"type": "wheel", "consume": true},
+        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
+      }]
     },
     {
-      "data": {
-        "url": "ne_110m.json",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-      },
-      "transform": [
-        {
-          "lookup": "properties.NAME",
-          "from": {
-            "data": {
-              "url": "data/fastest_solve_corrected.csv"
-            },
-            "key": "Country",
-            "fields": ["BestSeconds", "Person"]
-          },
-          "default": {"BestSeconds": "N/A", "Person": "No Data"}
-        }
-      ],
-      "mark": {"type": "geoshape"},
-      "encoding": {
-        "color": {
-          "condition": {
-            "test": "datum.BestSeconds === 'N/A'",
-            "value": "#CFCFCF"
-          },
-          "field": "BestSeconds",
-          "type": "quantitative",
-          "scale": {
-            "type": "threshold",
-            "domain": [4, 8, 12, 16],
-            "range": ["#006837", "#31a354", "#78c679", "#c2e699", "#ffffcc"]
-          },
-          "title": "Solve Time (seconds)"
-        },
-        "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {
-            "field": "BestSeconds",
-            "type": "quantitative",
-            "title": "Best Time",
-            "format": ".2f"
-          },
-          {
-            "field": "Person",
-            "type": "nominal",
-            "title": "Solver"
-          }
-        ]
-      }
+      "name": "angles",
+      "value": [0, 0],
+      "on": [{
+        "events": "pointerdown",
+        "update": "[rotateX, centerY]"
+      }]
+    },
+    {
+      "name": "cloned",
+      "value": null,
+      "on": [{
+        "events": "pointerdown",
+        "update": "copy('projection')"
+      }]
+    },
+    {
+      "name": "start",
+      "value": null,
+      "on": [{
+        "events": "pointerdown",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "drag", "value": null,
+      "on": [{
+        "events": "[pointerdown, window:pointerup] > window:pointermove",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "delta", "value": null,
+      "on": [{
+        "events": {"signal": "drag"},
+        "update": "[drag[0] - start[0], start[1] - drag[1]]"
+      }]
+    },
+    {
+      "name": "rotateX", "value": 0,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "angles[0] + delta[0]"
+      }]
+    },
+    {
+      "name": "centerY", "value": 0,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[1] + delta[1], -60, 60)"
+      }]
     }
   ],
-  "config": {
-    "mark": {"invalid": "white"},
-    "view": {"stroke": "transparent"}
-  }
+
+  "projections": [
+    {
+      "name": "projection",
+      "type": "equalEarth",
+      "scale": {"signal": "scale"},
+      "rotate": [{"signal": "rotateX"}, 0, 0],
+      "center": [0, {"signal": "centerY"}],
+      "translate": [{"signal": "tx"}, {"signal": "ty"}]
+    }
+  ],
+
+  "data": [
+    {
+      "name": "rubiks_data",
+      "url": "data/fastest_solve_corrected.csv",
+      "format": {
+        "type": "csv",
+        "parse": "auto"
+      }
+    },
+    {
+      "name": "world",
+      "url": "ne_110m.json",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_110m_admin_0_countries"
+      },
+      "transform": [
+        { 
+          "type": "lookup", 
+          "from": "rubiks_data", 
+          "key": "Country", 
+          "fields": ["properties.NAME"], 
+          "values": ["BestSeconds", "Person"]
+        },
+        { 
+          "type": "formula", 
+          "expr": "datum.BestSeconds != null ? datum.BestSeconds : 'N/A'", 
+          "as": "best_time" 
+        }
+      ]
+    },
+    {
+      "name": "countries_with_data",
+      "source": "world",
+      "transform": [
+        { "type": "filter", "expr": "datum.BestSeconds != null && datum.BestSeconds != 'N/A'" }
+      ]
+    },
+    {
+      "name": "countries_no_data",
+      "source": "world",
+      "transform": [
+        { "type": "filter", "expr": "datum.BestSeconds == null || datum.BestSeconds == 'N/A'" }
+      ]
+    },
+    {
+      "name": "sea",
+      "values": [{"type": "Sphere"}]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "threshold",
+      "domain": [4, 8, 12, 16],
+      "range": ["#006837", "#31a354", "#78c679", "#c2e699", "#ffffcc"]
+    }
+  ],
+
+  "legends": [{
+    "fill": "color",
+    "title": "Solve Time (seconds)",
+    "titleAnchor": "start",
+    "direction": "horizontal",
+    "orient": "none",
+    "legendX": 20,
+    "legendY": 460,
+    "encode": {
+      "symbols": {
+        "update": {
+          "strokeWidth": {"value": 0.5},
+          "stroke": {"value": "white"},
+          "size": {"value": 100}
+        }
+      },
+      "labels": {
+        "update": {
+          "fill": {"value": "black"},
+          "fontSize": {"value": 11}
+        }
+      }
+    }
+  }],
+
+  "marks": [
+    {
+      "type": "shape",
+      "from": {"data": "sea"},
+      "encode": {
+        "update": {
+          "fill": {"value": "lightblue"},
+          "stroke": {"value": "#D3DDDF"},
+          "strokeWidth": {"value": 1}
+        }
+      },
+      "transform": [
+        {"type": "geoshape", "projection": "projection"}
+      ]
+    },
+    {
+      "type": "shape",
+      "from": {"data": "countries_no_data"},
+      "encode": {
+        "enter": {
+          "tooltip": {"signal": "'No data for ' + datum.properties.NAME"},
+          "strokeWidth": {"value": 0.5},
+          "stroke": {"value": "white"},
+          "fill": {"value": "#CFCFCF"}
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
+      ]
+    },
+    {
+      "type": "shape",
+      "from": {"data": "countries_with_data"},
+      "encode": {
+        "enter": {
+          "tooltip": {
+            "signal": "{title: datum.properties.NAME, 'Best Time': datum.BestSeconds + ' seconds', 'Solver': datum.Person}"
+          }
+        },
+        "update": { 
+          "fill": {"scale": "color", "field": "BestSeconds"},
+          "strokeWidth": {"value": 0.5},
+          "stroke": {"value": "white"}
+        },
+        "hover": { 
+          "stroke": {"value": "black"},
+          "strokeWidth": {"value": 2}
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
+      ]
+    }
+  ]
 }
