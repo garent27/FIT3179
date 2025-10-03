@@ -1,0 +1,1932 @@
+eventId,personId,name,average_seconds,country,rank_in_event
+222,2019WANY36,Yiheng Wang (???),0.88,China,1
+222,2022PHAN03,Nigel Phang,0.9,Singapore,2
+222,2018KHAN28,Zayn Khanani,0.92,United States,3
+222,2016FEIS01,Sujan Feist,0.93,United States,4
+222,2012PATE01,Antonie Paterakis,0.97,Netherlands,5
+222,2012PATE01,Antonie Paterakis,0.97,Greece,5
+222,2021ZAJD03,Teodor Zajder,0.97,Poland,6
+222,2023TULL04,Max Tully,1,United Kingdom,7
+222,2022RUDA02,Roman Rudakov,1.02,Australia,8
+222,2022SCHE13,Emanuel Schelin,1.07,Sweden,9
+222,2021YEZI01,Ziyu Ye (???),1.07,China,10
+222,2022VISH01,Yoav Vishne,1.09,Israel,11
+222,2018KUZM02,Olaf Ku?mi?ski,1.1,Poland,12
+222,2022STOJ03,Antoni Stojek,1.11,Poland,13
+222,2022CHAI02,Curtis Chai,1.11,United States,14
+222,2017TSVE02,Alexey Tsvetkov,1.12,Russia,15
+222,2017GARR05,Luke Garrett,1.13,United States,16
+222,2022DINC01,Ayden Dincher,1.13,United States,17
+222,2018PATT04,Phoenix Patterson,1.14,Australia,18
+222,2023MALO01,Quinn Maloney,1.15,United States,19
+222,2023LARR09,Aitor Iba§ez Larrea,1.15,Spain,20
+222,2021PIET01,Tomasz Pietruszka,1.16,Poland,21
+222,2022CHEN37,Caleb Chen,1.17,United States,22
+222,2020REDD01,Siddharth Reddy,1.17,United States,23
+222,2016LIJI05,Jiazhou Li (???),1.17,China,24
+222,2017BASH04,Alexander Bashutkin,1.17,Russia,25
+222,2013JOHN10,Brian Johnson,1.18,United States,26
+222,2013EGDA02,Martin Vëdele Egdal,1.19,Denmark,27
+222,2021SOTO01,Juan Miguel Saboya Soto,1.19,Colombia,28
+222,2019HUAH03,Huining Huang (???),1.19,China,29
+222,2022NUNE03,Matias Marcantoni-Nunez,1.2,United States,30
+222,2018ALON07,James Alonso,1.2,United Kingdom,31
+222,2019GAOY01,Yuki Gao,1.21,China,32
+222,2018ZHUA10,Ethan Zhuang,1.22,United States,33
+222,2020BURN06,Luke Burns,1.22,United Kingdom,34
+222,2022COST03,Christofor Gabriel Costea,1.22,Romania,35
+222,2019TARA09,Timofei Tarasenko,1.22,Russia,36
+222,2022GLAD01,Igor G?adysz,1.23,Poland,37
+222,2021ZAJD02,Stefan Zajder,1.23,Poland,38
+222,2012CALL01,Will Callan,1.23,United States,39
+222,2016THAK01,Ram Thakkar (??? ?????),1.24,India,40
+222,2016JONE04,Jode Brewster,1.24,Australia,41
+222,2021EDEN01,Pep EdÇn,1.24,Sweden,42
+222,2023SHOJ01,Dominic Shoji,1.24,United States,43
+222,2023XIAT01,Tian Xia (??),1.24,China,44
+222,2023YUHA01,Hansen Yu (???),1.25,China,45
+222,2022CIEP01,Szymon Ciepiela,1.25,Poland,46
+222,2022ORBA01,Andr†s Orb†n,1.25,Hungary,47
+222,2017LIXU06,Xulang Li (???),1.25,China,48
+222,2016LINB01,Brennen Lin,1.26,Canada,49
+222,2021DUNA01,Brendyn Dunagan,1.26,United States,50
+222,2021YEXA01,Xavier Ye,1.27,United States,51
+222,2015SANC11,Nicol†s S†nchez,1.27,United States,52
+222,2013GERH01,Kevin Gerhardt,1.27,Germany,53
+222,2013MARC05,Vako Marchilashvili (???? ????????????),1.27,Georgia,54
+222,2018CREE01,Kerry Creech,1.28,United States,55
+222,2021CHEL01,Ianis Costin Chele,1.28,Romania,56
+222,2022JOHN14,Connor Johnson,1.28,New Zealand,57
+222,2022STOU01,Rowan Stough,1.28,United States,58
+222,2017HERN11,Joaquin Ruenes Hern†ndez,1.29,Mexico,59
+222,2016JENS09,William Jensen,1.29,Sweden,60
+222,2016GUOS02,Sky Guo (???),1.29,Hong Kong,
+222,2016PILA03,Ryan Pilat,1.29,United States,62
+222,2015SANT44,Advay Sant,1.31,United States,63
+222,2023FANG02,Alan Fang,1.31,United Kingdom,64
+222,2023LAVO01,William Lavoie,1.32,Canada,65
+222,2019YAOJ01,Jerry Yao,1.32,United States,66
+222,2022VERA02,Dante Navarro Vera,1.32,Chile,67
+222,2022IVAR01,Ludwig Ivarsson,1.32,Sweden,68
+222,2021ZHAN01,Bofan Zhang (???),1.32,China,69
+222,2015LARS04,Kim Roger Haraldsen,1.32,Norway,70
+222,2017CHOI07,Kyeongmin Choi (???),1.34,Republic of Korea,71
+222,2018LIUN01,Nancy Liu,1.34,United States,72
+222,2018LIUN01,Nancy Liu,1.34,China,72
+222,2018KHAN26,Hassan Khanani,1.34,United States,73
+222,2018WANG35,Guanbo Wang (???),1.34,China,74
+222,2023SWIT03,Daniâl Switijnk,1.34,Netherlands,75
+222,2023SEVE03,Ezra Severson,1.34,United States,76
+222,2012PANJ02,Jack Pan (???),1.35,China,77
+222,2014CZAP01,Maciej Czapiewski,1.35,Poland,78
+222,2016KOLA02,Tymon Kolasi?ski,1.35,Poland,79
+222,2016CHAN09,Jaemin Chang (???),1.35,Republic of Korea,80
+222,2015CHER07,Tommy Cherry,1.35,United States,81
+222,2017XURU04,Ruihang Xu (???),1.36,China,82
+222,2015VANL01,Luke Van Laningham,1.36,United States,83
+222,2023MAGA09,Juan Miguel Y. Magallanes,1.36,Philippines,84
+222,2022MATY01,Ben Matyas,1.36,Israel,85
+222,2019MAGU04,Jose Antonio Cuipal Magui§a,1.36,Peru,86
+222,2019VUJC01,Alexander Vujcich,1.37,New Zealand,87
+222,2022ADAM01,Lachlan Adams-Romyn,1.37,Australia,88
+222,2021LILI03,Like Li (???),1.37,China,89
+222,2022MULL02,Imanuel MÅller,1.37,Germany,90
+222,2022FEDE01,Alwin Federsel,1.37,Austria,91
+222,2015QUAN03,Ng Jia Quan (???),1.37,Malaysia,92
+222,2017NIEL03,Michael Nielsen,1.37,United States,93
+222,2014DETL01,Rasmus Stub Detlefsen,1.37,Denmark,94
+222,2016OCHS01,Zachary Ochs,1.38,United States,95
+222,2017ZHAQ04,Qiyu Zhang (???),1.38,China,96
+222,2022FRED05,Ian Cantius Fredric,1.38,India,97
+222,2023ROBI10,Daniel Robinson,1.38,United Kingdom,98
+222,2021LABE01,Igor ?ab?d?,1.38,Poland,99
+222,2021ZHUA01,Yiming Zhuang (???),1.38,China,100
+333,2019WANY36,Yiheng Wang (???),3.9,China,1
+333,2023GENG02,Xuanyi Geng (???),4.32,China,2
+333,2023DUYU01,Yufang Du (???),4.49,China,3
+333,2016KOLA02,Tymon Kolasi?ski,4.67,Poland,4
+333,2017XURU04,Ruihang Xu (???),4.84,China,5
+333,2012PARK03,Max Park,4.86,United States,6
+333,2021ZAJD03,Teodor Zajder,4.86,Poland,7
+333,2017GARR05,Luke Garrett,4.88,United States,8
+333,2024LIZH03,Zhaokun Li (???),4.94,China,9
+333,2021ZHAN01,Bofan Zhang (???),4.98,China,10
+333,2016INAB01,Matty Hiroto Inaba,5.01,United States,11
+333,2023CAOQ01,Qixian Cao (???),5.07,China,12
+333,2021XUZI03,Zixuan Xu (???),5.11,China,13
+333,2015BORR01,Leo Borromeo,5.13,Philippines,14
+333,2015MILL01,Dylan Miller,5.21,United States,15
+333,2023YUHA01,Hansen Yu (???),5.23,China,16
+333,2019TARA09,Timofei Tarasenko,5.25,Russia,17
+333,2022CHEN37,Caleb Chen,5.26,United States,18
+333,2024WANG51,Yangming Wang (???),5.28,China,19
+333,2024LIUM08,Muyang Liu (???),5.29,China,20
+333,2016SANT08,Kyle Santucci,5.3,Canada,21
+333,2018KUZM02,Olaf Ku?mi?ski,5.33,Poland,22
+333,2021CHEL01,Ianis Costin Chele,5.33,Romania,23
+333,2019JIAN54,Lingkun Jiang (???),5.35,China,24
+333,2015GRIE02,Luke Griesser,5.38,United States,25
+333,2023CHEN30,Zhen Chen (??),5.41,China,26
+333,2018DULL01,Twan Dullemond,5.44,Netherlands,27
+333,2016PILA03,Ryan Pilat,5.44,United States,28
+333,2016SATO01,Caio Hideaki Sato,5.44,Brazil,29
+333,2017VILL41,Sean Patrick Villanueva,5.45,Philippines,30
+333,2017SIAU02,Max Siauw,5.49,United States,31
+333,2017TSVE02,Alexey Tsvetkov,5.5,Russia,32
+333,2021YEZI01,Ziyu Ye (???),5.5,China,33
+333,2009ZEMD01,Feliks Zemdegs,5.53,Australia,34
+333,2021YANG17,Zhiyi Yang (???),5.55,China,35
+333,2022MARC05,Rados?aw Marcinek,5.55,Poland,36
+333,2017AGGA01,Sameer Aggarwal,5.56,United States,37
+333,2017HANY01,Yezhen Han (???),5.57,China,38
+333,2012PONC02,Patrick Ponce,5.57,United States,39
+333,2021WANG05,Yuzhe Wang (???),5.57,China,40
+333,2020FENG02,Andrew Y. Feng,5.58,United States,41
+333,2021DUNA01,Brendyn Dunagan,5.63,United States,42
+333,2017HUYN05,Aaron Huynh,5.63,United States,43
+333,2016LINB01,Brennen Lin,5.63,Canada,44
+333,2013NAHM01,Seung Hyuk Nahm (???),5.64,Republic of Korea,45
+333,2015LARS04,Kim Roger Haraldsen,5.64,Norway,46
+333,2018OPAC01,Kajetan Opach,5.64,Poland,47
+333,2023DONG20,Yize Dong (???),5.64,China,48
+333,2010WEYE01,Philipp Weyer,5.66,Germany,49
+333,2018LOCA01,Valerio Locatelli,5.68,Italy,50
+333,2015WANG09,Kai-Wen Wang (???),5.69,Chinese Taipei,51
+333,2021LUOY02,Yifan Luo (???),5.69,China,52
+333,2023CUAR03,Neo Cuares,5.7,Philippines,53
+333,2021ZHUA01,Yiming Zhuang (???),5.71,China,54
+333,2017ZHAO79,Ben Zhao,5.71,United States,55
+333,2017YEHM01,Morgan Yeh,5.72,Canada,56
+333,2016JONE04,Jode Brewster,5.72,Australia,57
+333,2017WONG01,Brenton Angelo Lo Wong,5.73,Philippines,58
+333,2019REDI02,Dominic Redisi,5.73,United States,59
+333,2018LITI01,Toby Litiatco,5.74,Philippines,60
+333,2013JOHN10,Brian Johnson,5.74,United States,61
+333,2018MUSI03,Szymon Musia?,5.76,Poland,62
+333,2018ALON07,James Alonso,5.8,United Kingdom,63
+333,2019YAOJ01,Jerry Yao,5.8,United States,64
+333,2023HUAN21,Kaichen Huang (???),5.81,China,65
+333,2014SEBA01,Juliette SÇbastien,5.81,France,66
+333,2023LIUW02,Wei Liu (??),5.83,China,67
+333,2019BRUN02,Claudio Matias Cancino Bruna,5.83,Chile,68
+333,2015DUYU01,Yusheng Du (???),5.86,China,69
+333,2017SUNC02,Christopher Sun,5.87,United States,70
+333,2022SZUB01,Oliwier Szubert,5.87,Poland,71
+333,2018WIDJ01,Carson Widjaja,5.88,United States,72
+333,2016BARO04,Ben Baron,5.88,Israel,73
+333,2010WANG68,Bill Wang,5.88,Canada,74
+333,2017KIMM01,Asher Kim-Magierek,5.9,United States,75
+333,2018MACK04,Shaun Mack,5.92,United States,76
+333,2015MACK06,Zeke Mackay,5.93,United States,77
+333,2015DELA05,Richard Delacoste,5.95,Switzerland,78
+333,2017GOLU01,Theo Goluboff,5.95,Argentina,79
+333,2016EPST02,David Epstein,5.95,Australia,80
+333,2023ARRA01,Crimson Arradaza,5.95,Philippines,81
+333,2019HUNG16,?? Quang H?ng,5.95,Vietnam,82
+333,2021HUAN02,Shuda Huang (???),5.96,China,83
+333,2015CECC01,Vicenzo Guerino Cecchini,5.96,Brazil,84
+333,2016DEXT01,Riley Dexter,6,Australia,85
+333,2018KODA01,Muhammad Faeyza Koda,6,Indonesia,86
+333,2018MURR03,Jasper Murray,6,New Zealand,87
+333,2023JINK02,Kaicheng Jin (???),6,China,88
+333,2015PARK13,Danny SungIn Park,6.01,Republic of Korea,89
+333,2015PARK13,Danny Sungin Park (???),6.01,United States,89
+333,2018LICH05,Henry Lichner,6.02,United States,90
+333,2022BULA01,Jeremy Bulambot,6.02,United States,91
+333,2022SCHE13,Emanuel Schelin,6.03,Sweden,92
+333,2023CHEX03,Xi Chen (??),6.04,China,93
+333,2019CHEG04,Guangmei Chen (???),6.04,China,94
+333,2017YANG59,Tee Kai Yang,6.04,Malaysia,95
+333,2017LIXU06,Xulang Li (???),6.05,China,96
+333,2017URBA01,Mantas Urbanavi?ius,6.05,Lithuania,97
+333,2014JANE02,Ethan Jan,6.05,United States,98
+333,2018RUSH01,Daniel Rush,6.05,South Africa,99
+333,2022LIUC02,Caden Liu,6.05,Australia,100
+333bf,2015CHER07,Tommy Cherry,14.05,United States,1
+333bf,2019EGGI02,Charlie Eggins,14.76,Australia,2
+333bf,2019KOBE03,Elliott Kobelansky,15.05,Canada,3
+333bf,2016CHAP04,Stanley Chapel,15.71,United States,4
+333bf,2017GUTM01,Manuel Gutman,15.93,Argentina,5
+333bf,2014CHEN37,Liam Chen,16.52,United States,6
+333bf,2017WANY29,Yifan Wang (???),16.63,China,7
+333bf,2017SWOR01,Noah Swor,16.92,United States,8
+333bf,2024SANT11,Ian Guevarra Santos,16.94,Philippines,9
+333bf,2013HUAN29,Gianfranco Huanqui,17.04,Peru,10
+333bf,2021PRAS02,Simon Praschl,17.12,Austria,11
+333bf,2015TANG04,Calix Tang,17.63,United States,12
+333bf,2015GUNN01,Jakob Gunnarsson,17.67,Sweden,13
+333bf,2019YANG37,Jieyu Yang (???),18,China,14
+333bf,2018HABE02,Jens Haber,18.08,Germany,15
+333bf,2021TRIP01,Michael Tripodi,18.17,Australia,16
+333bf,2015PARK08,Jeff Park,18.18,United States,17
+333bf,2013EGDA02,Martin Vëdele Egdal,18.23,Denmark,18
+333bf,2014CAIJ02,Jack Cai,18.27,Australia,19
+333bf,2015HILL09,Max Hilliard,18.28,United States,20
+333bf,2013LINK01,Kaijun Lin (???),18.4,China,21
+333bf,2016CHAN25,Theodore Chan,18.49,Singapore,22
+333bf,2014GARC27,Arthur Garcin,18.52,France,23
+333bf,2016SIGG01,Graham Siggins,18.58,United States,24
+333bf,2016BARO04,Ben Baron,18.59,Israel,25
+333bf,2019LIJA01,Jayce Li,18.73,Canada,26
+333bf,2016RUIZ05,Iker Carrasco Ruiz,18.75,Spain,27
+333bf,2013BOBE01,Krzysztof Bober,18.85,Poland,28
+333bf,2016KLAS01,Jake Klassen,18.89,Canada,29
+333bf,2016SZYS02,Stanis?aw Szyszka,18.93,Poland,30
+333bf,2016QUAN03,Tam Quan,19.06,Australia,31
+333bf,2016VOSO01,Olivier Vos,19.07,Netherlands,32
+333bf,2022HAYA03,Keita Hayakawa (????),19.2,Japan,33
+333bf,2017MAXW01,Phillip Maxwell,19.22,Indonesia,34
+333bf,2014PARR02,Berta Garc°a Parra,19.23,Spain,35
+333bf,2022THOM14,Brayden Thompson,19.26,United States,36
+333bf,2015CERN01,Will Cerne,19.31,United States,37
+333bf,2017XIAO09,Bowen Xiao (???),19.47,China,38
+333bf,2007HESS01,Rowe Hessler,19.47,United States,39
+333bf,2017TUNG13,Anto Kam (???),19.49,Hong Kong,
+333bf,2019FUJI07,Masato Fujiwara (????),19.55,Japan,41
+333bf,2017WONG13,Andy Wong,19.57,United States,42
+333bf,2013WALL03,Daniel Wallin,19.68,Sweden,43
+333bf,2022CAMP02,Nicolas Campanario,19.98,Argentina,44
+333bf,2018DALO01,Charles Daloz-Baltenberger,20.05,France,45
+333bf,2022SLOA01,Jaye Sloan,20.2,United Kingdom,46
+333bf,2017DEBS01,Adrian D?bski,20.21,Poland,47
+333bf,2018STOK01,Ben Stokes,20.36,United Kingdom,48
+333bf,2015KUCA01,Carter Kucala,20.46,United States,49
+333bf,2018MADR02,Maxime Madrzyk,20.54,France,50
+333bf,2016PILA03,Ryan Pilat,20.55,United States,51
+333bf,2015MACD03,James Macdiarmid,20.61,New Zealand,52
+333bf,2019ROGO04,Wojciech Rogozi?ski,20.75,Poland,53
+333bf,2024RAFA06,Kacper Rafalski,20.83,Poland,54
+333bf,2023BUEN02,Ayden Kainalu A. Bueno,20.83,United States,55
+333bf,2022ACAR01,Ahmet Faruk Acar,20.86,Turkey,56
+333bf,2022TAOA01,Andrew Tao,20.89,United States,57
+333bf,2017SHIM06,Minyang Shi (???),21.02,China,58
+333bf,2010CANT02,Antoine Cantin,21.18,Canada,59
+333bf,2016WEIM01,Josh Weimer,21.19,United States,60
+333bf,2016KRAF01,Noah Kraft,21.25,Germany,61
+333bf,2019STOU02,Ivo Stoutjesdijk,21.26,Netherlands,62
+333bf,2018CEPI01,Tomasz Cepil,21.29,Poland,63
+333bf,2018LINH02,Hans Lin,21.31,Australia,64
+333bf,2019ECKE02,Ryan Eckersley,21.33,United Kingdom,65
+333bf,2016PRZY01,Kamil Przybylski,21.49,Poland,66
+333bf,2017HARR08,Charlie Harrison,21.51,United Kingdom,67
+333bf,2016AMBA02,Dhruv Ambastha,21.55,India,68
+333bf,2023GORD04,John Axel B. Gordo,21.56,Philippines,69
+333bf,2019KOBI01,Dominik Kobinski,21.58,Poland,70
+333bf,2017SERG03,Vladimir Sergeev,21.68,Russia,71
+333bf,2015ALEK01,Grigorii Alekseev,21.73,Russia,72
+333bf,2020BARA02,Radomi? Baran,21.74,Poland,73
+333bf,2018YANG92,Chih-Chuan Yang (???),21.77,Chinese Taipei,74
+333bf,2021MORA01,Miko?aj Morawski,21.95,Poland,75
+333bf,2022STRA10,Thomas Strasser,22,Austria,76
+333bf,2016THOR08,Elvin Thorsen,22.22,Sweden,77
+333bf,2011TRON02,Sebastiano Tronto,22.27,Italy,78
+333bf,2019CSEN01,B†lint Cseng?,22.32,Hungary,79
+333bf,2014ZHAN01,Angelo Zhang,22.36,United States,80
+333bf,2022MAOM01,Michael Mao,22.38,Canada,81
+333bf,2017RIVA09,Quentin Rivault,22.42,France,82
+333bf,2014KOUL01,Sukant Koul,22.48,India,83
+333bf,2015CHEN49,Yucheng Chen (???),22.48,China,84
+333bf,2018TRAN09,Tien Tran,22.62,United States,85
+333bf,2016XIEY08,Yichuan Xie (???),22.63,China,86
+333bf,2014FRIT02,Oliver Fritz,22.65,Germany,87
+333bf,2015AGRA03,Ishaan Agrawal,22.67,United States,88
+333bf,2013DIPI01,Guido Dipietro,22.78,Argentina,89
+333bf,2020MAHA01,Haozhen Ma (???),23.13,China,90
+333bf,2013ANIR01,Hari Anirudh,23.14,India,91
+333bf,2019HIRS01,Ezra Hirschi,23.19,Switzerland,92
+333bf,2018SHEN07,Mengfei Shen (???),23.21,China,93
+333bf,2023YIMJ01,JiHun Yim (???),23.29,Republic of Korea,94
+333bf,2021SREC01,Jakov Sre?kovi?,23.38,Croatia,95
+333bf,2012SILV22,Israel Fraga da Silva,23.42,Brazil,96
+333bf,2009BART02,µd†m Barta,23.57,Hungary,97
+333bf,2023ALEX03,Alexander B¢na,23.61,Hungary,98
+333bf,2014ARGA02,Jefferson Durango,23.66,Colombia,99
+333bf,2024LIUZ11,Zicong Liu (???),23.67,China,100
+333fm,2020BARA02,Radomi? Baran,19.67,Poland,1
+333fm,2014WENW01,Wong Chong Wen (???),20,Singapore,2
+333fm,2013BROW04,Evan Brown,20,United States,3
+333fm,2014CHIC01,Christopher Chi,20,United States,4
+333fm,2012MCNE01,Jayden McNeill,20.33,Australia,5
+333fm,2008DONG06,Baiqiang Dong (???),20.33,China,6
+333fm,2018GIBS04,Levi Gibson,20.33,United States,7
+333fm,2015FUSH01,Firstian Fushada (???),20.33,Indonesia,8
+333fm,2015GUZM03,Joseph Guzman,20.67,United States,9
+333fm,2015KUCA01,Carter Kucala,20.67,United States,10
+333fm,2018FANG03,Lichi Fang (???),20.67,China,11
+333fm,2017TENU01,Enrico Tenuti,20.67,Italy,12
+333fm,2019PIET01,Krzysztof Pietrusiak,20.67,Poland,13
+333fm,2019ROGO04,Wojciech Rogozi?ski,20.67,Poland,14
+333fm,2019RATT02,Louis-Marie Ratto,21,France,15
+333fm,2022SLOA01,Jaye Sloan,21,United Kingdom,16
+333fm,2010BENT01,Jan Bentlage,21,Germany,17
+333fm,2016EPST02,David Epstein,21,Australia,18
+333fm,2016KELL10,Adam Marcellus Kelly,21,Denmark,19
+333fm,2016KELL10,Adam Marcellus Kelly,21,United States,19
+333fm,2012LIUY03,Yiwei Liu (???),21,China,20
+333fm,2013JOHN10,Brian Johnson,21,United States,21
+333fm,2018NEVE02,Adrien Neveu,21,France,22
+333fm,2017CHOI07,Kyeongmin Choi (???),21,Republic of Korea,23
+333fm,2015SHAH09,Krish Shah-Nathwani,21,United States,24
+333fm,2014SCHO02,Cale Schoon,21,United States,25
+333fm,2014SCHW02,Fabio Schwandt,21,United Kingdom,26
+333fm,2014RAPO01,Tommaso Raposio,21.33,Italy,27
+333fm,2016LOPE44,Mauro MoisÇs Ortega L¢pez,21.33,Spain,28
+333fm,2016LOPE44,Mauro Moises L¢pez,21.33,Spain,28
+333fm,2017LOUY01,Yunhao Lou (???),21.33,China,29
+333fm,2013GERT01,Nicolas Gertner Kilian,21.33,France,30
+333fm,2014KARN02,Daniel Karnaukh,21.33,United States,31
+333fm,2011TRON02,Sebastiano Tronto,21.33,Italy,32
+333fm,2018RIAB01,Yurii Riabov (???? ?????),21.33,Ukraine,33
+333fm,2019RIED01,Jan Riedl,21.33,Czech Republic,34
+333fm,2019CUIK03,Kai Cui,21.33,United Kingdom,35
+333fm,2022PARR10,Max Parris,21.67,Australia,36
+333fm,2019TAMU01,Takumi Tamura (???),21.67,Japan,37
+333fm,2018LOVE03,Jack Love,21.67,Australia,38
+333fm,2016CHAP04,Stanley Chapel,21.67,United States,39
+333fm,2015SIAN01,Dylan Seah Tze Siang (???),21.67,Singapore,40
+333fm,2010UTOM01,Vincent Hartanto Utomo,21.67,Indonesia,41
+333fm,2016WIEC02,Elliot Wiecek,21.67,United States,42
+333fm,2016WOJC04,Dawid W¢jcik,21.67,Poland,43
+333fm,2016SINY01,Alexei Sinyavin,22,United States,44
+333fm,2014MIAO02,Qijun Miao (???),22,China,45
+333fm,2015ONOF01,Anuar Miguel Abib Onofre,22,Brazil,46
+333fm,2018ISOM02,Lewis Isom,22,United States,47
+333fm,2018KAST02,Ihor Kastranets (???? ??????????),22,Ukraine,48
+333fm,2016KAMA04,AJ Kamal,22,United States,49
+333fm,2016KYLE01,Benjamin Kyle,22,Canada,50
+333fm,2016FRAG01,Gaâtan Fragniäre,22,Switzerland,51
+333fm,2015WIDD01,Owen Widdis,22,United States,52
+333fm,2016NORD02,Theodor Nordstrand,22,Sweden,53
+333fm,2008UENO01,Shuto Ueno (????),22,Japan,54
+333fm,2008AURO01,SÇbastien Auroux,22,Germany,55
+333fm,2008BARA01,Bence Bar†t,22,Hungary,56
+333fm,2013DIPI01,Guido Dipietro,22,Argentina,57
+333fm,2012SART01,Louis Sarthou,22,France,58
+333fm,2013OPOK01,Rados?aw Opoka,22,Poland,59
+333fm,2017LOTZ01,Moritz Lotz,22,Germany,60
+333fm,2019YEUN01,Alvin Cheng Hiu Yeung (???),22,Hong Kong,
+333fm,2019MERR02,Alexis Le Merrer,22,France,62
+333fm,2023DORI01,Dorian Chan,22,Hong Kong,
+333fm,2024MCCA02,Turner McCabe,22,United States,64
+333fm,2023SHAK01,Shahul H. Shakila,22,India,65
+333fm,2023YILU01,Luis Tan Hong Yi (???),22.33,Singapore,66
+333fm,2023KADO01,Shota Wakabayashi (????),22.33,Japan,67
+333fm,2018XIAO03,Dunhui Xiao (???),22.33,Germany,68
+333fm,2018XIAO03,Dunhui Xiao (???),22.33,China,68
+333fm,2018YIKL01,Lim Chun Yik (???),22.33,Malaysia,69
+333fm,2017RIVA09,Quentin Rivault,22.33,France,70
+333fm,2017SUNN02,Nachuan Sun (???),22.33,China,71
+333fm,2017SWOR01,Noah Swor,22.33,United States,72
+333fm,2017BRYA06,Aedan Bryant,22.33,United States,73
+333fm,2014MAUR06,Lorenzo Mauro,22.33,Italy,74
+333fm,2013NELS01,Tom Nelson,22.33,New Zealand,75
+333fm,2012LEEJ05,Jack Lee,22.33,Canada,76
+333fm,2011WELC01,Walker Welch,22.33,United States,77
+333fm,2014BOYA01,Mark Boyanowski,22.33,United States,78
+333fm,2010YAMA04,Yuki Yamamoto (????),22.33,Japan,79
+333fm,2003LIDO01,Doug Li,22.67,United States,80
+333fm,2008VASC01,Vasco Vasconcelos,22.67,Portugal,81
+333fm,2011JIAN07,Weijie Jian (???),22.67,China,82
+333fm,2016SZAN01,Szabolcs Sz†ntai,22.67,Hungary,83
+333fm,2012LEHT01,Janne LehtimÑki,22.67,Finland,84
+333fm,2013EGDA01,Daniel Vëdele Egdal,22.67,Denmark,85
+333fm,2016OCHS01,Zachary Ochs,22.67,United States,86
+333fm,2016HOUN01,Joshua Hounslow,22.67,Australia,87
+333fm,2016KALB01,Cyprian Kalbarczyk,22.67,Poland,88
+333fm,2014KIPR01,Tommy Kiprillis,22.67,Australia,89
+333fm,2023CHMI01,Marcin Chmielewski,22.67,Poland,90
+333fm,2023SAKO02,Yuki Sako,23,Japan,91
+333fm,2023SHIK03,Yuto Morishita (????),23,Japan,92
+333fm,2019MRZY01,Jeremy Mrzyglocki,23,Germany,93
+333fm,2022MIYA01,Hajime Miyazaki (???),23,Japan,94
+333fm,2014WHEE01,Alexander Wheeler,23,United States,95
+333fm,2010ZHAO11,Jibo Zhao (???),23,China,96
+333fm,2008WARL01,Jackson Warley,23,United States,97
+333fm,2018MOSH01,Zecharya Moshavi,23,Israel,98
+333fm,2018CREE01,Kerry Creech,23,United States,99
+333fm,2017PODZ01,Modest Podzolkin,23,Ukraine,100
+333ft,2016HUNG08,Lim Hung (??),19.9,Malaysia,1
+333ft,2015ROSE01,Daniel Rose-Levine,20.58,United States,2
+333ft,2017KOLI01,Mohammed Aiman Koli,20.75,India,3
+333ft,2015CHER07,Tommy Cherry,24.38,United States,4
+333ft,2015MINK04,Kevin Min,24.4,United States,5
+333ft,2015MINK04,Kevin Min,24.4,Republic of Korea,5
+333ft,2016GUTI23,Daniel Gutierrez,25.5,United States,6
+333ft,2014GERB01,Henri Gerber,26.51,Germany,7
+333ft,2015BYEO01,Jimin Byeon (???),26.69,Republic of Korea,8
+333ft,2013SUCH02,Chengming Su (???),27.54,China,9
+333ft,2013ANAN03,Adithyaa Anand,27.61,India,10
+333ft,2012QUIB01,Louie Jay Quibote,27.63,Philippines,11
+333ft,2017HONG17,Jinseo Hong,28,Republic of Korea,12
+333ft,2010KIPA01,Jakub Kipa,28.16,Poland,13
+333ft,2015DIZO02,Kieran Dizon,28.26,United States,14
+333ft,2016SCHO08,Jakob Schîley,28.29,Germany,15
+333ft,2012CAMP03,Gabriel Pereira Campanha,28.41,Brazil,16
+333ft,2016CETR01,Joel Cetra,28.45,Germany,17
+333ft,2015CHEN52,Weisheng Chen (???),28.59,China,18
+333ft,2015YAKH01,Daniel Yakhkind (??????? ??????),28.62,Ukraine,19
+333ft,2015YAKH01,Daniel Yakhkind (??????? ??????),28.62,Ukraine,19
+333ft,2015YAKH01,Daniel Yakhkind,28.62,Israel,19
+333ft,2011KNOT01,Wojciech Knott,28.89,Poland,20
+333ft,2016RIDL01,Ben Ridley,28.94,United Kingdom,21
+333ft,2015QUAN03,Ng Jia Quan (???),29.03,Malaysia,22
+333ft,2013EGDA01,Daniel Vëdele Egdal,29.18,Denmark,23
+333ft,2017SWAI01,Adam Swaine,29.38,United Kingdom,24
+333ft,2016ELEV01,Edgar Elevado Jr.,29.43,Philippines,25
+333ft,2017HYOJ01,Choi Hyo-Jin (???),29.73,Republic of Korea,26
+333ft,2016CHAP04,Stanley Chapel,29.83,United States,27
+333ft,2017GARR05,Luke Garrett,29.84,United States,28
+333ft,2016HOLM04,Laurids Abelsen Holm,30.13,Denmark,29
+333ft,2008TAKA01,Yuhei Takagi (????),30.17,Japan,30
+333ft,2015MINK03,Kim Min (??),30.32,Republic of Korea,31
+333ft,2016WOOD01,Nolan Wood,30.56,United States,32
+333ft,2011NARA02,Bhargav Narasimhan,30.67,India,33
+333ft,2014BAND04,Mahith Bandi,30.71,United States,34
+333ft,2017MEAD01,Alison Meador,30.75,United States,35
+333ft,2016ELOV01,Viljo Elo,31,Finland,36
+333ft,2012QIUR01,Ruohan Qiu (???),31.04,China,37
+333ft,2011JIAN15,Xiaojie Jiang (???),31.78,China,38
+333ft,2017MAHE08,Harsh Maheshwari,31.81,India,39
+333ft,2015MLOS01,Micha? Mlostek,31.88,Poland,40
+333ft,2008YUNS02,Yunsu Nam (???),32,Republic of Korea,41
+333ft,2017BORG02,Gabriel Bergue,32.11,Brazil,42
+333ft,2018GALV06,Gustavo Laurentino Galvani,32.17,Brazil,43
+333ft,2015CECC01,Vicenzo Guerino Cecchini,32.58,Brazil,44
+333ft,2016SINY01,Alexei Sinyavin,32.71,United States,45
+333ft,2014GOSL01,Raymond Goslow,32.79,United States,46
+333ft,2013GERT01,Nicolas Gertner Kilian,32.85,France,47
+333ft,2016DENG16,Kaemen Te Dengjian,32.87,Malaysia,48
+333ft,2014JOYO01,Yong Hyeon Jo (???),32.91,Republic of Korea,49
+333ft,2018BRUU01,Jacob Oliver Bruun,34.01,Norway,50
+333ft,2015AROR05,Dhruv Arora,34.49,India,51
+333ft,2016DROB01,Jakub DrobnÏ,34.89,Slovakia,52
+333ft,2012HALE01,Callum Hales-Jepp,35.05,United Kingdom,53
+333ft,2016RACH01,Fahmi Aulia Rachman,35.2,Indonesia,54
+333ft,2015LINY08,Ying Lin (??),35.21,China,55
+333ft,2011DUHA01,Haichuan Du (???),35.27,China,56
+333ft,2016GOTT01,Benjamin Gottschalk,35.5,United States,57
+333ft,2014BALA11,Eugene Paul Balangit,35.53,Philippines,58
+333ft,2010CANT02,Antoine Cantin,35.7,Canada,59
+333ft,2016KRUE01,Ivan Krueger,35.94,United States,60
+333ft,2013ERDE02,Erdenemandah Erdenekhuu (????????? ????????????),35.98,Mongolia,61
+333ft,2014IRIA01,Julen Sim¢n Iriarte,36.01,Spain,62
+333ft,2016TRAG01,Parker Trager,36.09,United States,63
+333ft,2015KOEN01,Christian Kînig,36.1,Germany,64
+333ft,2013WARY01,Rafa? Waryszak,36.2,Poland,65
+333ft,2016HRYN02,Vladyslav Hryniuk (????????? ??????),36.34,Ukraine,66
+333ft,2016ROLZ01,Alwin Rîlz,36.6,Switzerland,67
+333ft,2014WENG01,Zicong Weng (???),36.64,China,68
+333ft,2007CINO01,Rafael de Andrade Cinoto,36.69,Brazil,69
+333ft,2007CINO01,Rafael Werneck Cinoto,36.69,Brazil,69
+333ft,2010JULI01,Renhard Julindra,36.74,Indonesia,70
+333ft,2014KIPR01,Tommy Kiprillis,36.93,Australia,71
+333ft,2013FENG02,Zijia Feng (???),36.99,China,72
+333ft,2012SUNL03,Liudi Sun (???),37.07,China,73
+333ft,2013GOOD01,Daniel Goodman,37.13,United States,74
+333ft,2015RAJA10,Lakshimi Rajaram,37.31,India,75
+333ft,2007NAKA03,Yu Nakajima (???),37.56,Japan,76
+333ft,2017BLAC06,Ash Black,37.56,United States,77
+333ft,2017BHAT02,Atharva R. Bhat,37.79,India,78
+333ft,2014NOVO01,Tom†? NovotnÏ,37.8,Czech Republic,79
+333ft,2013LIHU01,Hua-Ting Lee (???),38.09,Chinese Taipei,80
+333ft,2012KALE01,Przemys?aw Kaleta,38.18,Poland,81
+333ft,2010RAIH01,Fakhri Raihaan,38.21,Indonesia,82
+333ft,2017SIAU02,Max Siauw,38.4,United States,83
+333ft,2016MULL04,Daniel Mullen,38.42,United States,84
+333ft,2016THOR08,Elvin Thorsen,38.62,Sweden,85
+333ft,2014GOME01,Anderson Orteg¢n G¢mez,38.81,Colombia,86
+333ft,2011LEER01,Roy Lee,38.86,United States,87
+333ft,2016GREE04,Steve Greer,38.97,United States,88
+333ft,2016TANN01,Ana Beatriz M. Tannenbaum,39,Brazil,89
+333ft,2006BUUS01,Henrik Buus Aagaard,39.02,Denmark,90
+333ft,2015SANC18,Josete S†nchez,39.04,Spain,91
+333ft,2016GEEN01,Nathaniel Gee,39.09,United States,92
+333ft,2011SBAH01,Rami Sbahi,39.1,United States,93
+333ft,2014KIMD06,Doyul Kim (???),39.23,Republic of Korea,94
+333ft,2014HOLU01,Lev Golub (??? ?????),39.27,Ukraine,95
+333ft,2014KORO02,Vladimir Korovin,39.32,Russia,96
+333ft,2015KUCA01,Carter Kucala,39.58,United States,97
+333ft,2010CORM02,Louis Cormier,39.59,Canada,98
+333ft,2017PAON01,Roan Paone,39.6,Canada,99
+333ft,2014BEGU01,Elian Beguec,39.68,France,100
+333oh,2017GARR05,Luke Garrett,7.72,United States,1
+333oh,2012PARK03,Max Park,7.94,United States,2
+333oh,2020ARCH01,Nicholas Archer,7.95,United Kingdom,3
+333oh,2015CHEA01,Andrey Che,8.09,Russia,4
+333oh,2017VILL41,Sean Patrick Villanueva,8.09,Philippines,5
+333oh,2022ROBI05,Eden Robinson-Rechavi,8.13,Switzerland,6
+333oh,2022ROBI05,Eden Robinson-Rechavi,8.13,France,6
+333oh,2023CHEN30,Zhen Chen (??),8.22,China,7
+333oh,2021MERU01,Dhruva Sai Meruva,8.27,Switzerland,8
+333oh,2021MERU01,Dhruva Sai Meruva,8.27,India,8
+333oh,2021CHEL01,Ianis Costin Chele,8.37,Romania,9
+333oh,2016RACH01,Fahmi Aulia Rachman,8.41,Indonesia,10
+333oh,2019RAMO05,Dwyane Ramos,8.47,New Zealand,11
+333oh,2023ARRA01,Crimson Arradaza,8.58,Philippines,12
+333oh,2012PONC02,Patrick Ponce,8.65,United States,13
+333oh,2023CUAR03,Neo Cuares,8.66,Philippines,14
+333oh,2019LENS01,Magnus Lensch,8.67,Germany,15
+333oh,2017XURU04,Ruihang Xu (???),8.7,China,16
+333oh,2017TSVE02,Alexey Tsvetkov,8.73,Russia,17
+333oh,2015WENT01,Tao Wen (??),8.92,China,18
+333oh,2016CORV01,Alejandro Daniel Salceda Corvera,8.99,Mexico,19
+333oh,2014SEBA01,Juliette SÇbastien,9.07,France,20
+333oh,2018MURR03,Jasper Murray,9.11,New Zealand,21
+333oh,2008SUNZ01,Zhouheng Sun (???),9.14,China,22
+333oh,2022SZUB01,Oliwier Szubert,9.14,Poland,23
+333oh,2013JOHN10,Brian Johnson,9.16,United States,24
+333oh,2017GADG01,Pranav Gadge,9.16,India,25
+333oh,2019PILH01,Jonas Pilhîfer,9.17,Germany,26
+333oh,2017URBA01,Mantas Urbanavi?ius,9.2,Lithuania,27
+333oh,2016PARK02,Eli Parker,9.25,United States,28
+333oh,2017TUNG13,Anto Kam (???),9.28,Hong Kong,
+333oh,2016BARO04,Ben Baron,9.29,Israel,30
+333oh,2017GOLU01,Theo Goluboff,9.3,Argentina,31
+333oh,2016SATO01,Caio Hideaki Sato,9.4,Brazil,32
+333oh,2022GLAD01,Igor G?adysz,9.43,Poland,33
+333oh,2018KODA01,Muhammad Faeyza Koda,9.44,Indonesia,34
+333oh,2022MARC05,Rados?aw Marcinek,9.49,Poland,35
+333oh,2014JANE02,Ethan Jan,9.53,United States,36
+333oh,2015MANS03,Kian Mansour,9.54,Canada,37
+333oh,2014MILL04,Chris Mills,9.59,New Zealand,38
+333oh,2014MILL04,Chris Mills,9.59,United Kingdom,38
+333oh,2009ZEMD01,Feliks Zemdegs,9.6,Australia,39
+333oh,2017YANG59,Tee Kai Yang,9.61,Malaysia,40
+333oh,2018WANG39,Yibo Wang (???),9.61,China,41
+333oh,2015CARV06,Iuri Grangeiro Carvalho,9.64,Brazil,42
+333oh,2018PARI07,Parist Pariyakanok (?????? ???????),9.65,Thailand,43
+333oh,2019SREE06,Akash Sreedharan (????? ????????),9.66,Singapore,44
+333oh,2021XUZI03,Zixuan Xu (???),9.66,China,45
+333oh,2013NAHM01,Seung Hyuk Nahm (???),9.7,Republic of Korea,46
+333oh,2014BAIR01,Ray Bai,9.7,United States,47
+333oh,2019RAMI14,Reuel Franz Ramirez Magracia (???),9.72,Philippines,48
+333oh,2022ZAYN01,Fouzan Zayn,9.74,India,49
+333oh,2013HELM02,Henry Helmuth,9.74,United States,50
+333oh,2016HONG03,Yoochan Hong (???),9.74,Republic of Korea,51
+333oh,2019KARP03,Bartosz Karpi?ski,9.76,Poland,52
+333oh,2017PHON07,Là HÖ Phong,9.81,Vietnam,53
+333oh,2015LARS04,Kim Roger Haraldsen,9.81,Norway,54
+333oh,2021HANC01,Chengnuo Han (???),9.83,China,55
+333oh,2012TYCK01,Luke Tycksen,9.87,United States,56
+333oh,2013MEND03,Louis de Mendonáa,9.89,United Kingdom,57
+333oh,2016LIQI03,Qingze Li (???),9.92,China,58
+333oh,2016DEXT01,Riley Dexter,9.93,Australia,59
+333oh,2016PFEI01,Jack Pfeifer,9.97,United States,60
+333oh,2016HARA02,Knut Skaug Haraldsen,10.01,Norway,61
+333oh,2021DUNA01,Brendyn Dunagan,10.01,United States,62
+333oh,2018LINT05,Tudor Lin,10.03,United States,63
+333oh,2013GERH01,Kevin Gerhardt,10.05,Germany,64
+333oh,2022BULA01,Jeremy Bulambot,10.05,United States,65
+333oh,2014PAUL06,Nicholas Paul,10.07,Australia,66
+333oh,2015WANG09,Kai-Wen Wang (???),10.09,Chinese Taipei,67
+333oh,2016LIJI05,Jiazhou Li (???),10.11,China,68
+333oh,2019BRUN02,Claudio Matias Cancino Bruna,10.12,Chile,69
+333oh,2018SULT03,Chyngyz Sultanbekov (?????? ???????????),10.12,Kyrgyzstan,70
+333oh,2015TANG04,Calix Tang,10.13,United States,71
+333oh,2018KANT01,Tolga Kaan Kantarc’,10.13,Turkey,72
+333oh,2018KIMN04,Noah Kim,10.19,United States,73
+333oh,2016SANT08,Kyle Santucci,10.19,Canada,74
+333oh,2022PORT01,Elijah La Porte,10.19,Australia,75
+333oh,2022PHUN01,Nguy?n HoÖng Thiàn Ph£,10.19,Vietnam,76
+333oh,2022HAPE01,Peter Ha,10.19,United States,77
+333oh,2016JONE04,Jode Brewster,10.2,Australia,78
+333oh,2011NARA02,Bhargav Narasimhan,10.2,India,79
+333oh,2015BORR01,Leo Borromeo,10.2,Philippines,80
+333oh,2018LOCA01,Valerio Locatelli,10.22,Italy,81
+333oh,2018MACK04,Shaun Mack,10.25,United States,82
+333oh,2017KIMM01,Asher Kim-Magierek,10.25,United States,83
+333oh,2023KATO03,Takumi Kato (???),10.26,Japan,84
+333oh,2015PEHR01,Ryan Peh (???),10.28,Singapore,85
+333oh,2018OPAC01,Kajetan Opach,10.29,Poland,86
+333oh,2017ENGB01,Bryan Eng,10.29,Australia,87
+333oh,2019HUNG16,?? Quang H?ng,10.34,Vietnam,88
+333oh,2024ZHAN06,Minghao Zhang,10.35,China,89
+333oh,2016PILA03,Ryan Pilat,10.35,United States,90
+333oh,2017LAMB06,Andreas Lambropoulos,10.35,United States,91
+333oh,2010CANT02,Antoine Cantin,10.35,Canada,92
+333oh,2017LEEM03,Matthew Lee,10.37,Canada,93
+333oh,2016INAB01,Matty Hiroto Inaba,10.37,United States,94
+333oh,2023KERL01,Johnny Morello Kerlaff,10.38,United Kingdom,95
+333oh,2019YAOJ01,Jerry Yao,10.38,United States,96
+333oh,2014KIMD06,Doyul Kim (???),10.39,Republic of Korea,97
+333oh,2014WONG08,Vincent Wong,10.39,Australia,98
+333oh,2014ZAKR01,Karol Zakrzewski,10.42,Poland,99
+333oh,2015MCAC01,Teri McAcy,10.47,United States,100
+444,2016KOLA02,Tymon Kolasi?ski,19.17,Poland,1
+444,2012PARK03,Max Park,19.35,United States,2
+444,2010WEYE02,Sebastian Weyer,19.67,Germany,3
+444,2019TARA09,Timofei Tarasenko,20.14,Russia,4
+444,2019HUNG16,?? Quang H?ng,20.37,Vietnam,5
+444,2017XURU04,Ruihang Xu (???),20.58,China,6
+444,2016INAB01,Matty Hiroto Inaba,20.72,United States,7
+444,2015BORR01,Leo Borromeo,20.81,Philippines,8
+444,2013NAHM01,Seung Hyuk Nahm (???),20.85,Republic of Korea,9
+444,2018DULL01,Twan Dullemond,21.25,Netherlands,10
+444,2015WANG09,Kai-Wen Wang (???),21.27,Chinese Taipei,11
+444,2012PONC02,Patrick Ponce,21.54,United States,12
+444,2009ZEMD01,Feliks Zemdegs,21.57,Australia,13
+444,2016WUZI04,Ziyu Wu (???),21.91,China,14
+444,2015LEON02,Ivan Li Ka Leong (???),22.32,Hong Kong,
+444,2017RAND06,Ari Randers-Pehrson,22.49,United States,16
+444,2023HUAN21,Kaichen Huang (???),22.52,China,17
+444,2017CAIZ03,Zijian Cai (???),22.67,China,18
+444,2012BEAH01,Ciar†n Beahan,22.69,Ireland,19
+444,2018LICH05,Henry Lichner,22.94,United States,20
+444,2017PARK05,DongSoo Park (???),23.13,Republic of Korea,21
+444,2022PORE01,Siddhesh Pore,23.5,India,22
+444,2018SANC03,Angel Armando Jaime S†nchez,23.53,Mexico,23
+444,2017YANG59,Tee Kai Yang,23.53,Malaysia,24
+444,2015LARS04,Kim Roger Haraldsen,23.53,Norway,25
+444,2017KWAN05,Burno Li Chak Kwan (???),23.58,Hong Kong,
+444,2016NUNE11,Brandon Nunez,23.61,United States,27
+444,2015CHEA01,Andrey Che,23.61,Russia,28
+444,2022KAOE01,Emmanuel Kao,23.69,Singapore,29
+444,2018PARI07,Parist Pariyakanok (?????? ???????),23.85,Thailand,30
+444,2015DELA05,Richard Delacoste,23.9,Switzerland,31
+444,2010WANG68,Bill Wang,23.93,Canada,32
+444,2017SANC24,Juan de Dios Noriega S†nchez,23.95,Mexico,33
+444,2019FUHE01,Heyu Fu (???),23.95,China,34
+444,2018WANX10,Xuyi Wang (???),23.98,China,35
+444,2017SIAU02,Max Siauw,23.98,United States,36
+444,2017CHEN24,Chen Chen (??),23.99,China,37
+444,2016ROLZ01,Alwin Rîlz,24,Switzerland,38
+444,2010WUIF01,Yi-Fan Wu (???),24.04,Chinese Taipei,39
+444,2018MOSH01,Zecharya Moshavi,24.09,Israel,40
+444,2007VALK01,Mats Valk,24.1,Netherlands,41
+444,2016PILA03,Ryan Pilat,24.12,United States,42
+444,2017SUNC02,Christopher Sun,24.13,United States,43
+444,2017GARR05,Luke Garrett,24.14,United States,44
+444,2014BAIR01,Ray Bai,24.18,United States,45
+444,2022HAIN04,Cillian Hainbach,24.22,Ireland,46
+444,2018KUZM02,Olaf Ku?mi?ski,24.27,Poland,47
+444,2013EGDA02,Martin Vëdele Egdal,24.28,Denmark,48
+444,2019YANG37,Jieyu Yang (???),24.29,China,49
+444,2013GERH01,Kevin Gerhardt,24.33,Germany,50
+444,2018ALAM08,Leon Marcell Alamanda,24.38,Indonesia,51
+444,2017JAMP01,Ashten Jampayas,24.42,United States,52
+444,2018ELLA01,Omar Ellabban,24.48,Canada,53
+444,2016SATO01,Caio Hideaki Sato,24.56,Brazil,54
+444,2019BRUN02,Claudio Matias Cancino Bruna,24.59,Chile,55
+444,2018WIDJ01,Carson Widjaja,24.66,United States,56
+444,2015FUSH01,Firstian Fushada (???),24.72,Indonesia,57
+444,2016SMUL01,Mika Smulders,24.74,Netherlands,58
+444,2016GABA02,Amey Gaba,24.75,India,59
+444,2015MOHA10,Varun Mohanraj,24.78,United States,60
+444,2019CORO04,Giacomo Daniele Corï,24.81,Italy,61
+444,2021ZHAN01,Bofan Zhang (???),24.81,China,62
+444,2017GOLU01,Theo Goluboff,24.82,Argentina,63
+444,2019VUJC01,Alexander Vujcich,24.87,New Zealand,64
+444,2017SWOR01,Noah Swor,24.9,United States,65
+444,2016LIJI05,Jiazhou Li (???),24.92,China,66
+444,2012TYCK01,Luke Tycksen,24.95,United States,67
+444,2018BERE01,J†nos Bereczki,25.07,Romania,68
+444,2016HUNG08,Lim Hung (??),25.08,Malaysia,69
+444,2016SINY01,Alexei Sinyavin,25.11,United States,70
+444,2012MAHV01,Paul Mahvi,25.12,United States,71
+444,2017YOUN10,Kaius Young,25.18,United States,72
+444,2021PIET01,Tomasz Pietruszka,25.2,Poland,73
+444,2019REDI02,Dominic Redisi,25.21,United States,74
+444,2018NARA14,Mihir Narayan,25.22,India,75
+444,2016YONG02,Tristan Chua Yong,25.25,Singapore,76
+444,2018KUCZ01,Lucas Kuczaj,25.29,Canada,77
+444,2021ZAJD03,Teodor Zajder,25.3,Poland,78
+444,2022DAVI06,Dean David,25.3,United Kingdom,79
+444,2011MAHT02,Natthaphat Mahtani (??????? ?? ??????),25.32,Thailand,80
+444,2013WANG67,Xuming Wang (???),25.32,China,81
+444,2017PALI04,Inigo Miguel B. Palisoc,25.34,Philippines,82
+444,2022BARE01,Aditya Bareja,25.37,India,83
+444,2016HSUE02,Yi-Jen Hsueh (???),25.4,Chinese Taipei,84
+444,2012CROS01,Jonah Crosby,25.41,United States,85
+444,2023DIXO02,Harry Dixon,25.43,United Kingdom,86
+444,2021DUNA01,Brendyn Dunagan,25.51,United States,87
+444,2013BURL01,?ukasz Burliga,25.53,Poland,88
+444,2018RUSH01,Daniel Rush,25.54,South Africa,89
+444,2016EPST02,David Epstein,25.55,Australia,90
+444,2017KONG05,Weihao Kong (???),25.56,China,91
+444,2017KORH01,Lauri Korhonen,25.62,Finland,92
+444,2017WONG01,Brenton Angelo Lo Wong,25.62,Philippines,93
+444,2015MACK06,Zeke Mackay,25.64,United States,94
+444,2009YINM01,Mulun Yin (???),25.64,China,95
+444,2016NOVO01,Gergely Novotni,25.66,Hungary,96
+444,2015TELL01,Pedro Alejandro Condo Tellez,25.68,Peru,97
+444,2015BELJ01,Toni Beljo,25.68,Sweden,98
+444,2015BELJ01,Toni Beljo,25.68,Sweden,98
+444,2015BELJ01,Toni Beljo,25.68,Croatia,98
+444,2015MAJE01,Marek Majerik,25.69,Slovakia,99
+444,2019YAOJ01,Jerry Yao,25.71,United States,100
+444bf,2016CHAP04,Stanley Chapel,59.39,United States,1
+444bf,2013LINK01,Kaijun Lin (???),80.08,China,2
+444bf,2017GUTM01,Manuel Gutman,86.75,Argentina,3
+444bf,2019ECKE02,Ryan Eckersley,90.62,United Kingdom,4
+444bf,2013WALL03,Daniel Wallin,90.79,Sweden,5
+444bf,2019HIRS01,Ezra Hirschi,95.91,Switzerland,6
+444bf,2021TRIP01,Michael Tripodi,99.39,Australia,7
+444bf,2016SIGG01,Graham Siggins,101.67,United States,8
+444bf,2017FENG10,Hill Pong Yong Feng,102.27,Malaysia,9
+444bf,2019SMIT36,Amy Smith,103.42,Australia,10
+444bf,2017DEBS01,Adrian D?bski,106.85,Poland,11
+444bf,2021PRAS02,Simon Praschl,113.84,Austria,12
+444bf,2015CHER07,Tommy Cherry,115.3,United States,13
+444bf,2016PARK10,Yeon Kyun Park (???),118.11,Republic of Korea,14
+444bf,2017HARR08,Charlie Harrison,119.43,United Kingdom,15
+444bf,2019YEUN01,Alvin Cheng Hiu Yeung (???),119.5,Hong Kong,
+444bf,2021PISK01,Karol Piskorek,121.91,Poland,17
+444bf,2014SCHO02,Cale Schoon,122.61,United States,18
+444bf,2021MORA01,Miko?aj Morawski,123.16,Poland,19
+444bf,2016CHAN25,Theodore Chan,126.28,Singapore,20
+444bf,2012STRA02,Roman Strakhov,128.06,Russia,21
+444bf,2019KOBE03,Elliott Kobelansky,128.46,Canada,22
+444bf,2014PARR02,Berta Garc°a Parra,132.74,Spain,23
+444bf,2016XUWE02,Sora Wenjie Xu (???),136.78,China,24
+444bf,2013NELS01,Tom Nelson,139.37,New Zealand,25
+444bf,2017SEMO02,Marcos Ferreira Semolini,139.95,Brazil,26
+444bf,2016PRZY01,Kamil Przybylski,141.61,Poland,27
+444bf,2023FROH01,Martin Frîhlich,142.65,Austria,28
+444bf,2007HESS01,Rowe Hessler,144.42,United States,29
+444bf,2012SILV22,Israel Fraga da Silva,145.35,Brazil,30
+444bf,2013EGDA02,Martin Vëdele Egdal,147.62,Denmark,31
+444bf,2014FRIT02,Oliver Fritz,147.7,Germany,32
+444bf,2014GARC27,Arthur Garcin,148.93,France,33
+444bf,2017HERM01,Daniel Anker Hermansen,149.59,Denmark,34
+444bf,2019CSEN01,B†lint Cseng?,149.71,Hungary,35
+444bf,2023LOPE09,Jordi LleixÖ L¢pez,153.42,Spain,36
+444bf,2022SLOA01,Jaye Sloan,153.56,United Kingdom,37
+444bf,2016AMBA02,Dhruv Ambastha,154.94,India,38
+444bf,2012FROS01,Oliver Frost,155.62,United Kingdom,39
+444bf,2018SHEN07,Mengfei Shen (???),157.44,China,40
+444bf,2017SHIN02,Naoto Shinagawa (????),157.75,Japan,41
+444bf,2017SHIN02,Naoto Kobayashi (????),157.75,Japan,41
+444bf,2015PHOM01,William Phommaha,160.2,France,42
+444bf,2015WRIG07,William Wright,162.94,United Kingdom,43
+444bf,2011HAMI01,Ahsanul Insan Hamid,166.21,Indonesia,44
+444bf,2013LANG03,Mason Langenderfer,167.76,United States,45
+444bf,2012JALO01,Grzegorz Ja?ocha,168.42,Poland,46
+444bf,2022RIPO01,Riccardo Ripoldi,172.04,Italy,47
+444bf,2019EGGI02,Charlie Eggins,173,Australia,48
+444bf,2010YAMA04,Yuki Yamamoto (????),178.2,Japan,49
+444bf,2014BOYA01,Mark Boyanowski,180.65,United States,50
+444bf,2013DIPI01,Guido Dipietro,182.05,Argentina,51
+444bf,2011BANS02,Shivam Bansal,186.58,India,52
+444bf,2015KUCA01,Carter Kucala,186.82,United States,53
+444bf,2016TAYL02,Paul Taylor,188.34,United States,54
+444bf,2023LIUK02,Kevin Liu,189.04,United States,55
+444bf,2012GRAY01,Enoch Gray,192.37,United States,56
+444bf,2017KOLI01,Mohammed Aiman Koli,194.3,India,57
+444bf,2017SUNC02,Christopher Sun,194.57,United States,58
+444bf,2022STRA10,Thomas Strasser,194.71,Austria,59
+444bf,2015CHEN49,Yucheng Chen (???),194.93,China,60
+444bf,2018BLOC01,Jonathan Blîcher,195.65,Germany,61
+444bf,2013GHOD01,Abhijeet Ghodgaonkar (?????? ????????),196.81,India,62
+444bf,2007ENDR01,Marcell Endrey,197.56,Hungary,63
+444bf,2021DAMM01,Jonathan Dammann,198.83,France,64
+444bf,2016HORV04,Mih†ly Horv†th,200.94,Hungary,65
+444bf,2017SWOR01,Noah Swor,204.43,United States,66
+444bf,2015QUAN03,Ng Jia Quan (???),204.63,Malaysia,67
+444bf,2016WEIM01,Josh Weimer,204.66,United States,68
+444bf,2016KRAF01,Noah Kraft,204.96,Germany,69
+444bf,2020ROUY01,Rodolphe Rouyrre,205.74,France,70
+444bf,2007LUJI01,Jia-Hong Lu (???),207.77,Chinese Taipei,71
+444bf,2021ELIA01,Niklas Aasen Eliasson,209.19,Norway,72
+444bf,2017WONG13,Andy Wong,209.81,United States,73
+444bf,2024LIUZ11,Zicong Liu (???),210.05,China,74
+444bf,2018GONZ30,Julian Alejandro Forero Gonzalez,210.93,Colombia,75
+444bf,2016JEON02,Jaehyun Jeong (???),211.97,Republic of Korea,76
+444bf,2011GRIT01,Oleg Gritsenko,215.62,Russia,77
+444bf,2013ANIR01,Hari Anirudh,216.42,India,78
+444bf,2022HANT01,Thiago Han,217.54,Brazil,79
+444bf,2019STOU02,Ivo Stoutjesdijk,219.77,Netherlands,80
+444bf,2012HALE01,Callum Hales-Jepp,221.56,United Kingdom,81
+444bf,2011LINB01,Brandon Lin (???),221.71,United States,82
+444bf,2015FUSH01,Firstian Fushada (???),231.17,Indonesia,83
+444bf,2017SIAU02,Max Siauw,231.27,United States,84
+444bf,2022CHIA04,Luca Chiandotto,233.36,Italy,85
+444bf,2016PILA03,Ryan Pilat,233.77,United States,86
+444bf,2015MACK06,Zeke Mackay,234.47,United States,87
+444bf,2011TRON02,Sebastiano Tronto,234.7,Italy,88
+444bf,2017HUGH04,Lennon Hughes,238.82,Australia,89
+444bf,2018SUNC02,Chenhao Sun (???),240.45,China,90
+444bf,2014PATT02,Thomas Patterson,242.76,United Kingdom,91
+444bf,2017CHOI07,Kyeongmin Choi (???),245.03,Republic of Korea,92
+444bf,2019WANZ21,Zhe Wang (??),247.25,China,93
+444bf,2022MUNT02,Eskil Munthe,247.72,Sweden,94
+444bf,2016WHIT16,Jason White,247.76,United States,95
+444bf,2016HUNG08,Lim Hung (??),249.83,Malaysia,96
+444bf,2015BUAT01,Witali Bu?atow,251.86,Poland,97
+444bf,2018REIN04,Thomas Reinke,253.59,United States,98
+444bf,2018LEED01,DongJae Lee,255.42,Republic of Korea,99
+444bf,2017NORR01,Timo NorrkniivilÑ,255.67,Finland,100
+555,2016KOLA02,Tymon Kolasi?ski,34.31,Poland,1
+555,2012PARK03,Max Park,34.76,United States,2
+555,2019HUNG16,?? Quang H?ng,36.06,Vietnam,3
+555,2013NAHM01,Seung Hyuk Nahm (???),37.05,Republic of Korea,4
+555,2015WANG09,Kai-Wen Wang (???),37.33,Chinese Taipei,5
+555,2019TARA09,Timofei Tarasenko,37.5,Russia,6
+555,2022KAOE01,Emmanuel Kao,39.78,Singapore,7
+555,2009ZEMD01,Feliks Zemdegs,40.1,Australia,8
+555,2018LICH05,Henry Lichner,40.32,United States,9
+555,2012BEAH01,Ciar†n Beahan,40.45,Ireland,10
+555,2015LEON02,Ivan Li Ka Leong (???),40.75,Hong Kong,
+555,2016WUZI04,Ziyu Wu (???),41.02,China,12
+555,2017XURU04,Ruihang Xu (???),41.16,China,13
+555,2010WEYE02,Sebastian Weyer,41.34,Germany,14
+555,2012PONC02,Patrick Ponce,41.49,United States,15
+555,2016INAB01,Matty Hiroto Inaba,41.65,United States,16
+555,2017KWAN05,Burno Li Chak Kwan (???),41.87,Hong Kong,
+555,2015DELA05,Richard Delacoste,42.03,Switzerland,18
+555,2018ZIMM02,Mark Zimmermann,42.38,Germany,19
+555,2016HUNG08,Lim Hung (??),42.48,Malaysia,20
+555,2018BERE01,J†nos Bereczki,42.65,Romania,21
+555,2017PALI04,Inigo Miguel B. Palisoc,42.87,Philippines,22
+555,2016NUNE11,Brandon Nunez,42.94,United States,23
+555,2019MORG10,Danny Morgan,43.1,United Kingdom,24
+555,2016CHAN09,Jaemin Chang (???),43.37,Republic of Korea,25
+555,2013GERH01,Kevin Gerhardt,43.65,Germany,26
+555,2017PARK05,DongSoo Park (???),43.65,Republic of Korea,27
+555,2018ELLA01,Omar Ellabban,43.71,Canada,28
+555,2017SARE03,Arhaan Sareen,44.07,Canada,29
+555,2015LARS04,Kim Roger Haraldsen,44.08,Norway,30
+555,2015FUSH01,Firstian Fushada (???),44.16,Indonesia,31
+555,2017NOKE01,Jacob Nokes,44.26,United States,32
+555,2018DULL01,Twan Dullemond,44.34,Netherlands,33
+555,2017KORH01,Lauri Korhonen,44.43,Finland,34
+555,2017GARR05,Luke Garrett,44.55,United States,35
+555,2010WUIF01,Yi-Fan Wu (???),44.56,Chinese Taipei,36
+555,2019VUJC01,Alexander Vujcich,44.63,New Zealand,37
+555,2012HUAN12,Ping-Yueh Huang (???),44.81,Chinese Taipei,38
+555,2010WANG68,Bill Wang,44.85,Canada,39
+555,2017SUNC02,Christopher Sun,44.94,United States,40
+555,2018RUSH01,Daniel Rush,45.06,South Africa,41
+555,2015MOHA10,Varun Mohanraj,45.11,United States,42
+555,2017CHEN24,Chen Chen (??),45.13,China,43
+555,2018ALAM08,Leon Marcell Alamanda,45.17,Indonesia,44
+555,2019YAOJ01,Jerry Yao,45.18,United States,45
+555,2022HAIN04,Cillian Hainbach,45.22,Ireland,46
+555,2016PFEI01,Jack Pfeifer,45.32,United States,47
+555,2017SIAU02,Max Siauw,45.49,United States,48
+555,2017ZHAO79,Ben Zhao,45.57,United States,49
+555,2017MAND13,Francisco Moraes Mandalozzo,45.6,Brazil,50
+555,2011MAHT02,Natthaphat Mahtani (??????? ?? ??????),45.6,Thailand,51
+555,2019RAMO05,Dwyane Ramos,45.61,New Zealand,52
+555,2021DUNA01,Brendyn Dunagan,45.7,United States,53
+555,2023CUAR03,Neo Cuares,45.73,Philippines,54
+555,2018NARA14,Mihir Narayan,45.73,India,55
+555,2014BAIR01,Ray Bai,45.73,United States,56
+555,2016HSUE02,Yi-Jen Hsueh (???),45.74,Chinese Taipei,57
+555,2019ZENG10,Wei-Ming Zeng (???),45.8,Chinese Taipei,58
+555,2017MAZH04,Zhiyuan Ma (???),45.84,China,59
+555,2021PIET01,Tomasz Pietruszka,46,Poland,60
+555,2018WANG39,Yibo Wang (???),46.02,China,61
+555,2017CAIZ03,Zijian Cai (???),46.08,China,62
+555,2017GOLU01,Theo Goluboff,46.12,Argentina,63
+555,2012ZHAN08,Anyu Zhang (???),46.14,China,64
+555,2018WANX10,Xuyi Wang (???),46.14,China,65
+555,2019NOGA01,Ao Nogami (???),46.2,Japan,66
+555,2010KADD01,Abdelhak Kaddour,46.21,France,67
+555,2016ROLZ01,Alwin Rîlz,46.22,Switzerland,68
+555,2014JAYE01,Eli Jay,46.31,United Kingdom,69
+555,2016XIAN01,Ang Chin Xiang,46.34,Malaysia,70
+555,2018GRAH05,Kate Grahame,46.36,United States,71
+555,2017HUAN77,Junliang Huang (???),46.39,China,72
+555,2019YANG94,Cian-Jyun Yang (???),46.39,Chinese Taipei,73
+555,2018SANC03,Angel Armando Jaime S†nchez,46.42,Mexico,74
+555,2009KONV01,Asia Konvittayayotin (?????? ???????????),46.51,Thailand,75
+555,2022PART02,Daniel Partridge,46.68,United Kingdom,76
+555,2019BRUN02,Claudio Matias Cancino Bruna,46.7,Chile,77
+555,2019ZHEN04,Deng Zhengping,46.71,Singapore,78
+555,2015WEIB03,Benjamin Wei,46.81,United States,79
+555,2017SANK04,Vishwa Sankar,46.86,United States,80
+555,2018THOM29,Carter Thomas,47.07,United States,81
+555,2022PORE01,Siddhesh Pore,47.08,India,82
+555,2009HAYS01,Kevin Hays,47.11,United States,83
+555,2017CHAM09,Cham J. Chambers,47.16,United Kingdom,84
+555,2019SHAY01,Yinzhi Sha (???),47.17,China,85
+555,2021PHIL05,Nathan Phillips,47.28,United States,86
+555,2013EGDA02,Martin Vëdele Egdal,47.3,Denmark,87
+555,2017RAND06,Ari Randers-Pehrson,47.33,United States,88
+555,2016YONG02,Tristan Chua Yong,47.39,Singapore,89
+555,2017YEHM01,Morgan Yeh,47.4,Canada,90
+555,2016PILA03,Ryan Pilat,47.41,United States,91
+555,2016EPST02,David Epstein,47.46,Australia,92
+555,2020TAOR01,Richard Yiheng Tao,47.52,New Zealand,93
+555,2015TELL01,Pedro Alejandro Condo Tellez,47.58,Peru,94
+555,2016SMUL01,Mika Smulders,47.66,Netherlands,95
+555,2018CHOE02,Ethan Cho,47.82,United States,96
+555,2016CHEU04,Andy Mok Man Cheuk (???),47.94,Hong Kong,
+555,2016GONZ52,Gabriel Santiago Velez Gonzalez,47.99,Colombia,98
+555,2019YURU02,Rui Yu (??),48,Chinese Taipei,99
+555,2021SKOW01,Maciej Skowro?ski,48.05,Poland,100
+555bf,2016CHAP04,Stanley Chapel,147.63,United States,1
+555bf,2013LINK01,Kaijun Lin (???),169.17,China,2
+555bf,2017FENG10,Hill Pong Yong Feng,189.05,Malaysia,3
+555bf,2019HIRS01,Ezra Hirschi,191.65,Switzerland,4
+555bf,2019ECKE02,Ryan Eckersley,202.95,United Kingdom,5
+555bf,2016SIGG01,Graham Siggins,217.44,United States,6
+555bf,2019WANZ21,Zhe Wang (??),235.69,China,7
+555bf,2013WALL03,Daniel Wallin,247.29,Sweden,8
+555bf,2021TRIP01,Michael Tripodi,258.48,Australia,9
+555bf,2017DEBS01,Adrian D?bski,265.46,Poland,10
+555bf,2013NELS01,Tom Nelson,276.24,New Zealand,11
+555bf,2017GUTM01,Manuel Gutman,276.66,Argentina,12
+555bf,2016PARK10,Yeon Kyun Park (???),296.25,Republic of Korea,13
+555bf,2015CHER07,Tommy Cherry,300.41,United States,14
+555bf,2014SCHO02,Cale Schoon,300.63,United States,15
+555bf,2015ALEK01,Grigorii Alekseev,314.17,Russia,16
+555bf,2014FRIT02,Oliver Fritz,314.47,Germany,17
+555bf,2018SHEN07,Mengfei Shen (???),343.93,China,18
+555bf,2012STRA02,Roman Strakhov,349.77,Russia,19
+555bf,2007HESS01,Rowe Hessler,357.86,United States,20
+555bf,2019CSEN01,B†lint Cseng?,361.9,Hungary,21
+555bf,2016XUWE02,Sora Wenjie Xu (???),364.03,China,22
+555bf,2022STRA10,Thomas Strasser,367.33,Austria,23
+555bf,2007LUJI01,Jia-Hong Lu (???),368.43,Chinese Taipei,24
+555bf,2016PRZY01,Kamil Przybylski,370.54,Poland,25
+555bf,2022WANG06,Daniel Wang,377.06,Australia,26
+555bf,2021PISK01,Karol Piskorek,378.5,Poland,27
+555bf,2013EGDA02,Martin Vëdele Egdal,389.49,Denmark,28
+555bf,2019KOBE03,Elliott Kobelansky,395.26,Canada,29
+555bf,2014BOYA01,Mark Boyanowski,404.31,United States,30
+555bf,2023GAOJ02,Joshua Gao,417.52,United States,31
+555bf,2007ENDR01,Marcell Endrey,425.77,Hungary,32
+555bf,2016MART29,Artyom Martirosov,441.73,Russia,33
+555bf,2019EGGI02,Charlie Eggins,442.11,Australia,34
+555bf,2023LOPE09,Jordi LleixÖ L¢pez,445.14,Spain,35
+555bf,2016JEON02,Jaehyun Jeong (???),456.43,Republic of Korea,36
+555bf,2017SWOR01,Noah Swor,457.81,United States,37
+555bf,2014GARC27,Arthur Garcin,462.13,France,38
+555bf,2016CHAN25,Theodore Chan,479.47,Singapore,39
+555bf,2015QUAN03,Ng Jia Quan (???),479.69,Malaysia,40
+555bf,2017SEMO02,Marcos Ferreira Semolini,484.22,Brazil,41
+555bf,2016KRAF01,Noah Kraft,495.95,Germany,42
+555bf,2015BUAT01,Witali Bu?atow,499.12,Poland,43
+555bf,2016NGAN02,Michael Ngan (???),500.39,Hong Kong,
+555bf,2010SHIX01,Xin Shi (??),520.53,China,45
+555bf,2012HALE01,Callum Hales-Jepp,524.52,United Kingdom,46
+555bf,2016FANG01,Shenghai Fang (???),529.77,China,47
+555bf,2018BLOC01,Jonathan Blîcher,532.07,Germany,48
+555bf,2009LIUE01,Evan Liu,542.82,United States,49
+555bf,2023LIUK02,Kevin Liu,545.19,United States,50
+555bf,2015KUCA01,Carter Kucala,552.85,United States,51
+555bf,2011BANS02,Shivam Bansal,555.68,India,52
+555bf,2011GRIT01,Oleg Gritsenko,555.79,Russia,53
+555bf,2017KLOS01,Willem Klose,557.09,Germany,54
+555bf,2017SUNC02,Christopher Sun,557.36,United States,55
+555bf,2013GHOD01,Abhijeet Ghodgaonkar (?????? ????????),572.87,India,56
+555bf,2011TRON02,Sebastiano Tronto,584.13,Italy,57
+555bf,2018GONZ30,Julian Alejandro Forero Gonzalez,588.54,Colombia,58
+555bf,2015HUAN48,Cary Huang,602,United States,59
+555bf,2010CHAN20,Nevins Chan Pak Hoong (???),610,Malaysia,60
+555bf,2010BENT01,Jan Bentlage,615,Germany,61
+555bf,2015FUSH01,Firstian Fushada (???),630,Indonesia,62
+555bf,2017GARR05,Luke Garrett,645,United States,63
+555bf,2013SATO01,Shiori Yanai (????),648,Japan,64
+555bf,2022CHIA04,Luca Chiandotto,648,Italy,65
+555bf,2017PIWA01,Wayne Pi,651,Chinese Taipei,66
+555bf,2022ANNA01,Greehith Annabathina,655,India,67
+555bf,2012YANA01,Taku Yanai (???),659,Japan,68
+555bf,2013LANG03,Mason Langenderfer,661,United States,69
+555bf,2021LIUZ07,Zijun Liu (???),696,China,70
+555bf,2016HORV04,Mih†ly Horv†th,707,Hungary,71
+555bf,2019BANG01,Andrew Tan Jing Bang,719,Singapore,72
+555bf,2020SCHL01,Katharina Schlomberg,747,Germany,73
+555bf,2016BRIJ01,Abner Brijesh,749,United States,74
+555bf,2005KOCZ01,Istv†n Kocza,751,Hungary,75
+555bf,2017MEYS02,Cedric Meysing,772,Germany,76
+555bf,2016PILA03,Ryan Pilat,781,United States,77
+555bf,2007HUGH01,Mike Hughey,782,United States,78
+555bf,2014MILE01,Patryk Milewczyk,784,Poland,79
+555bf,2015MACK06,Zeke Mackay,789,United States,80
+555bf,2012FUJI01,Hiroto Fujita (????),789,Japan,81
+555bf,2016AMBE02,Dieter Amberger,793,Austria,82
+555bf,2016WHIT16,Jason White,804,United States,83
+555bf,2018WROT01,Brayden Wroten,814,United States,84
+555bf,2014LEZA02,Bruno Lezama,818,Uruguay,85
+555bf,2011FERA01,Joshua Feran,828,United States,86
+555bf,2010UTOM01,Vincent Hartanto Utomo,836,Indonesia,87
+555bf,2012LAUR02,Anthony Lauro,836,United States,88
+555bf,2014KOUL01,Sukant Koul,840,India,89
+555bf,2022BENS01,Nathan Benson,847,United States,90
+555bf,2018SCAL02,Claudio Fabrizio Scalia,853,Italy,91
+555bf,2017SIAU02,Max Siauw,867,United States,92
+555bf,2016SOON01,Jareth Soong Ying Rui (???),872,Singapore,93
+555bf,2014MACE02,Fernando Israel Z£§iga Macedo,875,Mexico,94
+555bf,2021LAMP01,Elias Lampert,875,Austria,95
+555bf,2022WADH02,Ashwyn Wadhawan,877,United Kingdom,96
+555bf,2015SANC18,Josete S†nchez,877,Spain,97
+555bf,2016DAVI02,Ethan Davis,877,United States,98
+555bf,2022MELE01,Angelo Melera,881,Switzerland,99
+555bf,2017XUYO01,Yonghao Xu (???),892,China,100
+666,2012PARK03,Max Park,65.66,United States,1
+666,2013NAHM01,Seung Hyuk Nahm (???),66.46,Republic of Korea,2
+666,2019HUNG16,?? Quang H?ng,67.77,Vietnam,3
+666,2019TARA09,Timofei Tarasenko,70.57,Russia,4
+666,2016KOLA02,Tymon Kolasi?ski,70.76,Poland,5
+666,2016WUZI04,Ziyu Wu (???),71.08,China,6
+666,2022KAOE01,Emmanuel Kao,71.85,Singapore,7
+666,2018LICH05,Henry Lichner,72.24,United States,8
+666,2016HUNG08,Lim Hung (??),72.53,Malaysia,9
+666,2012BEAH01,Ciar†n Beahan,72.65,Ireland,10
+666,2018ELLA01,Omar Ellabban,72.97,Canada,11
+666,2017PARK05,DongSoo Park (???),75.1,Republic of Korea,12
+666,2018BERE01,J†nos Bereczki,75.83,Romania,13
+666,2018ZIMM02,Mark Zimmermann,76.01,Germany,14
+666,2009ZEMD01,Feliks Zemdegs,76.08,Australia,15
+666,2012ZHAN08,Anyu Zhang (???),76.91,China,16
+666,2015LEON02,Ivan Li Ka Leong (???),77.52,Hong Kong,
+666,2018TUNG05,Tr??ng Kh†nh Tóng,78.09,Vietnam,18
+666,2015WANG09,Kai-Wen Wang (???),78.1,Chinese Taipei,19
+666,2018GRAH05,Kate Grahame,78.35,United States,20
+666,2017SARE03,Arhaan Sareen,78.48,Canada,21
+666,2016PFEI01,Jack Pfeifer,78.9,United States,22
+666,2012PONC02,Patrick Ponce,78.95,United States,23
+666,2015FUSH01,Firstian Fushada (???),79.29,Indonesia,24
+666,2015DELA05,Richard Delacoste,79.86,Switzerland,25
+666,2019ZENG10,Wei-Ming Zeng (???),80.38,Chinese Taipei,26
+666,2016INAB01,Matty Hiroto Inaba,80.87,United States,27
+666,2018CHOE02,Ethan Cho,80.93,United States,28
+666,2009HAYS01,Kevin Hays,81.24,United States,29
+666,2015WEIB03,Benjamin Wei,81.59,United States,30
+666,2021DUNA01,Brendyn Dunagan,82.02,United States,31
+666,2016GONZ52,Gabriel Santiago Velez Gonzalez,82.04,Colombia,32
+666,2017PALI04,Inigo Miguel B. Palisoc,82.23,Philippines,33
+666,2017KWAN05,Burno Li Chak Kwan (???),82.5,Hong Kong,
+666,2017SANK04,Vishwa Sankar,82.51,United States,35
+666,2017SIAU02,Max Siauw,82.6,United States,36
+666,2018NGHA02,Hayden Ng (???),82.78,Australia,37
+666,2017GARR05,Luke Garrett,82.86,United States,38
+666,2019ZHOU51,Zhangshuai Zhou (???),82.92,China,39
+666,2019YANG94,Cian-Jyun Yang (???),83.11,Chinese Taipei,40
+666,2017NOKE01,Jacob Nokes,83.46,United States,41
+666,2013GERH01,Kevin Gerhardt,83.54,Germany,42
+666,2018RUSH01,Daniel Rush,83.64,South Africa,43
+666,2022PART02,Daniel Partridge,83.95,United Kingdom,44
+666,2016LIJE01,Jeffrey Li,84.09,United States,45
+666,2010KADD01,Abdelhak Kaddour,84.55,France,46
+666,2016REGO01,Sheldon Rego,84.59,India,47
+666,2018BEHR01,Roxy Behrle,84.7,United States,48
+666,2016CHEU04,Andy Mok Man Cheuk (???),84.8,Hong Kong,
+666,2017FENG09,Yu Feng (??),84.8,China,50
+666,2016NUNE11,Brandon Nunez,85.13,United States,51
+666,2016ROLZ01,Alwin Rîlz,85.3,Switzerland,52
+666,2021PHIL05,Nathan Phillips,85.52,United States,53
+666,2022BHUW01,Hitesh Kumar Bhuwalka,85.55,India,54
+666,2018THOM29,Carter Thomas,85.61,United States,55
+666,2012HUAN12,Ping-Yueh Huang (???),85.66,Chinese Taipei,56
+666,2017GOLU01,Theo Goluboff,85.87,Argentina,57
+666,2015WANG46,Shih-Hao Wang (???),85.87,Chinese Taipei,58
+666,2019RAMO05,Dwyane Ramos,85.88,New Zealand,59
+666,2009KONV01,Asia Konvittayayotin (?????? ???????????),85.99,Thailand,60
+666,2015MOHA10,Varun Mohanraj,86.24,United States,61
+666,2019YURU02,Rui Yu (??),86.31,Chinese Taipei,62
+666,2017MAND13,Francisco Moraes Mandalozzo,86.32,Brazil,63
+666,2013EGDA02,Martin Vëdele Egdal,86.43,Denmark,64
+666,2018SHIN08,Minkyu Shin (???),86.44,Republic of Korea,65
+666,2017CHAM09,Cham J. Chambers,86.53,United Kingdom,66
+666,2015XION03,Max Xiong (???),86.63,Canada,67
+666,2015XION03,Max Xiong (???),86.63,China,67
+666,2011MAHT02,Natthaphat Mahtani (??????? ?? ??????),86.66,Thailand,68
+666,2023BAIR02,Ty Baird,86.77,United States,69
+666,2017HUAN77,Junliang Huang (???),86.97,China,70
+666,2017KORH01,Lauri Korhonen,87.02,Finland,71
+666,2017SUNC02,Christopher Sun,87.12,United States,72
+666,2010WEYE02,Sebastian Weyer,87.19,Germany,73
+666,2021BACK01,Jack Larsson Backsell,87.25,Sweden,74
+666,2018DULL01,Twan Dullemond,87.27,Netherlands,75
+666,2018KWON01,Do Hyun Kwon (???),87.3,Republic of Korea,76
+666,2016YONG02,Tristan Chua Yong,87.37,Singapore,77
+666,2017SOUL02,Cameron Soulagnet,87.39,United States,78
+666,2015OAKK01,Kunal Oak,87.4,India,79
+666,2023CHEC12,Chongkui Chen (???),87.4,China,80
+666,2019RODR11,Diego Rodriguez-Ramirez,87.41,Canada,81
+666,2015MAJE01,Marek Majerik,87.45,Slovakia,82
+666,2016SING33,Pahul Singh,87.74,Canada,83
+666,2010WUIF01,Yi-Fan Wu (???),87.89,Chinese Taipei,84
+666,2014MEND02,Alexis Rodrigo Cazu Mendoza,87.93,Mexico,85
+666,2023THIR06,Dhruv Thirumalairajan,88.19,India,86
+666,2018WALA01,Max Walaszek,88.31,United States,87
+666,2015LARS04,Kim Roger Haraldsen,88.36,Norway,88
+666,2019BREA02,Silas Breault,88.38,United States,89
+666,2015TELL01,Pedro Alejandro Condo Tellez,88.4,Peru,90
+666,2018ALAM08,Leon Marcell Alamanda,88.52,Indonesia,91
+666,2019SHAY01,Yinzhi Sha (???),88.53,China,92
+666,2014JAYE01,Eli Jay,88.57,United Kingdom,93
+666,2012TYCK01,Luke Tycksen,88.62,United States,94
+666,2015ANDA01,Daryl Tan Hong An,88.62,Singapore,95
+666,2016EPST02,David Epstein,88.65,Australia,96
+666,2021EYLE01,Henry Eyles,88.66,New Zealand,97
+666,2012WENI01,Ivan Lew Yi Wen (???),88.76,Malaysia,98
+666,2016CHAP04,Stanley Chapel,88.82,United States,99
+666,2017TRAN25,Celine Tran,88.89,Norway,100
+777,2012PARK03,Max Park,99.68,United States,1
+777,2022KAOE01,Emmanuel Kao,101.24,Singapore,2
+777,2016WUZI04,Ziyu Wu (???),102.72,China,3
+777,2016HUNG08,Lim Hung (??),104.46,Malaysia,4
+777,2016KOLA02,Tymon Kolasi?ski,104.78,Poland,5
+777,2013NAHM01,Seung Hyuk Nahm (???),105.24,Republic of Korea,6
+777,2017PARK05,DongSoo Park (???),107.32,Republic of Korea,7
+777,2018LICH05,Henry Lichner,109.55,United States,8
+777,2019TARA09,Timofei Tarasenko,110.73,Russia,9
+777,2012BEAH01,Ciar†n Beahan,110.94,Ireland,10
+777,2012ZHAN08,Anyu Zhang (???),112.46,China,11
+777,2019YANG94,Cian-Jyun Yang (???),113.21,Chinese Taipei,12
+777,2016PFEI01,Jack Pfeifer,114.45,United States,13
+777,2018ZIMM02,Mark Zimmermann,114.53,Germany,14
+777,2019HUNG16,?? Quang H?ng,114.82,Vietnam,15
+777,2018ELLA01,Omar Ellabban,114.84,Canada,16
+777,2018BERE01,J†nos Bereczki,115.84,Romania,17
+777,2009HAYS01,Kevin Hays,116.03,United States,18
+777,2016LIJE01,Jeffrey Li,117.26,United States,19
+777,2015WEIB03,Benjamin Wei,117.74,United States,20
+777,2015WANG09,Kai-Wen Wang (???),118.93,Chinese Taipei,21
+777,2019ZHOU51,Zhangshuai Zhou (???),119.31,China,22
+777,2015FUSH01,Firstian Fushada (???),119.32,Indonesia,23
+777,2018TUNG05,Tr??ng Kh†nh Tóng,120.62,Vietnam,24
+777,2009ZEMD01,Feliks Zemdegs,120.63,Australia,25
+777,2016NIJU01,Chun-Pao Ni (???),120.7,Chinese Taipei,26
+777,2023CHEC12,Chongkui Chen (???),121.22,China,27
+777,2015DELA05,Richard Delacoste,121.51,Switzerland,28
+777,2019ZENG10,Wei-Ming Zeng (???),121.55,Chinese Taipei,29
+777,2015LEON02,Ivan Li Ka Leong (???),121.66,Hong Kong,
+777,2018GRAH05,Kate Grahame,121.97,United States,31
+777,2009KONV01,Asia Konvittayayotin (?????? ???????????),123.42,Thailand,32
+777,2017NOKE01,Jacob Nokes,124.21,United States,33
+777,2017SARE03,Arhaan Sareen,124.43,Canada,34
+777,2017SANK04,Vishwa Sankar,124.45,United States,35
+777,2015XION03,Max Xiong (???),124.74,Canada,36
+777,2015XION03,Max Xiong (???),124.74,China,36
+777,2017PALI04,Inigo Miguel B. Palisoc,125.03,Philippines,37
+777,2016NUNE11,Brandon Nunez,125.44,United States,38
+777,2014MEND02,Alexis Rodrigo Cazu Mendoza,125.58,Mexico,39
+777,2021PHIL05,Nathan Phillips,125.67,United States,40
+777,2014JAYE01,Eli Jay,125.69,United Kingdom,41
+777,2018RUSH01,Daniel Rush,125.71,South Africa,42
+777,2012HUAN12,Ping-Yueh Huang (???),125.76,Chinese Taipei,43
+777,2018NGHA02,Hayden Ng (???),126.13,Australia,44
+777,2019YURU02,Rui Yu (??),126.14,Chinese Taipei,45
+777,2016GONZ52,Gabriel Santiago Velez Gonzalez,126.4,Colombia,46
+777,2018THOM29,Carter Thomas,126.5,United States,47
+777,2017SIAU02,Max Siauw,126.76,United States,48
+777,2017GARR05,Luke Garrett,127.13,United States,49
+777,2021DUNA01,Brendyn Dunagan,127.54,United States,50
+777,2018BEHR01,Roxy Behrle,127.85,United States,51
+777,2018CHOE02,Ethan Cho,127.95,United States,52
+777,2016INAB01,Matty Hiroto Inaba,128.54,United States,53
+777,2017FENG09,Yu Feng (??),129.26,China,54
+777,2015LIUZ07,Zixuan Liu (???),129.39,China,55
+777,2015WANG46,Shih-Hao Wang (???),129.59,Chinese Taipei,56
+777,2018KWON01,Do Hyun Kwon (???),129.68,Republic of Korea,57
+777,2012MAHV01,Paul Mahvi,129.74,United States,58
+777,2022PART02,Daniel Partridge,130.29,United Kingdom,59
+777,2021HANS08,Seungyong Han (???),130.51,Republic of Korea,60
+777,2013KEJR01,Aryan Kejriwal,130.81,United States,61
+777,2018SHIN08,Minkyu Shin (???),130.96,Republic of Korea,62
+777,2016STEP05,Dale Palmares,131.08,Philippines,63
+777,2012PONC02,Patrick Ponce,131.2,United States,64
+777,2017CHAM09,Cham J. Chambers,131.37,United Kingdom,65
+777,2012STAN04,Simon Stannek,131.41,Germany,66
+777,2017TRAN25,Celine Tran,131.47,Norway,67
+777,2017GOLU01,Theo Goluboff,131.52,Argentina,68
+777,2014LOPE04,Antonio L¢pez,131.58,Spain,69
+777,2015MAJE01,Marek Majerik,131.67,Slovakia,70
+777,2010KADD01,Abdelhak Kaddour,131.69,France,71
+777,2016ROLZ01,Alwin Rîlz,131.74,Switzerland,72
+777,2016CHEU04,Andy Mok Man Cheuk (???),132.41,Hong Kong,
+777,2018PHON02,Nguy?n An Phong,132.43,Vietnam,74
+777,2016YONG02,Tristan Chua Yong,132.54,Singapore,75
+777,2018ALAM08,Leon Marcell Alamanda,132.59,Indonesia,76
+777,2017MAND13,Francisco Moraes Mandalozzo,132.71,Brazil,77
+777,2015ANDA01,Daryl Tan Hong An,132.96,Singapore,78
+777,2015OAKK01,Kunal Oak,133.31,India,79
+777,2019RAMO05,Dwyane Ramos,133.36,New Zealand,80
+777,2021DUTI01,Tianzuo Du (???),133.47,China,81
+777,2022SASA03,Pedro Paulo Lima Sasaki,133.56,Brazil,82
+777,2017KORH01,Lauri Korhonen,133.8,Finland,83
+777,2014LOKW01,Wong Kin Lok (???),133.82,Hong Kong,
+777,2019ZHUH05,Haoxuan Zhu (???),133.92,China,85
+777,2019ZHEN04,Deng Zhengping,134.35,Singapore,86
+777,2007SEUN04,Yi Seung-Woo (???),134.37,Republic of Korea,87
+777,2023ZAST01,Szymon Zastawny,134.52,Poland,88
+777,2016CHAP04,Stanley Chapel,134.56,United States,89
+777,2006HALC01,Micha? Halczuk,134.83,Poland,90
+777,2016GRAS01,Peter Grassard,134.93,France,91
+777,2023THIR06,Dhruv Thirumalairajan,134.97,India,92
+777,2016NAGU02,Christian Naguio,135.26,Philippines,93
+777,2019BREA02,Silas Breault,135.42,United States,94
+777,2019SUNT02,Tao Sun (??),135.42,China,95
+777,2017KWAN05,Burno Li Chak Kwan (???),135.47,Hong Kong,
+777,2010WANG68,Bill Wang,135.5,Canada,97
+777,2010WUIF01,Yi-Fan Wu (???),135.6,Chinese Taipei,98
+777,2025ARUG01,Kohei Aruga (????),135.63,Japan,99
+777,2013KLEI03,Livia Kleiner,135.83,United States,100
+clock,2022GIBS04,Lachlan Gibson,2.26,New Zealand,1
+clock,2022KAPU01,Volodymyr Kapustianskyi,2.31,United States,2
+clock,2022KAPU01,Volodymyr Kapustianskyi,2.31,Ukraine,2
+clock,2021KASP01,Eryk Kasperek,2.52,Poland,3
+clock,2022JONE11,Kyle Jones,2.55,Australia,4
+clock,2021DUNA01,Brendyn Dunagan,2.64,United States,5
+clock,2022DUNN03,Caleb Wolf Dunn,2.68,United Kingdom,6
+clock,2018THOM29,Carter Thomas,2.82,United States,7
+clock,2022STOJ03,Antoni Stojek,2.82,Poland,8
+clock,2021ELIA01,Niklas Aasen Eliasson,2.83,Norway,9
+clock,2023DIOM01,Alessandro Diomampo,2.85,United States,10
+clock,2022WANG23,Jonathan Wang (???),2.86,Canada,11
+clock,2023ABAR02,Karl Liam L. Abarquez,2.9,Philippines,12
+clock,2022BOEK01,Mick Boekema,2.91,Netherlands,13
+clock,2022BAOF01,Fiona Bao,2.93,United States,14
+clock,2022PHAN03,Nigel Phang,2.93,Singapore,15
+clock,2018ZHUA10,Ethan Zhuang,2.96,United States,16
+clock,2021BERY01,Baptiste Bery,2.98,France,17
+clock,2021WONG02,Aaron Jake Wong,2.99,United States,18
+clock,2022BROK03,Filip Brokos,2.99,Poland,19
+clock,2022ADAM01,Lachlan Adams-Romyn,3.01,Australia,20
+clock,2023LIUY04,Yening Liu (???),3.01,China,21
+clock,2022PRIN09,Zoei Principe,3.01,Philippines,22
+clock,2020BURN06,Luke Burns,3.04,United Kingdom,23
+clock,2022TUCK09,Clement D. Tucker,3.04,United States,24
+clock,2019MORG10,Danny Morgan,3.04,United Kingdom,25
+clock,2022JAME02,Greyson James,3.06,United States,26
+clock,2022DUON09,Ivan ThanhDanh Duong,3.08,United States,27
+clock,2018RICH05,Drake Denton Richard,3.08,United States,28
+clock,2023MCGI02,Max McGill,3.09,United States,29
+clock,2018TURE01,Anatolii Turenko,3.1,Russia,30
+clock,2020HOAM01,Mai ??c Hïa,3.12,Vietnam,31
+clock,2020ARTZ01,Eddie Artze,3.12,United States,32
+clock,2024GUST01,Ruben NorÇn Gustafsson,3.13,Sweden,33
+clock,2022SLIW01,Filip ?liwa,3.14,Poland,34
+clock,2024ZHAN41,Haoxuan Zhang (???),3.14,China,35
+clock,2015BARH01,Anders Barhaugen,3.14,Norway,36
+clock,2019LINJ04,Jaidon Poraminthara Lin (??????? ???????? ????),3.15,United States,37
+clock,2019LINJ04,Jaidon Poraminthara Lin (??????? ???????? ????),3.15,Chinese Taipei,37
+clock,2019SREE06,Akash Sreedharan (????? ????????),3.15,Singapore,38
+clock,2023LOUF01,Fengyuan Kelvin Lou (???),3.16,United Kingdom,39
+clock,2023FERN54,Sergio M†rquez Fern†ndez-Jard¢n,3.16,Spain,40
+clock,2023VELC01,Romain Velcin,3.17,France,41
+clock,2020MOSC01,Alex Moscibroda,3.18,Switzerland,42
+clock,2020MOSC01,Alex Moscibroda,3.18,United States,42
+clock,2022WIND03,Drew Windham,3.18,United States,43
+clock,2018SIDH02,Dilshawn Sidhu,3.19,Canada,44
+clock,2022SHAW09,Zachary Shaw,3.2,United States,45
+clock,2022CORR06,Jack Corr,3.2,Ireland,46
+clock,2023MALO01,Quinn Maloney,3.21,United States,47
+clock,2022WOLF02,Jasper Wolfe-Tham,3.22,United States,48
+clock,2022STON09,Sebastian Stone,3.23,United States,49
+clock,2022SALA09,Aarni Salakari,3.24,Finland,50
+clock,2021POLI02,Marcel Politowicz,3.24,Poland,51
+clock,2021BUTE03,Alex Butera,3.25,Australia,52
+clock,2020REJD01,Gabriel Rejdych,3.25,Poland,53
+clock,2023DIAZ20,Asier Adell D°az,3.25,Spain,54
+clock,2023CABR01,Santiago Cabral,3.26,Uruguay,55
+clock,2017CHIS02,Suen Ming Chi (???),3.27,Hong Kong,
+clock,2015CHER07,Tommy Cherry,3.28,United States,57
+clock,2022GERD01,William Gerdin,3.28,Sweden,58
+clock,2018BOHA01,Alex Bohac,3.3,United States,59
+clock,2018CROU02,Sylvia Crouch,3.31,United States,60
+clock,2017CHAM09,Cham J. Chambers,3.31,United Kingdom,61
+clock,2022KHEW01,Keagen Khew,3.31,Singapore,62
+clock,2022BIEN01,Kacper Bie?kowski,3.31,Poland,63
+clock,2022CIEP01,Szymon Ciepiela,3.33,Poland,64
+clock,2021RICH02,Reed W. Richardson,3.34,United States,65
+clock,2022OZSV04,Tamar Ozsvath,3.34,United States,66
+clock,2022ESSL01,CÇsar Essling,3.35,France,67
+clock,2022SZEP01,Benedek Szepesi-RÇder,3.38,Hungary,68
+clock,2023DOGR01,Veer Liu Dogra,3.38,Australia,69
+clock,2022KUMA05,Adhiyan Kumaresan,3.4,United States,70
+clock,2018GRAI01,Aidan Grainger,3.4,United Kingdom,71
+clock,2018RUPP02,William Henry Ruppert V,3.41,United States,72
+clock,2023FOXM01,Monty Fox,3.41,United Kingdom,73
+clock,2023RIMN01,Daniel Rimner,3.42,Germany,74
+clock,2022LEEU02,Sjoerd van Leeuwen,3.43,Netherlands,75
+clock,2022PAUW01,Joran Pauwels,3.44,Belgium,76
+clock,2023ZAST01,Szymon Zastawny,3.44,Poland,77
+clock,2021SHEN01,Edwin Shen,3.46,New Zealand,78
+clock,2022DINC01,Ayden Dincher,3.47,United States,79
+clock,2023HAMA03,Shoi Hamaguchi (????),3.47,Japan,80
+clock,2022GRAH02,Thomas Grahor,3.48,United States,81
+clock,2021MARI04,Paolo Marino,3.48,Italy,82
+clock,2023VINL01,Lee Seong Vin (???),3.48,Republic of Korea,83
+clock,2022NAYS02,Jimi Naysmith,3.49,United Kingdom,84
+clock,2022CERN03,Michal ?ernÏ,3.49,Czech Republic,85
+clock,2023WATE01,Evan Waters,3.51,United States,86
+clock,2018HARR12,Brandon Harris,3.51,New Zealand,87
+clock,2013OLSZ02,Piotr Olszewski,3.53,Poland,88
+clock,2017GARR05,Luke Garrett,3.54,United States,89
+clock,2022SHET01,Hridhaan Shetty,3.54,United States,90
+clock,2021MALI02,Ignacy Malinowski,3.55,Poland,91
+clock,2016CHAP04,Stanley Chapel,3.55,United States,92
+clock,2022CHIA01,Pei-Ni Chiang (???),3.56,Chinese Taipei,93
+clock,2021WILL06,Carter Williams,3.57,United States,94
+clock,2019VILL03,Brandon Villadolid,3.57,United States,95
+clock,2018WASI02,Mateusz Wasil,3.57,Poland,96
+clock,2022JAME01,Blue James,3.57,United Kingdom,97
+clock,2022CYWI01,Kazimierz Cywi?ski,3.58,Poland,98
+clock,2022PRIN08,Zian Principe,3.6,Philippines,99
+clock,2022PART02,Daniel Partridge,3.6,United Kingdom,100
+magic,2009WANG13,Yuxuan Wang (???),0.76,China,1
+magic,2009DICK01,Jan Dickmann,0.82,Germany,2
+magic,2010KRYU01,Dmitry Kryuzban,0.84,Russia,3
+magic,2007MING01,Ming Gao (??),0.84,China,4
+magic,2010KIPA01,Jakub Kipa,0.85,Poland,5
+magic,2008BODO01,B†lint Bodor,0.87,Hungary,6
+magic,2007JAKU01,Marcin Jakubowski,0.87,Poland,7
+magic,2009BUIH02,Henrik Bui,0.87,Sweden,8
+magic,2010ROON01,Phoochit Roonooy (??????? ????????),0.88,Thailand,9
+magic,2008JISE02,Chae Jiseok (???),0.88,Republic of Korea,10
+magic,2009TOMB01,Korneliusz Tombarkiewicz,0.89,Poland,11
+magic,2009WUBI01,Bingfeng Wu (???),0.89,China,12
+magic,2009CHUN07,Tang Yiu Chun (???),0.9,Hong Kong,
+magic,2010ZHAN17,Hao Zhang (??),0.9,China,14
+magic,2011NIAP02,Parsa Saeed Nia (????? ???????),0.9,Iran,15
+magic,2011LINB01,Brandon Lin (???),0.9,United States,16
+magic,2010PANK01,Ke Pan (??),0.9,China,17
+magic,2010PRAB02,Tanto Prabowo,0.9,Indonesia,18
+magic,2007JAME01,Patrick Jameson,0.9,United States,19
+magic,2008WAIC01,Kevin Chau Ka Wai (???),0.91,Hong Kong,
+magic,2006HALC01,Micha? Halczuk,0.92,Poland,21
+magic,2011WANG42,Wei Wang (??),0.92,China,22
+magic,2008HINL01,Lee Chun Hin (???),0.93,Hong Kong,
+magic,2010PULC01,Ernie Pulchny,0.93,United States,24
+magic,2010RAIH01,Fakhri Raihaan,0.94,Indonesia,25
+magic,2008BRAN01,Filippo Brancaleoni,0.94,Italy,26
+magic,2007PERG01,OlivÇr Perge,0.94,Hungary,27
+magic,2011JAEM01,Jaemin Jeon (???),0.94,Republic of Korea,28
+magic,2009TANX01,Xiao Tan (??),0.95,China,29
+magic,2009CHOW05,Kim Chow,0.95,Hong Kong,
+magic,2010RUGA01,Ilham Ridhwan Kharisma Yudha,0.95,Indonesia,31
+magic,2008SONG01,Ge Song (??),0.95,China,32
+magic,2009ASBR01,Oskar èsbrink,0.96,Sweden,33
+magic,2006KUTI01,M†ty†s Kuti,0.96,Hungary,34
+magic,2009LIUK01,Kai Liu (??),0.96,China,35
+magic,2009LIUY06,Yang Liu (??),0.96,China,36
+magic,2010FUGU01,Guanda Fu (???),0.97,United States,37
+magic,2010FUGU01,Guanda Fu (???),0.97,China,37
+magic,2009YANG02,Fan Yang (??),0.97,China,38
+magic,2007HIRA03,Yoshiaki Hirayama (????),0.97,Japan,39
+magic,2010LANE02,Mitchell Lane,0.97,United States,40
+magic,2012ZHAO05,Yihao Zhao (???),0.97,China,41
+magic,2012YUKU01,Kunlin Yu (???),0.98,China,42
+magic,2010JIAW01,Jiawei Chen (???),0.98,China,43
+magic,2010WONG01,Benjamin Wong,0.98,Canada,44
+magic,2011YULI01,Adam Rotal Yuliandaru,0.99,Indonesia,45
+magic,2011WOOL01,Lee Min Woo,1,Republic of Korea,46
+magic,2011ATRI01,Angga Atrie,1,Indonesia,47
+magic,2009DIEC01,Cornelius Dieckmann,1,Germany,48
+magic,2009CHAR03,Nipat Charoenpholphant (??????? ?????????????),1,Thailand,49
+magic,2011HAYA02,Ryouga Hayashi (???),1,Japan,50
+magic,2011LINJ04,Ting-Xian Lin (???),1,Chinese Taipei,51
+magic,2011LINJ04,Jin-Yu Lin (???),1,Chinese Taipei,51
+magic,2008BAOY01,Ting Sheng Bao Yang,1,Spain,52
+magic,2006BUUS01,Henrik Buus Aagaard,1,Denmark,53
+magic,2009SANT01,Simone Santarsiero,1,Italy,54
+magic,2011CHOI01,Karl Choi,1.02,Germany,55
+magic,2010YANX02,Xiaozhe Yan (???),1.03,China,56
+magic,2010LUJE01,Jeremy Lu,1.03,Australia,57
+magic,2011MAHT02,Natthaphat Mahtani (??????? ?? ??????),1.03,Thailand,58
+magic,2008LEUN02,So Chi Leung,1.03,Hong Kong,
+magic,2009FANH01,Haowei Fan (???),1.04,China,60
+magic,2009JUNW01,Wang Junwen (???),1.04,Malaysia,61
+magic,2009LEFE01,Quentin Lefebvre,1.04,France,62
+magic,2009FUSH01,Arifumi Fushimi (????),1.04,Japan,63
+magic,2005AKKE01,Erik Akkersdijk,1.04,Netherlands,64
+magic,2007CHUE01,Chan Tak Chuen (???),1.05,Hong Kong,
+magic,2008SAJI01,Yu Sajima (???),1.05,Japan,66
+magic,2010THOM03,Blake Thompson,1.05,United States,67
+magic,2009CHEN36,Yu Chen (??),1.05,China,68
+magic,2009COGH01,Andrew Coghill,1.05,United Kingdom,69
+magic,2011KRIS02,Feby Kristianto,1.05,Indonesia,70
+magic,2012FANJ01,Jingyu Fan (???),1.05,China,71
+magic,2012SCHM01,Merlin Schmidt,1.06,Germany,72
+magic,2011PHIL01,Alexandre Philiponet,1.06,France,73
+magic,2008WISN01,Hubert Wi?niewski,1.06,Poland,74
+magic,2009ARPO01,Arttu Arpolahti,1.06,Finland,75
+magic,2010CHIU01,Samuel Chiu,1.06,United States,76
+magic,2010CRUZ04,Raven Dela Cruz,1.06,Philippines,77
+magic,2007SHID01,David Shi,1.06,United States,78
+magic,2007HORV01,M†tÇ Horv†th,1.06,Hungary,79
+magic,2009HAYS01,Kevin Hays,1.06,United States,80
+magic,2009JIAN12,Congbiao Jiang (???),1.07,China,81
+magic,2009ZHOU06,Yiming Zhou (???),1.07,China,82
+magic,2011MORA01,Ricardo Angulo Mora,1.07,Mexico,83
+magic,2007NAKA03,Yu Nakajima (???),1.07,Japan,84
+magic,2006ORKE01,R¢bert ôrkÇnyi,1.07,Hungary,85
+magic,2010SHIL01,Lei Shi (??),1.07,China,86
+magic,2011ZHUR01,Bohdan Zhuravel (?????? ????????),1.07,Ukraine,87
+magic,2012SZUM01,Kacper Szumigaj,1.08,Poland,88
+magic,2010JING04,Jing Li (??),1.08,China,89
+magic,2009TSEH01,Hugo Tse,1.08,Canada,90
+magic,2010CANG01,Ryan Cangelosi,1.08,United States,91
+magic,2008HUXI01,Xiaobo Hu (???),1.08,China,92
+magic,2007AKUT01,Takuma Akutsu (?????),1.08,Japan,93
+magic,2011ADAM03,Mateusz Adamczyk,1.08,Poland,94
+magic,2010WANG18,Zihao Wang (???),1.08,China,95
+magic,2011SBAH01,Rami Sbahi,1.08,United States,96
+magic,2009STUL01,Peter Stulp,1.09,Canada,97
+magic,2010WUIF01,Yi-Fan Wu (???),1.09,Chinese Taipei,98
+magic,2010XING03,Jian Xing (??),1.09,China,99
+magic,2008JEWR01,Ryan Jew,1.09,United States,100
+minx,2019TARA09,Timofei Tarasenko,25.36,Russia,1
+minx,2018LOPE22,Leandro Mart°n L¢pez,25.4,Argentina,2
+minx,2016YONG02,Tristan Chua Yong,26.92,Singapore,3
+minx,2016WUZI04,Ziyu Wu (???),26.96,China,4
+minx,2018GRAI01,Aidan Grainger,27.32,United Kingdom,5
+minx,2019VUJC01,Alexander Vujcich,27.33,New Zealand,6
+minx,2016SINY01,Alexei Sinyavin,27.92,United States,7
+minx,2023MARA10,Alex Samuel Martin,28.85,Ireland,8
+minx,2017CHOI07,Kyeongmin Choi (???),28.86,Republic of Korea,9
+minx,2015NAIN01,Nicolas Naing,28.91,United States,10
+minx,2014NORD02,Amos Nordman,29.56,Finland,11
+minx,2017SEOH01,Heewon Seo,29.75,United States,12
+minx,2016MORA24,Sean Moran,29.94,United Kingdom,13
+minx,2013HUAN30,Juan Pablo Huanqui,30.39,Peru,14
+minx,2018KUCZ01,Lucas Kuczaj,30.55,Canada,15
+minx,2016ZHAN45,Yunliang Zhang (???),30.67,China,16
+minx,2022LEEB01,Beth Lee,30.68,Singapore,17
+minx,2021CALZ01,Alessandro Calzoni,30.72,Italy,18
+minx,2019NAYA01,Prabhav Rajaram Nayak,30.75,Ireland,19
+minx,2019NAYA01,Prabhav Rajaram Nayak,30.75,India,19
+minx,2015SOAR01,Nikhil Soares,31.01,India,20
+minx,2017PABI01,Magdalena Pabisz,31.21,Poland,21
+minx,2023LION02,Matthew Liong,31.43,Indonesia,22
+minx,2014ZYCH01,Jan Zych,31.52,Poland,23
+minx,2015MACK06,Zeke Mackay,31.53,United States,24
+minx,2021PIET01,Tomasz Pietruszka,31.67,Poland,25
+minx,2022URBI01,Sebasti†n Urbina,31.72,Chile,26
+minx,2018PERR04,RÇmi Perrin,31.77,France,27
+minx,2015LAII01,Isaac Lai Yin Chung,31.85,Canada,28
+minx,2015LAII01,Isaac Lai Yin Chung,31.85,Singapore,28
+minx,2016DAVI02,Ethan Davis,31.87,United States,29
+minx,2008YUDA01,Yu Da-Hyun (???),32.03,Republic of Korea,30
+minx,2014HIRA05,Masayuki Hirai (????),32.11,Japan,31
+minx,2015CHIA07,Yun-Rui Chiang (???),32.2,Chinese Taipei,32
+minx,2022LEEB02,Brendan Lee,32.29,United States,33
+minx,2021OTSU01,Jamie Otsu,32.52,Australia,34
+minx,2018BACO01,John Bacouâl,32.62,France,35
+minx,2023VELA19,Pablo Amoraga Velasco,32.7,Spain,36
+minx,2016NOVO01,Gergely Novotni,32.73,Hungary,37
+minx,2017WONP01,Park Ji Won (???),32.74,Republic of Korea,38
+minx,2015FUSH01,Firstian Fushada (???),32.97,Indonesia,39
+minx,2014STIN01,Jared Stinson,32.99,United States,40
+minx,2017MEDR01,Joaquin Infante Medrano,33.01,Mexico,41
+minx,2017FENG10,Hill Pong Yong Feng,33.03,Malaysia,42
+minx,2020NUNE01,Ari†n Mart°n N£§ez,33.18,Spain,43
+minx,2017KWAN05,Burno Li Chak Kwan (???),33.3,Hong Kong,
+minx,2022VISH01,Yoav Vishne,33.35,Israel,45
+minx,2014GERB01,Henri Gerber,33.38,Germany,46
+minx,2018RUST05,Edward Rust,33.39,Australia,47
+minx,2015ROBI04,Tyler Robinson,33.55,United States,48
+minx,2015MILL01,Dylan Miller,33.76,United States,49
+minx,2022RUDA02,Roman Rudakov,33.94,Australia,50
+minx,2016HRYN02,Vladyslav Hryniuk (????????? ??????),33.96,Ukraine,51
+minx,2019YEHC02,Changhee Yeh (???),34,Republic of Korea,52
+minx,2016YIUN01,Nolan Yiu,34.24,United States,53
+minx,2022KAWA02,Takumi Kawazoe (???),34.28,Japan,54
+minx,2022MART67,Mat°as Mart°nez,34.28,Chile,55
+minx,2018MERL03,Ulysse Merlin,34.46,France,56
+minx,2014CRUZ06,Daniel Castellanos Cruz,34.47,Mexico,57
+minx,2017ROMA11,Edson Bryan BÇjar Rom†n,34.56,Peru,58
+minx,2021KULA02,Maksymilian Kulas,34.58,Poland,59
+minx,2019GUNT04,Timo GÅnthardt,34.6,Switzerland,60
+minx,2021CHEL01,Ianis Costin Chele,34.71,Romania,61
+minx,2015CAMP03,Dami†n Jail Campos,34.72,Argentina,62
+minx,2016WILH03,Declan Wilhelm,34.83,United States,63
+minx,2017PARK05,DongSoo Park (???),34.85,Republic of Korea,64
+minx,2016HARP02,Nico Harper (???),34.89,United States,65
+minx,2014BAIR01,Ray Bai,34.97,United States,66
+minx,2017MAND13,Francisco Moraes Mandalozzo,35.04,Brazil,67
+minx,2019MUET01,Michael Muething,35.08,United States,68
+minx,2014SEBA01,Juliette SÇbastien,35.11,France,69
+minx,2016ABRE01,Vitor Wagner Abreu,35.16,Brazil,70
+minx,2017GOLU01,Theo Goluboff,35.17,Argentina,71
+minx,2013GERH01,Kevin Gerhardt,35.18,Germany,72
+minx,2018HARR12,Brandon Harris,35.2,New Zealand,73
+minx,2016TORR29,Jose Daniel Cobo Torres,35.24,Colombia,74
+minx,2017REDO02,Ra£l Mart°nez Redondo,35.32,Spain,75
+minx,2022ZAFA01,Umidjon Zafarov (??????? ???????),35.34,Uzbekistan,76
+minx,2012PONC02,Patrick Ponce,35.4,United States,77
+minx,2019HUNG16,?? Quang H?ng,35.56,Vietnam,78
+minx,2016JENS09,William Jensen,35.64,Sweden,79
+minx,2017SUKH02,Ihor Sukhovatenko (???? ???????????),35.72,Ukraine,80
+minx,2016CHES01,Owen Chester,35.83,United States,81
+minx,2019JYOT01,Varenya Jyotiraditya,35.87,United States,82
+minx,2019BELL10,Jack Bellomy,35.93,United States,83
+minx,2015STAD01,Kostiantyn Stadnyk (????????? ???????),35.96,Ukraine,84
+minx,2017GARR05,Luke Garrett,35.97,United States,85
+minx,2023LANG03,Alex Rosado Saez de Langarica,36,Spain,86
+minx,2023VIDI02,Oskar Vidi?ek,36.12,Slovenia,87
+minx,2023BRYS01,Lucy Grace Bryson,36.2,United States,88
+minx,2018MACA02,Nicole Jnus Macalalad,36.2,Philippines,89
+minx,2019CARR22,Jorge Luis Castillo Carrasco,36.39,Mexico,90
+minx,2021DUNA01,Brendyn Dunagan,36.41,United States,91
+minx,2017LIUS01,Shang Liu (??),36.41,China,92
+minx,2019PILH01,Jonas Pilhîfer,36.46,Germany,93
+minx,2023TANG15,Enoch Tangprasittipol,36.53,Thailand,94
+minx,2013DENN01,Andy Denney,36.57,United States,95
+minx,2016CAST01,Luis Eduardo Mart°nez Castellanos,36.62,Mexico,96
+minx,2011MAHT02,Natthaphat Mahtani (??????? ?? ??????),36.63,Thailand,97
+minx,2017KORC01,Oleh Korchan (???? ??????),36.64,Ukraine,98
+minx,2009ZEMD01,Feliks Zemdegs,36.65,Australia,99
+minx,2017TRAN25,Celine Tran,36.7,Norway,100
+mmagic,2010PULC01,Ernie Pulchny,1.75,United States,1
+mmagic,2010WANG52,Haokun Wang (???),1.93,China,2
+mmagic,2011DERS01,Ram¢n Dersch,1.95,Germany,3
+mmagic,2007HORV01,M†tÇ Horv†th,1.95,Hungary,4
+mmagic,2009WANG13,Yuxuan Wang (???),1.95,China,5
+mmagic,2006KUTI01,M†ty†s Kuti,1.96,Hungary,6
+mmagic,2012FIED01,Kamil Fiedoruk,1.98,Poland,7
+mmagic,2010XUEF01,Fei Xue (??),2.03,China,8
+mmagic,2011ATRI01,Angga Atrie,2.05,Indonesia,9
+mmagic,2005BATI01,Mil†n Baticz,2.09,Hungary,10
+mmagic,2010RUGA01,Ilham Ridhwan Kharisma Yudha,2.11,Indonesia,11
+mmagic,2009TANX01,Xiao Tan (??),2.13,China,12
+mmagic,2009LEFE01,Quentin Lefebvre,2.13,France,13
+mmagic,2008HUAY01,Yiming Hua (???),2.16,China,14
+mmagic,2012ZHAO05,Yihao Zhao (???),2.16,China,15
+mmagic,2010JIMO01,Mo Ji (??),2.17,China,16
+mmagic,2011NIAP02,Parsa Saeed Nia (????? ???????),2.2,Iran,17
+mmagic,2011HAYA02,Ryouga Hayashi (???),2.21,Japan,18
+mmagic,2009SHIN03,Hung Ka Shing (???),2.23,Hong Kong,
+mmagic,2010GOLD01,Zach Goldman,2.23,United States,20
+mmagic,2010KRYU01,Dmitry Kryuzban,2.23,Russia,21
+mmagic,2007BODO01,Bertalan Bodor,2.23,Hungary,22
+mmagic,2009ZHAO05,Xu Zhao (??),2.24,China,23
+mmagic,2011CHOI01,Karl Choi,2.25,Germany,24
+mmagic,2007HIRA03,Yoshiaki Hirayama (????),2.26,Japan,25
+mmagic,2012POHA01,Oleksandr Pohasii (????????? ???????),2.27,Ukraine,26
+mmagic,2012NAFI01,Amir Hossein Nafisi (???? ???? ?????),2.3,Iran,27
+mmagic,2011WOOW01,Aphichotewisit Woowong (??????????????? ??????),2.32,Thailand,28
+mmagic,2011ZHOU02,Wei Zhou (??),2.33,China,29
+mmagic,2009BALT02,Leandro Baltazar,2.33,Portugal,30
+mmagic,2009KASU01,Sanio Kasumovic,2.33,Austria,31
+mmagic,2007MING01,Ming Gao (??),2.34,China,32
+mmagic,2009YANG24,Puqi Yang (???),2.34,China,33
+mmagic,2012GOLI02,Mehrzad Goli (?????? ???),2.35,Iran,34
+mmagic,2010ZHAN26,Yuandi Zhang (???),2.36,China,35
+mmagic,2008ZHON01,Qirun Zhong (???),2.39,China,36
+mmagic,2011YANG10,Yang Yang (??),2.4,China,37
+mmagic,2010UGLO01,Denis Uglov,2.41,Russia,38
+mmagic,2010FUYA02,Yazhou Fu (???),2.41,China,39
+mmagic,2009BOZS01,Hunor B¢zsing,2.42,Hungary,40
+mmagic,2009LIUY06,Yang Liu (??),2.42,China,41
+mmagic,2008LEUN02,So Chi Leung,2.42,Hong Kong,
+mmagic,2008PRYK01,Owidiusz Pryk,2.43,Poland,43
+mmagic,2010FUGU01,Guanda Fu (???),2.43,United States,44
+mmagic,2010FUGU01,Guanda Fu (???),2.43,China,44
+mmagic,2007BOYL01,Sam Boyles,2.44,United States,45
+mmagic,2009DANG01,Sen Dang (??),2.44,China,46
+mmagic,2010PRAB02,Tanto Prabowo,2.44,Indonesia,47
+mmagic,2010CANG01,Ryan Cangelosi,2.45,United States,48
+mmagic,2010GABR01,Kai Gabriel,2.46,Germany,49
+mmagic,2011JAEM01,Jaemin Jeon (???),2.46,Republic of Korea,50
+mmagic,2011SALE01,Sina Salehpour (???? ???? ???),2.47,Iran,51
+mmagic,2010LANE02,Mitchell Lane,2.47,United States,52
+mmagic,2010LVCH01,Chen Lv (??),2.47,China,53
+mmagic,2009SUNH02,Hongye Sun (???),2.48,China,54
+mmagic,2012CICH01,B?a?ej Cichy,2.48,Poland,55
+mmagic,2011WANG42,Wei Wang (??),2.49,China,56
+mmagic,2009CHUN07,Tang Yiu Chun (???),2.49,Hong Kong,
+mmagic,2008PADL01,Piotr Micha? Padlewski,2.5,Poland,58
+mmagic,2010LAND01,Angel Arrioja Landa,2.51,Mexico,59
+mmagic,2009ZHAN65,Yuyang Zhang (???),2.51,China,60
+mmagic,2010XIEB01,Bin Xie (??),2.51,China,61
+mmagic,2009LIXI02,Xiaojian Li (???),2.52,China,62
+mmagic,2009CHAO03,Chao Liu (??),2.53,China,63
+mmagic,2011RADZ01,Marcin Radziszewski,2.53,Poland,64
+mmagic,2008BARA01,Bence Bar†t,2.53,Hungary,65
+mmagic,2011CICH01,Mateusz Cichoracki,2.55,Poland,66
+mmagic,2008NIIN01,Hideki Niina (????),2.56,Japan,67
+mmagic,2010BADU01,Justin Badua,2.56,United States,68
+mmagic,2012YUKU01,Kunlin Yu (???),2.56,China,69
+mmagic,2011YULI01,Adam Rotal Yuliandaru,2.57,Indonesia,70
+mmagic,2012KIMD01,Dong-Hyun Kim (???),2.57,Republic of Korea,71
+mmagic,2010CANT02,Antoine Cantin,2.57,Canada,72
+mmagic,2008LIUS01,Shuai Liu (??),2.57,China,73
+mmagic,2009LUDL02,James Dean Ludlow,2.59,United Kingdom,74
+mmagic,2009MUCK01,Daniel Mucklow,2.59,United Kingdom,75
+mmagic,2011BILC01,Ihor Bilchenko (???? ?????????),2.6,Ukraine,76
+mmagic,2009SANT01,Simone Santarsiero,2.6,Italy,77
+mmagic,2011SUNG01,Sungho Hong (???),2.6,Republic of Korea,78
+mmagic,2012WANG53,Hongyang Wang (???),2.61,China,79
+mmagic,2007COHE01,Dan Cohen,2.61,United States,80
+mmagic,2012SORI01,Nathan Soria,2.62,United States,81
+mmagic,2009KITM01,Mok Man Kit (???),2.63,Hong Kong,
+mmagic,2010JOUB01,Marasi Deon Joubert,2.63,Indonesia,83
+mmagic,2012WUJU01,Junyan Wu (???),2.64,China,84
+mmagic,2008KOVA01,Endre Kov†cs,2.65,Hungary,85
+mmagic,2011MOZE01,Reinhard Eduardo Mozes,2.65,Indonesia,86
+mmagic,2011QUAN01,Yi Quan (??),2.66,China,87
+mmagic,2010KANG03,Yuanzhao Kang (???),2.66,China,88
+mmagic,2012JOUH01,Hidemichi Jou (???),2.66,Japan,89
+mmagic,2011PADM01,Fachri Padmaridho,2.67,Indonesia,90
+mmagic,2009ROHR01,Michael Rîhrer,2.68,Austria,91
+mmagic,2009LIUE01,Evan Liu,2.68,United States,92
+mmagic,2011GJER02,Ole Nikolai Gjerset,2.68,Norway,93
+mmagic,2010PANK01,Ke Pan (??),2.69,China,94
+mmagic,2007FUBO01,Fubo Wang (???),2.69,China,95
+mmagic,2010GONZ03,Philip Gonzalez,2.69,Germany,96
+mmagic,2007NAKA03,Yu Nakajima (???),2.7,Japan,97
+mmagic,2008WAIC01,Kevin Chau Ka Wai (???),2.71,Hong Kong,
+mmagic,2010BERG03,Jacob Bergqvist,2.72,Sweden,99
+mmagic,2007OOBA01,Kou Oobatake (???),2.72,Japan,100
+pyram,2021LEES01,Sebastian Lee,1.15,Australia,1
+pyram,2019JIAN54,Lingkun Jiang (???),1.19,China,2
+pyram,2018MURR03,Jasper Murray,1.4,New Zealand,3
+pyram,2017NIEL03,Michael Nielsen,1.41,United States,4
+pyram,2019SHER10,Ezra Shere,1.45,United States,5
+pyram,2018EYOU02,Elyas Eyou,1.48,New Zealand,6
+pyram,2016TRAG01,Parker Trager,1.52,United States,7
+pyram,2022MAOA01,Andrew Mao,1.52,Canada,8
+pyram,2022PLUG01,Jonathan Plug,1.53,Netherlands,9
+pyram,2017TSVE02,Alexey Tsvetkov,1.53,Russia,10
+pyram,2016KELL12,Simon Kellum,1.53,United States,11
+pyram,2022PART02,Daniel Partridge,1.57,United Kingdom,12
+pyram,2022LARR02,Aratz Larruzea,1.57,Spain,13
+pyram,2023CLAR02,Carson Clark (???),1.58,United States,14
+pyram,2018BOHA01,Alex Bohac,1.59,United States,15
+pyram,2019MEAD03,Kyle Meade,1.6,United States,16
+pyram,2019HUAH03,Huining Huang (???),1.62,China,17
+pyram,2022KEDE01,Matou? Keder,1.64,Czech Republic,18
+pyram,2021HUAN02,Shuda Huang (???),1.64,China,19
+pyram,2017PETE04,Tripp Peters,1.65,United States,20
+pyram,2022BHAV01,Darshan Bhavanasi,1.66,India,21
+pyram,2022SILV37,David F. Andron-Silva,1.66,United States,22
+pyram,2022TUCK09,Clement D. Tucker,1.67,United States,23
+pyram,2018CREE01,Kerry Creech,1.67,United States,24
+pyram,2015WINT02,Steven Wintringham,1.67,United States,25
+pyram,2022SOLO01,Aleksander So?onczak,1.68,Poland,26
+pyram,2022POUR02,Netanel Pour,1.68,Israel,27
+pyram,2022GRAH02,Thomas Grahor,1.69,United States,28
+pyram,2021LUOY02,Yifan Luo (???),1.69,China,29
+pyram,2017KOTA01,Jacob Kotai,1.7,Canada,30
+pyram,2016LIJI05,Jiazhou Li (???),1.71,China,31
+pyram,2018HIBS01,Jakub Hibszer,1.71,Poland,32
+pyram,2022JUNH02,Hewson Kang Poh Jun,1.71,Malaysia,33
+pyram,2016KOLA02,Tymon Kolasi?ski,1.72,Poland,34
+pyram,2017GARR05,Luke Garrett,1.73,United States,35
+pyram,2017PABI01,Magdalena Pabisz,1.73,Poland,36
+pyram,2017PALA08,Harsha Paladugu,1.73,United States,37
+pyram,2018ARNE04,Davide Arnesano,1.73,Italy,38
+pyram,2022JOHN14,Connor Johnson,1.73,New Zealand,39
+pyram,2019WUBO01,Bo-Yan Wu (???),1.73,Chinese Taipei,40
+pyram,2021MAJC01,Jakub Majchrzak,1.74,Poland,41
+pyram,2023GRIF07,Jeriyah Griffin,1.74,United States,42
+pyram,2017SUNY01,Owen Yepeng Sun (???),1.74,China,43
+pyram,2021TANG03,Shengze Tang (???),1.76,China,44
+pyram,2018WILS10,Keon Wilson,1.76,United States,45
+pyram,2021LILI03,Like Li (???),1.77,China,46
+pyram,2021LOFT01,Enda Loftus,1.78,Ireland,47
+pyram,2021DING02,Ziqi Ding,1.78,Australia,48
+pyram,2021DING02,Ziqi Ding,1.78,China,48
+pyram,2023ROMA10,Adam Romanowski,1.78,Poland,49
+pyram,2015BROW03,Elijah Brown,1.78,United States,50
+pyram,2022HUBE02,Emil Henry Huber,1.79,Czech Republic,51
+pyram,2022NAGA02,Yuki Nagai,1.79,United States,52
+pyram,2019WANY36,Yiheng Wang (???),1.79,China,53
+pyram,2015GORN01,Dominik G¢rny,1.8,Poland,54
+pyram,2018BURG03,Edward Burgess,1.8,United Kingdom,55
+pyram,2016MATE04,Arnau Tous Mateu,1.81,Spain,56
+pyram,2021CHEL01,Ianis Costin Chele,1.81,Romania,57
+pyram,2023BENN04,Jacob Bennett,1.81,United States,58
+pyram,2019YANG37,Jieyu Yang (???),1.82,China,59
+pyram,2022MIYA01,Hajime Miyazaki (???),1.82,Japan,60
+pyram,2022PADU02,Chris Padua,1.82,Philippines,61
+pyram,2022FORS06,Bo Forsell,1.82,Sweden,62
+pyram,2020DOZA01,Cyprian Doza,1.82,Poland,63
+pyram,2018SHAH38,Aayush Shah,1.82,India,64
+pyram,2016GALA04,AndrÇs Rodr°guez Gal†n,1.82,Spain,65
+pyram,2020GRAH01,Jules Graham,1.83,New Zealand,66
+pyram,2022HRDL01,Mazar Hrdlicka,1.83,Canada,67
+pyram,2022CHIA12,Ismaele Chiarella,1.84,Italy,68
+pyram,2022CHIA12,Ismaele Chiarella,1.84,France,68
+pyram,2016THOR08,Elvin Thorsen,1.84,Sweden,69
+pyram,2013JOHN10,Brian Johnson,1.85,United States,70
+pyram,2023BELT07,Manuel Francisco Beltr†n,1.85,Colombia,71
+pyram,2022CHAI02,Curtis Chai,1.86,United States,72
+pyram,2019BREM02,Daniel Brem,1.86,Switzerland,73
+pyram,2018MATY02,Adrien Auvray Matyn,1.86,New Zealand,74
+pyram,2016COSS01,Dylan Cossin,1.86,United States,75
+pyram,2015KAME02,Marcus Kamen,1.86,United States,76
+pyram,2018SONG36,Seung-Ho Song (???),1.87,Republic of Korea,77
+pyram,2024CAOB02,Bofu Cao (???),1.87,China,78
+pyram,2022LEHM02,Jonathan Karniala Lehmann,1.87,Denmark,79
+pyram,2023KREJ01,Maty†? Krejc†rek,1.87,Czech Republic,80
+pyram,2022KAKA01,Hrishikesh Kakati,1.88,India,81
+pyram,2018ALFO01,Diego Alfonso,1.88,France,82
+pyram,2015VANL01,Luke Van Laningham,1.88,United States,83
+pyram,2022HAVI03,Sigurd Volan HÜvik,1.89,Norway,84
+pyram,2023YANG73,Seo Jin Yang (???),1.89,Republic of Korea,85
+pyram,2023GUOK01,Kaixi Guo (???),1.89,China,86
+pyram,2023MFOU01,Jaimy Mfoumou,1.89,France,87
+pyram,2023HUTC01,Oliver Hutchings,1.9,United Kingdom,88
+pyram,2016DEXT01,Riley Dexter,1.9,Australia,89
+pyram,2016PILA03,Ryan Pilat,1.9,United States,90
+pyram,2014SZWU01,Mateusz Szwugier,1.9,Poland,91
+pyram,2015FENG12,Junqi Feng (???),1.9,China,92
+pyram,2018ALVA16,Jansen Alvarez,1.9,Philippines,93
+pyram,2016OSTL02,Stian Nystad ùstli,1.91,Norway,94
+pyram,2022DINC01,Ayden Dincher,1.92,United States,95
+pyram,2023XIAT01,Tian Xia (??),1.92,China,96
+pyram,2021ELIA01,Niklas Aasen Eliasson,1.92,Norway,97
+pyram,2021PANE01,Eli Panetta,1.92,Australia,98
+pyram,2022URBA02,Pawe? Urba?ski,1.93,Poland,99
+pyram,2022DUNN03,Caleb Wolf Dunn,1.93,United Kingdom,100
+skewb,2022SAMS03,Ignacy Samselski,1.37,Poland,1
+skewb,2015KUCA01,Carter Kucala,1.52,United States,2
+skewb,2019REDI02,Dominic Redisi,1.53,United States,3
+skewb,2018KHAN28,Zayn Khanani,1.56,United States,4
+skewb,2023GUOK01,Kaixi Guo (???),1.63,China,5
+skewb,2018HANU02,Oskar Hanuszkiewicz,1.64,Poland,6
+skewb,2021PIET01,Tomasz Pietruszka,1.69,Poland,7
+skewb,2023LANG03,Alex Rosado Saez de Langarica,1.7,Spain,8
+skewb,2018WROT01,Brayden Wroten,1.73,United States,9
+skewb,2021GROH01,Vojt?ch Grohmann,1.78,Czech Republic,10
+skewb,2017BLAC06,Ash Black,1.8,United States,11
+skewb,2019BENC04,Ariel Benchetrit,1.82,United Kingdom,12
+skewb,2024QIAN08,Zihao Qian (???),1.83,China,13
+skewb,2016KELL12,Simon Kellum,1.84,United States,14
+skewb,2016PARK10,Yeon Kyun Park (???),1.85,Republic of Korea,15
+skewb,2021GORE01,Kacper G¢recki,1.85,Poland,16
+skewb,2021TANG03,Shengze Tang (???),1.85,China,17
+skewb,2022SUSS01,Dean Jacob Adamo Susskind,1.88,United States,18
+skewb,2021DENK01,Micha? Denkiewicz,1.89,Poland,19
+skewb,2023YILU01,Luis Tan Hong Yi (???),1.89,Singapore,20
+skewb,2014LAFO01,Anthony Lafourcade,1.89,France,21
+skewb,2010GARC02,Carlos MÇndez Garc°a-Barroso,1.91,Spain,22
+skewb,2013KRAS02,Micha? Krasowski,1.98,Poland,23
+skewb,2021KULA02,Maksymilian Kulas,1.98,Poland,24
+skewb,2022LEVI06,Jacob Levie,2.03,United States,25
+skewb,2013BURL01,?ukasz Burliga,2.03,Poland,26
+skewb,2018KINN05,Urho Kinnunen,2.04,Finland,27
+skewb,2022CIEP01,Szymon Ciepiela,2.04,Poland,28
+skewb,2019YANG94,Cian-Jyun Yang (???),2.06,Chinese Taipei,29
+skewb,2013EGDA01,Daniel Vëdele Egdal,2.06,Denmark,30
+skewb,2014OKAD01,Noriyuki Okada (????),2.06,Japan,31
+skewb,2019FONS06,Michael Fonseca,2.07,Chile,32
+skewb,2017KHAN32,Pratik Khanna,2.08,India,33
+skewb,2022BRAG03,Szymon Br?giel,2.09,Poland,34
+skewb,2015WITM01,Mattheo de Wit,2.11,Netherlands,35
+skewb,2014MAUR06,Lorenzo Mauro,2.11,Italy,36
+skewb,2013EGDA02,Martin Vëdele Egdal,2.12,Denmark,37
+skewb,2015FUSH01,Firstian Fushada (???),2.13,Indonesia,38
+skewb,2014RZEW01,Micha? Rzewuski,2.13,Poland,39
+skewb,2018MACH04,Cezary Mach,2.13,Poland,40
+skewb,2016CAIY03,Coral Yuxin Cai (???),2.13,China,41
+skewb,2017ZHUY07,Charles Zhu (???),2.15,China,42
+skewb,2017MALO02,Elias MalomgrÇ,2.16,Belgium,43
+skewb,2016CHAP04,Stanley Chapel,2.16,United States,44
+skewb,2022ARME01,Ian Leonardo Acevedo Armenta,2.17,Mexico,45
+skewb,2023SHIV05,Sid Shivnath,2.17,United States,46
+skewb,2023MALO01,Quinn Maloney,2.18,United States,47
+skewb,2018JIME14,Emilio Alberto Rodr°guez JimÇnez,2.18,Mexico,48
+skewb,2018GOME06,Jaime Calzado Gomez,2.2,Spain,49
+skewb,2015VANL01,Luke Van Laningham,2.2,United States,50
+skewb,2022STOJ03,Antoni Stojek,2.2,Poland,51
+skewb,2022PARR10,Max Parris,2.22,Australia,52
+skewb,2018FEDO04,Serhii Fedorniak (?????? ????????),2.22,Ukraine,53
+skewb,2017MAZH04,Zhiyuan Ma (???),2.23,China,54
+skewb,2021PANE01,Eli Panetta,2.23,Australia,55
+skewb,2023ZYTK01,Jakub Zytka,2.24,United States,56
+skewb,2015ANTO04,Manuel Prieto de Ant¢n,2.24,Spain,57
+skewb,2014DETL01,Rasmus Stub Detlefsen,2.24,Denmark,58
+skewb,2023BRES01,Taj Bressert,2.25,Netherlands,59
+skewb,2023BRES01,Taj Bressert,2.25,United States,59
+skewb,2023LIUJ15,Jiawen Liu (???),2.25,China,60
+skewb,2019RAMO05,Dwyane Ramos,2.26,New Zealand,61
+skewb,2024LIZI01,Zizhen Li (???),2.3,China,62
+skewb,2013GERH01,Kevin Gerhardt,2.3,Germany,63
+skewb,2013JOHN10,Brian Johnson,2.31,United States,64
+skewb,2017TSVE02,Alexey Tsvetkov,2.32,Russia,65
+skewb,2018OPAC01,Kajetan Opach,2.33,Poland,66
+skewb,2015SCHO05,George Scholey,2.34,United Kingdom,67
+skewb,2023LEKE01,Kevin Là,2.34,Canada,68
+skewb,2019LINM03,Mingze Lin (???),2.35,China,69
+skewb,2015BAIL04,LÇo Bailly,2.35,France,70
+skewb,2018PARR02,Eric Zahid L¢pez Parra,2.35,Mexico,71
+skewb,2017CHOI07,Kyeongmin Choi (???),2.35,Republic of Korea,72
+skewb,2013TEMP01,Jhon Alexander Taboada Temple,2.36,Peru,73
+skewb,2023WANZ06,Zhe Wang (??),2.36,China,74
+skewb,2021DUNA01,Brendyn Dunagan,2.36,United States,75
+skewb,2021YEZI01,Ziyu Ye (???),2.37,China,76
+skewb,2016LAGO04,Mykhailo Lagoida (??????? ???????),2.37,Ukraine,77
+skewb,2014HOLU01,Lev Golub (??? ?????),2.38,Ukraine,78
+skewb,2015FONS02,Federico da Fonseca,2.39,Argentina,79
+skewb,2022KHAN31,Nìng Qu?c Kh†nh,2.39,Vietnam,80
+skewb,2014MINB01,Leo Min-Bedford,2.41,Canada,81
+skewb,2014SCHW02,Fabio Schwandt,2.41,United Kingdom,82
+skewb,2016BARO04,Ben Baron,2.41,Israel,83
+skewb,2014CHIC01,Christopher Chi,2.44,United States,84
+skewb,2013LIZO01,Zongyang Li (???),2.45,China,85
+skewb,2018KITA03,Jakob Kitak,2.45,Slovenia,86
+skewb,2017YANG33,Chenchang Yang (???),2.45,China,87
+skewb,2016TRAG01,Parker Trager,2.46,United States,88
+skewb,2015KUND04,Vojt?ch Kundera,2.46,Czech Republic,89
+skewb,2021BURK03,Cathal Burke,2.46,Ireland,90
+skewb,2019EKLU01,Samuel Eklund-Hanna,2.46,Sweden,91
+skewb,2017NIEL03,Michael Nielsen,2.47,United States,92
+skewb,2016BOUR01,NoÇ Bourdon,2.47,France,93
+skewb,2018MART75,David Rend¢n Mart°nez,2.48,Colombia,94
+skewb,2021CALZ01,Alessandro Calzoni,2.48,Italy,95
+skewb,2021DING02,Ziqi Ding,2.49,Australia,96
+skewb,2021DING02,Ziqi Ding,2.49,China,96
+skewb,2014BAUD02,Maxence Baudry,2.49,France,97
+skewb,2015MACK06,Zeke Mackay,2.49,United States,98
+skewb,2017KLAU01,William Klauer,2.49,United States,99
+skewb,2016CHAR01,Jonathan Charlesworth,2.5,Australia,100
+sq1,2017AGGA01,Sameer Aggarwal,4.63,United States,1
+sq1,2018KHAN26,Hassan Khanani,4.8,United States,2
+sq1,2019BAUM02,Dylan Baumbach,4.81,United States,3
+sq1,2017SIAU02,Max Siauw,4.91,United States,4
+sq1,2016EPST02,David Epstein,5.28,Australia,5
+sq1,2018RICC02,Alessandro Ricci,5.43,Italy,6
+sq1,2015CECC01,Vicenzo Guerino Cecchini,5.46,Brazil,7
+sq1,2021DUNA01,Brendyn Dunagan,5.56,United States,8
+sq1,2013JOHN10,Brian Johnson,5.58,United States,9
+sq1,2018MATY02,Adrien Auvray Matyn,5.65,New Zealand,10
+sq1,2013KRAS02,Micha? Krasowski,5.73,Poland,11
+sq1,2014DETL01,Rasmus Stub Detlefsen,5.73,Denmark,12
+sq1,2017KIMJ02,Junseop Kim (???),5.76,Republic of Korea,13
+sq1,2014KARN02,Daniel Karnaukh,5.81,United States,14
+sq1,2016PILA03,Ryan Pilat,5.81,United States,15
+sq1,2019CHEY31,Yen-An Chen (???),6.21,Chinese Taipei,16
+sq1,2022ZARI01,Guy Zarian,6.21,Israel,17
+sq1,2017WRIG03,Evan Wright,6.25,United States,18
+sq1,2016CHAN09,Jaemin Chang (???),6.32,Republic of Korea,19
+sq1,2014FANG01,Samuel Fang,6.38,United States,20
+sq1,2024CORK01,Isaac Corker,6.38,United Kingdom,21
+sq1,2016CHEN53,Anshu Chennuru,6.39,United States,22
+sq1,2016YORK01,CJ York,6.43,United States,23
+sq1,2013TAKA02,Makoto Takaoka (???),6.43,Japan,24
+sq1,2019CATE01,Dominic Cater,6.44,United States,25
+sq1,2021RAHN01,Nathan Rahn,6.46,United States,26
+sq1,2018CHAM01,Tucker Chamberlain,6.47,United States,27
+sq1,2016GOTT01,Benjamin Gottschalk,6.48,United States,28
+sq1,2018HAMK01,Jakub Hamka?o,6.51,Poland,29
+sq1,2017SWOR01,Noah Swor,6.57,United States,30
+sq1,2016LIJI05,Jiazhou Li (???),6.63,China,31
+sq1,2017WONP01,Park Ji Won (???),6.66,Republic of Korea,32
+sq1,2014NIEL03,Calvin Nielson,6.67,United States,33
+sq1,2015BART05,Aiden Bartlett,6.69,United States,34
+sq1,2018DUBI01,?ukasz Dubicki,6.69,Poland,35
+sq1,2017CHAN44,Vincent Chan,6.69,Netherlands,36
+sq1,2017WARR04,Benjamin Warry,6.72,Australia,37
+sq1,2020SPIR01,Maciej Spirydowicz,6.74,Poland,38
+sq1,2021LEMP01,Luukas Lempinen,6.75,Finland,39
+sq1,2013EGDA02,Martin Vëdele Egdal,6.76,Denmark,40
+sq1,2018ONGJ01,Joseph Ong,6.78,United States,41
+sq1,2016HSUE01,Yi-Ho Hsueh (???),6.8,Chinese Taipei,42
+sq1,2023MAOS01,Matt Mao,6.8,China,43
+sq1,2019MAIE01,Felipe Maierowicz,6.84,Argentina,44
+sq1,2022ESKE01,Niilo Eskelinen,6.91,Finland,45
+sq1,2019MAZZ02,Pietro Mazza,6.92,Italy,46
+sq1,2017KIMM01,Asher Kim-Magierek,6.93,United States,47
+sq1,2018SOUT01,Ian Southa,6.94,United States,48
+sq1,2019PHEL01,Elijah Rain Phelps,6.95,United States,49
+sq1,2024WING02,Maksym Wingert,6.96,Poland,50
+sq1,2022CHEA05,James Chea,7,United States,51
+sq1,2023BENN04,Jacob Bennett,7,United States,52
+sq1,2016CRES01,Diego Brizuela Crespo,7.03,Mexico,53
+sq1,2016CAST48,Timothy Castle,7.07,United States,54
+sq1,2018RIMI01,Flavio Rimi,7.08,Italy,55
+sq1,2022RUIR01,Ray Ng Qi Rui (???),7.1,Singapore,56
+sq1,2019WEID04,Alexander Weiden,7.12,United States,57
+sq1,2014CHIC01,Christopher Chi,7.16,United States,58
+sq1,2015FUSH01,Firstian Fushada (???),7.16,Indonesia,59
+sq1,2015EWER01,Helmer Ewert,7.18,Sweden,60
+sq1,2023LIUY04,Yening Liu (???),7.19,China,61
+sq1,2023LOUF01,Fengyuan Kelvin Lou (???),7.22,United Kingdom,62
+sq1,2018MILL08,Cameron Miller (???),7.22,United States,63
+sq1,2014STAR05,Charlie Stark,7.23,United Kingdom,64
+sq1,2019FAND01,Christopher Fandrich,7.26,United States,65
+sq1,2023KIMB02,Benson Kim,7.27,United States,66
+sq1,2023FRET01,Nikita FrÇtay--Bayart,7.28,France,67
+sq1,2017LIAO09,Thomas Liao,7.28,Australia,68
+sq1,2015ONOF01,Anuar Miguel Abib Onofre,7.29,Brazil,69
+sq1,2012PONC02,Patrick Ponce,7.3,United States,70
+sq1,2016MAWA01,Wang Ma (??),7.32,China,71
+sq1,2018NGHA02,Hayden Ng (???),7.33,Australia,72
+sq1,2019YANG94,Cian-Jyun Yang (???),7.33,Chinese Taipei,73
+sq1,2015TANG04,Calix Tang,7.34,United States,74
+sq1,2016HOUG01,Levin Houghton,7.36,Switzerland,75
+sq1,2015QUAN03,Ng Jia Quan (???),7.36,Malaysia,76
+sq1,2022DINC01,Ayden Dincher,7.36,United States,77
+sq1,2015VANE01,Ivan Vanek,7.38,United States,78
+sq1,2019CHIN08,Camerone Chin,7.39,Malaysia,79
+sq1,2022CIEP01,Szymon Ciepiela,7.4,Poland,80
+sq1,2015KUCA01,Carter Kucala,7.41,United States,81
+sq1,2010GARC02,Carlos MÇndez Garc°a-Barroso,7.42,Spain,82
+sq1,2017MISI01,Maksymilian Misiak,7.42,Poland,83
+sq1,2021ANON05,Anonymous,7.43,Czech Republic,84
+sq1,2023DORI01,Dorian Chan,7.43,Hong Kong,
+sq1,2021EYLE01,Henry Eyles,7.45,New Zealand,86
+sq1,2018KHAN28,Zayn Khanani,7.45,United States,87
+sq1,2018MULL07,Hannes MÅller,7.46,Germany,88
+sq1,2019CARR22,Jorge Luis Castillo Carrasco,7.49,Mexico,89
+sq1,2023YUNG02,Liu Yik Yung (???),7.49,Hong Kong,
+sq1,2021PANN01,Eeshir Pannun,7.5,Canada,91
+sq1,2013KATO01,Eva Kato,7.51,United States,92
+sq1,2013KATO01,Eva Kato (????),7.51,Japan,92
+sq1,2014ARGA01,Hector David Martinez Argaez,7.53,Colombia,93
+sq1,2016REET01,Tijmen van der Ree,7.54,Netherlands,94
+sq1,2022FISH01,Ezra Fish,7.57,United States,95
+sq1,2022LINA04,Samuel Mar°a Li§ares,7.57,Spain,96
+sq1,2019EMER01,Silas Emerian,7.57,United States,97
+sq1,2019BRUS01,Lev Bruskov (??? ???????),7.58,Russia,98
+sq1,2022LIPP01,Lucas Lippman-Bruno,7.58,United States,99
+sq1,2013BOTZ01,Alexander Botz,7.58,Germany,100

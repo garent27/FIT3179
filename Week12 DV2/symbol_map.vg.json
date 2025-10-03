@@ -9,7 +9,7 @@
   "height": 500,
   "projection": {
     "type": "equalEarth",
-    "scale": {"expr": "zoom_level"},
+    "scale": {"expr": "zoom_level * (center_to == 'World' ? 1 : 2.33)"},
     "center": {
       "expr": "center_to == 'World' ? [0, 0] : center_to == 'North America' ? [-100, 45] : center_to == 'South America' ? [-60, -15] : center_to == 'Europe' ? [10, 54] : center_to == 'Asia' ? [100, 30] : center_to == 'Africa' ? [20, 0] : center_to == 'Oceania' ? [140, -25] : [0, 0]"
     }
@@ -116,8 +116,8 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [5, 15, 30, 50, 100],
-            "range": [100, 200, 400, 600, 800, 1000]
+            "domain": [5, 15, 30, 50, 100, 250],
+            "range": [100, 200, 400, 600, 800, 1000, 1200]
           },
           "legend": {"title": "Total Competitions"}
         },

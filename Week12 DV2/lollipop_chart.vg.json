@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Top 8 Fastest Rubik's Cube Single Solves of All Time",
+    "fontSize": 20,
+    "anchor": "start"
+  },
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "data/top10_single_per_country.csv",
+    "format": {"type": "tsv"}
+  },
+  "transform": [
+    {
+      "filter": "datum.eventId == '333'"
+    },
+    {
+      "calculate": "toNumber(datum.single_seconds)",
+      "as": "time_numeric"
+    },
+    {
+      "window": [
+        {
+          "op": "row_number",
+          "as": "global_rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "time_numeric",
+          "order": "ascending"
+        }
+      ]
+    },
+    {
+      "filter": "datum.global_rank <= 8"
+    },
+    {
+      "calculate": "datum.name + ' (' + datum.countryId + ')'",
+      "as": "solver_country"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "opacity": 0.8,
+    "stroke": "white",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "time_numeric",
+      "type": "quantitative",
+      "title": "Single Solve Time (seconds)",
+      "scale": {
+        "domain": [0, 5.0],
+        "nice": false
+      },
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "format": ".2f"
+      }
+    },
+    "y": {
+      "field": "solver_country",
+      "type": "nominal",
+      "sort": {
+        "field": "time_numeric",
+        "order": "ascending"
+      },
+      "title": "Solver",
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "labelLimit": 250
+      }
+    },
+    "color": {
+      "field": "global_rank",
+      "type": "ordinal",
+      "scale": {
+        "type": "ordinal",
+        "range": ["#ef4444", "#f97316", "#eab308", "#22c55e", "#06b6d4", "#3b82f6", "#8b5cf6", "#ec4899"]
+      },
+      "legend": {
+        "title": "World Rank",
+        "titleFontSize": 12,
+        "labelFontSize": 11,
+        "orient": "right"
+      }
+    },
+    "tooltip": [
+      {"field": "global_rank", "type": "ordinal", "title": "World Rank"},
+      {"field": "name", "type": "nominal", "title": "Solver"},
+      {"field": "countryId", "type": "nominal", "title": "Country"},
+      {"field": "time_numeric", "type": "quantitative", "title": "Time (seconds)", "format": ".2f"},
+      {"field": "personId", "type": "nominal", "title": "WCA ID"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"}
+  }
+}

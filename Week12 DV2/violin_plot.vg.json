@@ -1,0 +1,175 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Distribution of Rubik's Cube Solve Times by Category",
+    "fontSize": 20,
+    "anchor": "start"
+  },
+  "width": 700,
+  "height": 400,
+  "data": {
+    "url": "data/top100_avg_per_event.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.eventId == '333' || datum.eventId == '444' || datum.eventId == '555'"
+    },
+    {
+      "calculate": "datum.eventId == '333' ? '3x3 Cube' : datum.eventId == '444' ? '4x4 Cube' : '5x5 Cube'",
+      "as": "category"
+    },
+    {
+      "density": "average_seconds",
+      "bandwidth": 1.5,
+      "groupby": ["category"],
+      "extent": [0, 50],
+      "steps": 200
+    },
+    {
+      "calculate": "datum.category == '3x3 Cube' ? 100 : datum.category == '4x4 Cube' ? 200 : 300",
+      "as": "base_y"
+    },
+    {
+      "calculate": "datum.base_y + datum.density * 100",
+      "as": "upper_y"
+    },
+    {
+      "calculate": "datum.base_y - datum.density * 100", 
+      "as": "lower_y"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "opacity": 0.8,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Solve Time (seconds)",
+          "scale": {"nice": true},
+          "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 16
+          }
+        },
+        "y": {
+          "field": "upper_y",
+          "type": "quantitative",
+          "scale": {"domain": [0, 400]},
+          "axis": {
+            "values": [100, 200, 300],
+            "labelExpr": "datum.value == 100 ? '3x3 Cube' : datum.value == 200 ? '4x4 Cube' : '5x5 Cube'",
+            "labelFontSize": 14,
+            "title": "Cube Category",
+            "titleFontSize": 16
+          }
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["3x3 Cube", "4x4 Cube", "5x5 Cube"],
+            "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+          },
+          "legend": {
+            "title": "Category",
+            "titleFontSize": 14,
+            "labelFontSize": 12,
+            "orient": "right"
+          }
+        },
+        "detail": {
+          "field": "category"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "opacity": 0.8,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "value",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "lower_y",
+          "type": "quantitative",
+          "scale": {"domain": [0, 400]}
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["3x3 Cube", "4x4 Cube", "5x5 Cube"],
+            "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+          },
+          "legend": null
+        },
+        "detail": {
+          "field": "category"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {"op": "mean", "field": "average_seconds", "as": "mean_time"}
+          ],
+          "groupby": ["category"]
+        },
+        {
+          "calculate": "datum.category == '3x3 Cube' ? 100 : datum.category == '4x4 Cube' ? 200 : 300",
+          "as": "center_y"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "size": 60,
+        "filled": true,
+        "stroke": "white",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "mean_time",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "center_y",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["3x3 Cube", "4x4 Cube", "5x5 Cube"],
+            "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "category", "type": "nominal", "title": "Category"},
+          {"field": "mean_time", "type": "quantitative", "title": "Mean Solve Time (seconds)", "format": ".2f"}
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "config": {
+    "view": {"stroke": "transparent"}
+  }
+}

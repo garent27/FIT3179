@@ -35,3 +35,13 @@ vegaEmbed('#heatmap', vg_4).then(function(result) {
         }
     });
 }).catch(console.error);
+
+var vg_5 = "violin_plot.vg.json";
+vegaEmbed('#violin_plot', vg_5).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
+var vg_6 = "top5_fastest_bar.vg.json";
+vegaEmbed('#top5_fastest', vg_6).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
