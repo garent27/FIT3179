@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Cumulative Rubik's Cube Competitors by Continent (1982-2025)",
+    "fontSize": 18,
+    "anchor": "start",
+    "offset": 10
+  },
+  "width": 800,
+  "height": 450,
+  "data": {
+    "url": "data/competitor_growth_by_continent.csv"
+  },
+  "transform": [
+    {
+      "calculate": "replace(datum.continentId, '_', '')",
+      "as": "continent"
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone",
+    "opacity": 0.8,
+    "stroke": "white",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year",
+      "scale": {
+        "domain": [2003, 2025]
+      },
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "format": "d",
+        "grid": true,
+        "gridOpacity": 0.3
+      }
+    },
+    "y": {
+      "field": "cumulative_competitors",
+      "type": "quantitative",
+      "stack": true,
+      "title": "Cumulative Competitors",
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "format": ",d",
+        "grid": true,
+        "gridOpacity": 0.3
+      }
+    },
+    "color": {
+      "field": "continent",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Asia", "Europe", "North America", "South America", "Oceania", "Africa"],
+        "range": ["#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7", "#DDA0DD"]
+      },
+      "legend": {
+        "title": "Continent",
+        "titleFontSize": 14,
+        "labelFontSize": 12,
+        "orient": "right",
+        "symbolType": "square",
+        "symbolSize": 200
+      }
+    },
+    "tooltip": [
+      {"field": "year", "type": "quantitative", "title": "Year", "format": "d"},
+      {"field": "continent", "type": "nominal", "title": "Continent"},
+      {"field": "cumulative_competitors", "type": "quantitative", "title": "Cumulative Competitors", "format": ",d"},
+      {"field": "new_competitors", "type": "quantitative", "title": "New That Year", "format": ",d"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {
+      "labelColor": "#333",
+      "titleColor": "#333",
+      "domainColor": "#333",
+      "tickColor": "#333"
+    },
+    "legend": {
+      "labelColor": "#333",
+      "titleColor": "#333"
+    }
+  }
+}

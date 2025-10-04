@@ -1,0 +1,128 @@
+year,continentId,new_competitors,cumulative_competitors
+2003,_Asia,3,4
+2003,_Europe,22,37
+2003,_North America,62,65
+2003,_Oceania,1,1
+2004,_Asia,2,6
+2004,_Europe,94,131
+2004,_North America,79,144
+2005,_Asia,89,95
+2005,_Europe,154,285
+2005,_North America,173,317
+2005,_Oceania,1,2
+2006,_Asia,228,323
+2006,_Europe,175,460
+2006,_North America,178,495
+2007,_Africa,4,4
+2007,_Asia,316,639
+2007,_Europe,273,733
+2007,_North America,394,889
+2007,_Oceania,2,4
+2007,_South America,29,30
+2008,_Africa,2,6
+2008,_Asia,945,1584
+2008,_Europe,579,1312
+2008,_North America,642,1531
+2008,_South America,9,39
+2009,_Africa,2,8
+2009,_Asia,1733,3317
+2009,_Europe,920,2232
+2009,_North America,757,2288
+2009,_Oceania,30,34
+2009,_South America,159,198
+2010,_Africa,3,11
+2010,_Asia,2006,5323
+2010,_Europe,962,3194
+2010,_North America,774,3062
+2010,_Oceania,93,127
+2010,_South America,151,349
+2011,_Africa,4,15
+2011,_Asia,2024,7347
+2011,_Europe,1017,4211
+2011,_North America,823,3885
+2011,_Oceania,64,191
+2011,_South America,373,722
+2012,_Africa,2,17
+2012,_Asia,1560,8907
+2012,_Europe,1266,5477
+2012,_North America,975,4860
+2012,_Oceania,74,265
+2012,_South America,502,1224
+2013,_Africa,3,20
+2013,_Asia,2449,11356
+2013,_Europe,1703,7180
+2013,_North America,1205,6065
+2013,_Oceania,77,342
+2013,_South America,729,1953
+2014,_Africa,216,236
+2014,_Asia,3080,14436
+2014,_Europe,2338,9518
+2014,_North America,2344,8409
+2014,_Oceania,226,568
+2014,_South America,1084,3037
+2015,_Africa,244,480
+2015,_Asia,4103,18539
+2015,_Europe,2450,11968
+2015,_North America,3565,11974
+2015,_Oceania,383,951
+2015,_South America,1556,4593
+2016,_Africa,316,796
+2016,_Asia,6319,24858
+2016,_Europe,3400,15368
+2016,_North America,5417,17391
+2016,_Oceania,424,1375
+2016,_South America,2087,6680
+2017,_Africa,168,964
+2017,_Asia,9869,34727
+2017,_Europe,4558,19926
+2017,_North America,5809,23200
+2017,_Oceania,459,1834
+2017,_South America,2635,9315
+2018,_Africa,264,1228
+2018,_Asia,10104,44831
+2018,_Europe,6570,26496
+2018,_North America,6109,29309
+2018,_Oceania,595,2429
+2018,_South America,2453,11768
+2019,_Africa,658,1886
+2019,_Asia,10788,55619
+2019,_Europe,7074,33570
+2019,_North America,6077,35386
+2019,_Oceania,931,3360
+2019,_South America,2360,14128
+2020,_Africa,90,1976
+2020,_Asia,1261,56880
+2020,_Europe,1298,34868
+2020,_North America,1187,36573
+2020,_Oceania,490,3850
+2020,_South America,289,14417
+2021,_Africa,40,2016
+2021,_Asia,1146,58026
+2021,_Europe,1030,35898
+2021,_North America,788,37361
+2021,_Oceania,1175,5025
+2021,_South America,264,14681
+2022,_Africa,731,2747
+2022,_Asia,5543,63569
+2022,_Europe,7659,43557
+2022,_North America,7559,44920
+2022,_Oceania,2703,7728
+2022,_South America,2077,16758
+2023,_Africa,574,3321
+2023,_Asia,8933,72502
+2023,_Europe,8701,52258
+2023,_North America,11823,56743
+2023,_Oceania,2663,10391
+2023,_South America,4925,21683
+2024,_Africa,644,3965
+2024,_Asia,8404,80906
+2024,_Europe,7760,60018
+2024,_North America,10342,67085
+2024,_Oceania,1654,12045
+2024,_South America,4159,25842
+2025,_Africa,457,4422
+2025,_Asia,6090,86996
+2025,_Europe,4742,64760
+2025,_North America,6143,73228
+2025,_Oceania,852,12897
+2025,_South America,2169,28011

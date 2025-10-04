@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Pokemon Fast Attack Parallel Coordinates - using fold transform method with normalized values and manual axes",
+  "data": {
+    "url": "fastattack.csv"
+  },
+  "width": 1200,
+  "height": 400,
+  "transform": [
+    {"window": [{"op": "count", "as": "index"}]},
+    {"fold": ["Type_num", "Move Name", "PWR", "ENG", "Duration", "EPS", "DPS"]},
+    {
+      "calculate": "datum.key == 'Move Name' ? datum.index : datum.value",
+      "as": "numeric_value"
+    },
+    {
+      "joinaggregate": [
+        {"op": "min", "field": "numeric_value", "as": "min"},
+        {"op": "max", "field": "numeric_value", "as": "max"}
+      ],
+      "groupby": ["key"]
+    },
+    {
+      "calculate": "(datum.numeric_value - datum.min) / (datum.max-datum.min)",
+      "as": "norm_val"
+    },
+    {
+      "calculate": "(datum.min + datum.max) / 2",
+      "as": "mid"
+    }
+  ],
+  "layer": [{
+    "mark": {"type": "rule", "color": "#ccc"},
+    "encoding": {
+      "detail": {"aggregate": "count"},
+      "x": {
+        "field": "key", 
+        "type": "nominal", 
+        "title": null,
+        "sort": ["Type_num", "Move Name", "PWR", "ENG", "Duration", "EPS", "DPS"]
+      }
+    }
+  }, {
+    "mark": "line",
+    "encoding": {
+      "color": {"type": "nominal", "field": "Type", "title": "Pokemon Type"},
+      "detail": {"type": "nominal", "field": "index"},
+      "opacity": {"value": 0.6},
+      "x": {
+        "type": "nominal", 
+        "field": "key", 
+        "title": null,
+        "sort": ["Type_num", "Move Name", "PWR", "ENG", "Duration", "EPS", "DPS"]
+      },
+      "y": {"type": "quantitative", "field": "norm_val", "axis": null},
+      "tooltip": [
+        {"type": "nominal", "field": "Move Name", "title": "Move Name"},
+        {"type": "nominal", "field": "Type", "title": "Type"},
+        {"type": "quantitative", "field": "Type_num", "title": "Type Number"},
+        {"type": "quantitative", "field": "PWR", "title": "Power"},
+        {"type": "quantitative", "field": "ENG", "title": "Energy"},
+        {"type": "quantitative", "field": "Duration", "title": "Duration (s)"},
+        {"type": "quantitative", "field": "EPS", "title": "Energy per Second"},
+        {"type": "quantitative", "field": "DPS", "title": "Damage per Second"}
+      ]
+    }
+  }, {
+    "encoding": {
+      "x": {
+        "type": "nominal", 
+        "field": "key",
+        "sort": ["Type_num", "Move Name", "PWR", "ENG", "Duration", "EPS", "DPS"]
+      },
+      "y": {"value": 0}
+    },
+    "layer": [{
+      "mark": {"type": "text", "style": "label"},
+      "encoding": {
+        "text": {"aggregate": "max", "field": "max", "format": ".1f"}
+      }
+    }, {
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+    }]
+  }, {
+    "encoding": {
+      "x": {
+        "type": "nominal", 
+        "field": "key",
+        "sort": ["Type_num", "Move Name", "PWR", "ENG", "Duration", "EPS", "DPS"]
+      },
+      "y": {"value": 200}
+    },
+    "layer": [{
+      "mark": {"type": "text", "style": "label"},
+      "encoding": {
+        "text": {"aggregate": "min", "field": "mid", "format": ".1f"}
+      }
+    }, {
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+    }]
+  }, {
+    "encoding": {
+      "x": {
+        "type": "nominal", 
+        "field": "key",
+        "sort": ["Type_num", "Move Name", "PWR", "ENG", "Duration", "EPS", "DPS"]
+      },
+      "y": {"value": 400}
+    },
+    "layer": [{
+      "mark": {"type": "text", "style": "label"},
+      "encoding": {
+        "text": {"aggregate": "min", "field": "min", "format": ".1f"}
+      }
+    }, {
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+    }]
+  }],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "config": {
+    "axisX": {"domain": false, "labelAngle": 0, "tickColor": "#ccc", "title": null},
+    "view": {"stroke": null},
+    "style": {
+      "label": {"baseline": "middle", "align": "right", "dx": -5, "fontSize": 10},
+      "tick": {"orient": "horizontal"}
+    }
+  }
+}

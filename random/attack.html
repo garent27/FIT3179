@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parallel Coordinates with Y Axis Scales</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <h2>Parallel Coordinates - Type as First Axis with Y Scales</h2>
+  <div id="vis"></div>
+
+  <script type="text/javascript">
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+      "description": "Parallel coordinates with y-axis scales",
+      "data": { "url": "fastattack.csv" },
+      "width": 900,
+      "height": 400,
+      "transform": [
+        {"window": [{"op": "count", "as": "index"}]},
+        // fold numeric columns (exclude Type_num from normalization)
+        {"fold": ["Type_num","PWR","ENG","Duration","EPS","DPS"]}
+      ],
+      "layer": [
+        {
+          "mark": "line",
+          "encoding": {
+            "x": {
+              "type": "nominal",
+              "field": "key",
+              "sort": ["Type_num","PWR","ENG","Duration","EPS","DPS"]
+            },
+            "y": {
+              "type": "quantitative",
+              "field": "value",  // use raw value to show y scale
+              "axis": {"title": "Value"} // shows y-axis scale
+            },
+            "detail": {"type": "nominal", "field": "index"},
+            "color": {"type": "nominal", "field": "Type"},  // differentiate by Type
+            "opacity": {"value": 0.6},
+            "tooltip": [
+              {"type": "nominal","field": "Type"},
+              {"type": "nominal","field": "Move Name"},
+              {"type": "quantitative","field": "PWR"},
+              {"type": "quantitative","field": "ENG"},
+              {"type": "quantitative","field": "Duration"},
+              {"type": "quantitative","field": "EPS"},
+              {"type": "quantitative","field": "DPS"}
+            ]
+          }
+        }
+      ],
+      "config": {
+        "axisX": {"domain": false, "labelAngle": 0, "title": null},
+        "view": {"stroke": null}
+      }
+    };
+
+    vegaEmbed('#vis', spec);
+  </script>
+</body>
+</html>

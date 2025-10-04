@@ -80,6 +80,16 @@ vegaEmbed('#treemap', vg_7).then(function(result) {
     // Access the Vega view instance as result.view
 }).catch(console.error);
 
+var vg_8 = "stacked_area_chart.vg.json";
+vegaEmbed('#stacked_area', vg_8).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
+var vg_9 = "cumulative_area_chart.vg.json";
+vegaEmbed('#cumulative_area', vg_9).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
 // Add reset button functionality
 document.addEventListener('DOMContentLoaded', function() {
     const resetButton = document.getElementById('reset-country');

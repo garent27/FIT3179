@@ -1,0 +1,76 @@
+﻿Type,Type_num,Move Name,PWR,ENG,Duration,EPS,DPS
+Bug,1,Bug Bite,5,6,0.5,12,10
+Bug,1,Fury Cutter,4,8,0.5,16,8
+Bug,1,Infestation,9,13,1,13,9
+Bug,1,Struggle Bug,15,15,1.5,10,10
+Dark,2,Bite,6,4,0.5,8,12
+Dark,2,Feint Attack,11,10,1,10,11
+Dark,2,Snarl,11,13,1,13,11
+Dark,2,Sucker Punch,5,6,0.5,12,10
+Dragon,3,Dragon Breath,6,4,0.5,8,12
+Dragon,3,Dragon Tail,14,8,1,8,14
+Electric,4,Charge Beam,7,14,1,14,7
+Electric,4,Thunder Fang,10,13,1,13,10
+Electric,4,Thunder Shock,4,7,0.5,14,8
+Electric,4,Volt Switch,13,20,1.5,13.33,8.67
+Fairy,5,Charm,20,11,1.5,7.33,13.33
+Fairy,5,Geomancy,20,14,1.5,9.33,13.33
+Fairy,5,Fairy Wind,9,13,1,13,9
+Fighting,6,Counter,13,9,1,9,13
+Fighting,6,Double Kick,10,13,1,13,10
+Fighting,6,Force Palm,10,16,1,16,10
+Fighting,6,Karate Chop,10,13,1,13,10
+Flying,7,Air Slash,12,8,1,8,12
+Flying,7,Gust,25,20,2,10,12.5
+Flying,7,Peck,10,10,1,10,10
+Flying,7,Wing Attack,10,11,1,11,10
+Ghost,8,Astonish,7,13,1,13,7
+Ghost,8,Hex,8,13,1,13,8
+Ghost,8,Lick,5,6,0.5,12,10
+Ghost,8,Shadow Claw,6,4,0.5,8,12
+Grass,9,Bullet Seed,7,13,1,13,7
+Grass,9,Leafage,6,4,0.5,8,12
+Grass,9,Magical Leaf,17,17,1.5,11.33,11.33
+Grass,9,Razor Leaf,13,7,1,7,13
+Ground,10,Mud Shot,4,6,0.5,12,8
+Ground,10,Mud-Slap,19,13,1.5,8.67,12.67
+Ground,10,Sand Attack,4,7,0.5,14,8
+Ice,11,Frost Breath,11,9,1,9,11
+Ice,11,Ice Fang,12,20,1.5,13.33,8
+Ice,11,Ice Shard,10,10,1,10,10
+Normal,12,Cut,5,5,0.5,10,10
+Normal,12,Hidden Power,15,15,1.5,10,10
+Normal,12,Lock-On,2,10,0.5,20,4
+Normal,12,Pound,6,5,0.5,10,12
+Normal,12,Present,6,23,1.5,15.33,4
+Normal,12,Quick Attack,10,13,1,13,10
+Normal,12,Scratch,6,4,0.5,8,12
+Normal,12,Take Down,7,8,1,8,7
+Normal,12,Transform,0,0,2,0,0
+Normal,12,Yawn,0,13,1.5,8.67,0
+Poison,13,Acid,11,10,1,10,11
+Poison,13,Poison Jab,13,9,1,9,13
+Poison,13,Poison Sting,4,6,0.5,12,8
+Psychic,14,Confusion,19,14,1.5,9.33,12.67
+Psychic,14,Extrasensory,11,11,1,11,11
+Psychic,14,Psycho Cut,4,7,0.5,14,8
+Psychic,14,Psywave,4,7,0.5,14,8
+Psychic,14,Zen Headbutt,11,9,1,9,11
+Rock,15,Rock Smash,17,12,1.5,8,11.33
+Rock,15,Rock Throw,13,8,1,8,13
+Rock,15,Rollout,15,19,1.5,12.67,10
+Rock,15,Smack Down,13,7,1,7,13
+Steel,16,Bullet Punch,10,11,1,11,10
+Steel,16,Iron Tail,14,6,1,6,14
+Steel,16,Metal Claw,6,5,0.5,10,12
+Steel,16,Metal Sound,4,6,0.5,12,8
+Steel,16,Steel Wing,14,8,1,8,14
+Water,17,Bubble,10,12,1,12,10
+Water,17,Splash,0,17,1.5,11.33,0
+Water,17,Water Gun,5,5,0.5,10,10
+Water,17,Water Shuriken,9,14,1,14,9
+Water,17,Waterfall,13,7,1,7,13
+Fire,18,Ember,10,10,1,10,10
+Fire,18,Fire Fang,13,9,1,9,13
+Fire,18,Fire Spin,13,9,1,9,13
+Fire,18,Incinerate,32,22,2.5,8.8,12.8
