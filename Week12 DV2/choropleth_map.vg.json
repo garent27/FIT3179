@@ -54,6 +54,24 @@
       }]
     },
     {
+      "name": "isDragging",
+      "value": false,
+      "on": [
+        {
+          "events": "pointerdown",
+          "update": "false"
+        },
+        {
+          "events": "[pointerdown, window:pointerup] > window:pointermove",
+          "update": "true"
+        },
+        {
+          "events": "window:pointerup",
+          "update": "false"
+        }
+      ]
+    },
+    {
       "name": "delta", "value": null,
       "on": [{
         "events": {"signal": "drag"},
@@ -73,6 +91,17 @@
         "events": {"signal": "delta"},
         "update": "clamp(angles[1] + delta[1], -60, 60)"
       }]
+    },
+    {
+      "name": "clicked",
+      "value": null,
+      "on": [
+        {
+          "events": "pointerup",
+          "update": "!isDragging ? item() : clicked",
+          "force": true
+        }
+      ]
     }
   ],
 
@@ -122,14 +151,14 @@
       "name": "countries_with_data",
       "source": "world",
       "transform": [
-        { "type": "filter", "expr": "datum.BestSeconds != null && datum.BestSeconds != 'N/A'" }
+        { "type": "filter", "expr": "datum.BestSeconds != null" }
       ]
     },
     {
       "name": "countries_no_data",
       "source": "world",
       "transform": [
-        { "type": "filter", "expr": "datum.BestSeconds == null || datum.BestSeconds == 'N/A'" }
+        { "type": "filter", "expr": "datum.BestSeconds == null" }
       ]
     },
     {
