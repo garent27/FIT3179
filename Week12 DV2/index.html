@@ -53,34 +53,35 @@
     </div>
     
     <script>
-    // Page-specific visitor counter with unique identifier
+    // Global visitor counter using CountAPI only
     window.addEventListener('load', function() {
-        // Create a unique namespace for your specific project
-        const uniqueId = 'garent27-fit3179-rubiks-cube-dashboard-2025';
-        const pageKey = 'week12-dv2-visits';
+        const counterElement = document.getElementById('visitor-count');
+        const url = 'https://api.countapi.xyz/hit/garent27-rubiks-dashboard/global-visits';
         
-        // First, try to create a new counter starting from 1
-        fetch(`https://api.countapi.xyz/create?namespace=${uniqueId}&key=${pageKey}&value=0`)
-            .then(response => response.json())
-            .then(data => {
-                // If creation successful or counter already exists, increment it
-                return fetch(`https://api.countapi.xyz/hit/${uniqueId}/${pageKey}`);
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data && data.value !== undefined) {
-                    document.getElementById('visitor-count').textContent = data.value;
-                } else {
-                    throw new Error('Invalid response');
-                }
-            })
-            .catch(error => {
-                console.error('Counter error:', error);
-                // Simple localStorage fallback for testing
-                let visits = parseInt(localStorage.getItem('local-visits') || '0') + 1;
-                localStorage.setItem('local-visits', visits);
-                document.getElementById('visitor-count').textContent = visits + ' (local)';
-            });
+        fetch(url, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('CountAPI response:', data);
+            if (data && typeof data.value === 'number') {
+                counterElement.textContent = data.value;
+            } else {
+                throw new Error('Invalid data format');
+            }
+        })
+        .catch(error => {
+            console.error('CountAPI failed:', error);
+            counterElement.textContent = 'Error loading count';
+        });
     });
     </script>
     <p style="margin: 10px 0; font-size: 12px; color: #888;">
