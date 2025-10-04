@@ -48,8 +48,41 @@
 
 <footer style="margin-top: 40px; padding: 20px; text-align: center; border-top: 1px solid #ddd; background-color: #f9f9f9;">
     <div style="margin: 10px 0; padding: 10px; background-color: #f5f5f5; border-radius: 5px; display: inline-block;">
-        <img src="https://komarev.com/ghpvc/?username=garent27-rubiks-viz&label=Page%20Views&color=007ACC&style=flat" alt="Page Views" style="vertical-align: middle;">
+        <span style="font-size: 14px; color: #666;">Page Views: </span>
+        <span id="visitor-count" style="font-weight: bold; color: #007ACC;">Loading...</span>
     </div>
+    
+    <script>
+    // Page-specific visitor counter with unique identifier
+    window.addEventListener('load', function() {
+        // Create a unique namespace for your specific project
+        const uniqueId = 'garent27-fit3179-rubiks-cube-dashboard-2025';
+        const pageKey = 'week12-dv2-visits';
+        
+        // First, try to create a new counter starting from 1
+        fetch(`https://api.countapi.xyz/create?namespace=${uniqueId}&key=${pageKey}&value=0`)
+            .then(response => response.json())
+            .then(data => {
+                // If creation successful or counter already exists, increment it
+                return fetch(`https://api.countapi.xyz/hit/${uniqueId}/${pageKey}`);
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.value !== undefined) {
+                    document.getElementById('visitor-count').textContent = data.value;
+                } else {
+                    throw new Error('Invalid response');
+                }
+            })
+            .catch(error => {
+                console.error('Counter error:', error);
+                // Simple localStorage fallback for testing
+                let visits = parseInt(localStorage.getItem('local-visits') || '0') + 1;
+                localStorage.setItem('local-visits', visits);
+                document.getElementById('visitor-count').textContent = visits + ' (local)';
+            });
+    });
+    </script>
     <p style="margin: 10px 0; font-size: 12px; color: #888;">
         Rubik's Cube Data Visualization Dashboard
     </p>
