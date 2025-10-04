@@ -48,73 +48,14 @@
 
 <footer style="margin-top: 40px; padding: 20px; text-align: center; border-top: 1px solid #ddd; background-color: #f9f9f9;">
     <div style="margin: 10px 0; padding: 10px; background-color: #f5f5f5; border-radius: 5px; display: inline-block;">
-        <span style="font-size: 14px; color: #666;">Page Views: </span>
-        <span id="visitor-count" style="font-weight: bold; color: #007ACC;">Loading...</span>
+        <img src="https://komarev.com/ghpvc/?username=garent27-rubiks-viz&label=Page%20Views&color=007ACC&style=flat" alt="Page Views" style="vertical-align: middle;">
     </div>
     <p style="margin: 10px 0; font-size: 12px; color: #888;">
         Rubik's Cube Data Visualization Dashboard
     </p>
 </footer>
 
-<script>
-// Simple visitor counter using multiple fallback methods
-window.addEventListener('load', function() {
-    const counterElement = document.getElementById('visitor-count');
-    
-    // Method 1: Try CountAPI with simpler approach
-    function tryCountAPI() {
-        const url = 'https://api.countapi.xyz/hit/garent27-rubiks-viz/visits';
-        
-        fetch(url, {
-            method: 'GET',
-            mode: 'cors'
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            if (data && typeof data.value === 'number') {
-                counterElement.textContent = data.value;
-            } else {
-                throw new Error('Invalid data format');
-            }
-        })
-        .catch(error => {
-            console.log('CountAPI failed:', error.message);
-            tryGoatCounter();
-        });
-    }
-    
-    // Method 2: Try GoatCounter alternative
-    function tryGoatCounter() {
-        // Simple visitor badge as fallback
-        const img = new Image();
-        img.onload = function() {
-            // If the image loads, we can try to extract count from it
-            counterElement.innerHTML = '<img src="https://counter.goatcounter.com/count?p=/rubiks-viz" alt="visitor count" style="vertical-align: middle;">';
-        };
-        img.onerror = function() {
-            console.log('GoatCounter failed, using local storage');
-            useLocalStorage();
-        };
-        img.src = 'https://counter.goatcounter.com/count?p=/rubiks-viz';
-    }
-    
-    // Method 3: Local storage fallback
-    function useLocalStorage() {
-        let visits = parseInt(localStorage.getItem('rubiks-page-visits') || '0');
-        visits += 1;
-        localStorage.setItem('rubiks-page-visits', visits.toString());
-        counterElement.textContent = `${visits} (session)`;
-    }
-    
-    // Start with CountAPI
-    tryCountAPI();
-});
-</script>
+
 
 </body>
 </html>
