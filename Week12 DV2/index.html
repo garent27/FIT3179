@@ -48,42 +48,8 @@
 
 <footer style="margin-top: 40px; padding: 20px; text-align: center; border-top: 1px solid #ddd; background-color: #f9f9f9;">
     <div style="margin: 10px 0; padding: 10px; background-color: #f5f5f5; border-radius: 5px; display: inline-block;">
-        <span style="font-size: 14px; color: #666;">Page Views: </span>
-        <span id="visitor-count" style="font-weight: bold; color: #007ACC;">Loading...</span>
+        <img src="https://komarev.com/ghpvc/?username=garent27-fit3179-rubiks&label=Page%20Views&color=007ACC&style=flat-square" alt="Page Views Counter" style="vertical-align: middle;">
     </div>
-    
-    <script>
-    // Global visitor counter using CountAPI only
-    window.addEventListener('load', function() {
-        const counterElement = document.getElementById('visitor-count');
-        const url = 'https://api.countapi.xyz/hit/garent27-rubiks-dashboard/global-visits';
-        
-        fetch(url, {
-            method: 'GET',
-            headers: {
-                'Accept': 'application/json',
-            }
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log('CountAPI response:', data);
-            if (data && typeof data.value === 'number') {
-                counterElement.textContent = data.value;
-            } else {
-                throw new Error('Invalid data format');
-            }
-        })
-        .catch(error => {
-            console.error('CountAPI failed:', error);
-            counterElement.textContent = 'Error loading count';
-        });
-    });
-    </script>
     <p style="margin: 10px 0; font-size: 12px; color: #888;">
         Rubik's Cube Data Visualization Dashboard
     </p>
