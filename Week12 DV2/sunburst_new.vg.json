@@ -1,0 +1,195 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "Rubik's Cube Skill Decomposition Tree - Hierarchical sunburst diagram",
+  "width": 600,
+  "height": 600,
+  "padding": 5,
+  "autosize": "none",
+
+  "data": [
+    {
+      "name": "tree",
+      "url": "data/top100_single_with_avg_and_worst.csv",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "country_data",
+          "key": "country",
+          "fields": ["continent"]
+        },
+        {
+          "type": "filter",
+          "expr": "datum.continent != null && datum.single_seconds > 0"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.eventId == '333' ? '3x3x3 Cube' : datum.eventId == '222' ? '2x2x2 Cube' : datum.eventId == '444' ? '4x4x4 Cube' : datum.eventId == '555' ? '5x5x5 Cube' : datum.eventId == 'pyram' ? 'Pyraminx' : datum.eventId == 'skewb' ? 'Skewb' : datum.eventId == 'minx' ? 'Megaminx' : datum.eventId == 'sq1' ? 'Square-1' : datum.eventId",
+          "as": "event_name"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent + '.' + datum.country + '.' + datum.event_name + '.' + datum.name",
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent + '.' + datum.country + '.' + datum.event_name",
+          "as": "parent"
+        },
+        {
+          "type": "formula",
+          "expr": "100 / datum.single_seconds",
+          "as": "size"
+        }
+      ]
+    },
+    {
+      "name": "country_data",
+      "url": "data/country_coordinates.csv"
+    },
+    {
+      "name": "events",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["continent", "country", "event_name"],
+          "fields": ["size"],
+          "ops": ["sum"],
+          "as": ["total_size"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent + '.' + datum.country + '.' + datum.event_name",
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent + '.' + datum.country",
+          "as": "parent"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.total_size",
+          "as": "size"
+        }
+      ]
+    },
+    {
+      "name": "countries",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["continent", "country"],
+          "fields": ["size"],
+          "ops": ["sum"],
+          "as": ["total_size"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent + '.' + datum.country",
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent",
+          "as": "parent"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.total_size",
+          "as": "size"
+        }
+      ]
+    },
+    {
+      "name": "continents",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["continent"],
+          "fields": ["size"],
+          "ops": ["sum"],
+          "as": ["total_size"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.continent",
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "'root'",
+          "as": "parent"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.total_size",
+          "as": "size"
+        }
+      ]
+    },
+    {
+      "name": "root",
+      "values": [{"id": "root", "parent": "", "size": 100}]
+    },
+    {
+      "name": "hierarchy",
+      "source": ["root", "continents", "countries", "events", "tree"],
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "partition",
+          "field": "size",
+          "sort": {"field": "value"},
+          "size": [{"signal": "2 * PI"}, {"signal": "width / 2"}],
+          "as": ["a0", "r0", "a1", "r1", "depth", "children"]
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "hierarchy", "field": "depth"},
+      "range": {"scheme": "category20"}
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "arc",
+      "from": {"data": "hierarchy"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"},
+          "fill": {"scale": "color", "field": "depth"},
+          "tooltip": {"signal": "datum.id == 'root' ? 'Rubik\\'s Cube Skills' : (split(datum.id, '.')[length(split(datum.id, '.')) - 1] + ' (Score: ' + format(datum.size || 0, '.1f') + ')')"}
+        },
+        "update": {
+          "startAngle": {"field": "a0"},
+          "endAngle": {"field": "a1"},
+          "innerRadius": {"field": "r0"},
+          "outerRadius": {"field": "r1"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 0.5},
+          "zindex": {"value": 0}
+        },
+        "hover": {
+          "stroke": {"value": "red"},
+          "strokeWidth": {"value": 2},
+          "zindex": {"value": 1}
+        }
+      }
+    }
+  ]
+}

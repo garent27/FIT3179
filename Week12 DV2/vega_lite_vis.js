@@ -90,6 +90,11 @@ vegaEmbed('#cumulative_area', vg_9).then(function(result) {
     // Access the Vega view instance as result.view
 }).catch(console.error);
 
+var vg_10 = "sunburst_new.vg.json";
+vegaEmbed('#sunburst', vg_10).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
 // Add reset button functionality
 document.addEventListener('DOMContentLoaded', function() {
     const resetButton = document.getElementById('reset-country');
