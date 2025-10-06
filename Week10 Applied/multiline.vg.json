@@ -1,0 +1,149 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "student_learning.csv"},
+  "transform": [
+    {"calculate": "datum['Student ']", "as": "Student"},
+    {"calculate": "datum['Week ']", "as": "Week"},
+    {"calculate": "datum['Concept Mastery']", "as": "Concept_Mastery"},
+    {"calculate": "datum['R Coding Confidence']", "as": "R_Coding_Confidence"},
+    {"calculate": "datum['Problem Solving']", "as": "Problem_Solving"},
+    {"calculate": "datum['Participation']", "as": "Participation"},
+    {"calculate": "datum['Enjoyment']", "as": "Enjoyment"}
+  ],
+  "vconcat": [
+    {
+      "width": 500,
+      "height": 120,
+      "title": "Concept Mastery",
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {
+          "field": "Week",
+          "type": "quantitative",
+          "scale": {"domain": [1, 10]},
+          "title": "Week Number"
+        },
+        "y": {
+          "field": "Concept Mastery",
+          "type": "quantitative",
+          "scale": {"domain": [0, 10]},
+          "title": "Rating"
+        },
+        "color": {
+          "field": "Student",
+          "type": "nominal",
+          "title": "Student"
+        },
+        "tooltip": [
+          {"field": "Student", "type": "nominal"},
+          {"field": "Week", "type": "quantitative"},
+          {"field": "Concept Mastery", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "width": 500,
+      "height": 120,
+      "title": "R Coding Confidence",
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {
+          "field": "Week",
+          "type": "quantitative",
+          "scale": {"domain": [1, 10]},
+          "title": "Week Number"
+        },
+        "y": {
+          "field": "R Coding Confidence",
+          "type": "quantitative",
+          "scale": {"domain": [0, 10]},
+          "title": "Rating"
+        },
+        "color": {"field": "Student", "type": "nominal"},
+        "tooltip": [
+          {"field": "Student", "type": "nominal"},
+          {"field": "Week", "type": "quantitative"},
+          {"field": "R Coding Confidence", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "width": 500,
+      "height": 120,
+      "title": "Problem Solving",
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {
+          "field": "Week",
+          "type": "quantitative",
+          "scale": {"domain": [1, 10]},
+          "title": "Week Number"
+        },
+        "y": {
+          "field": "Problem Solving",
+          "type": "quantitative",
+          "scale": {"domain": [0, 10]},
+          "title": "Rating"
+        },
+        "color": {"field": "Student", "type": "nominal"},
+        "tooltip": [
+          {"field": "Student", "type": "nominal"},
+          {"field": "Week", "type": "quantitative"},
+          {"field": "Problem Solving", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "width": 500,
+      "height": 120,
+      "title": "Participation",
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {
+          "field": "Week",
+          "type": "quantitative",
+          "scale": {"domain": [1, 10]},
+          "title": "Week Number"
+        },
+        "y": {
+          "field": "Participation",
+          "type": "quantitative",
+          "scale": {"domain": [0, 10]},
+          "title": "Rating"
+        },
+        "color": {"field": "Student", "type": "nominal"},
+        "tooltip": [
+          {"field": "Student", "type": "nominal"},
+          {"field": "Week", "type": "quantitative"},
+          {"field": "Participation", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "width": 500,
+      "height": 120,
+      "title": "Enjoyment",
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {
+          "field": "Week",
+          "type": "quantitative",
+          "scale": {"domain": [1, 10]},
+          "title": "Week Number"
+        },
+        "y": {
+          "field": "Enjoyment",
+          "type": "quantitative",
+          "scale": {"domain": [0, 10]},
+          "title": "Rating"
+        },
+        "color": {"field": "Student", "type": "nominal"},
+        "tooltip": [
+          {"field": "Student", "type": "nominal"},
+          {"field": "Week", "type": "quantitative"},
+          {"field": "Enjoyment", "type": "quantitative"}
+        ]
+      }
+    }
+  ]
+}
