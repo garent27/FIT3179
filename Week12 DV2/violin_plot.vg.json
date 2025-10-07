@@ -5,6 +5,7 @@
     "fontSize": 20,
     "anchor": "start"
   },
+  "background" : "#f9f9f9",
   "width": 700,
   "height": 400,
   "data": {
@@ -54,7 +55,12 @@
           "scale": {"nice": true},
           "axis": {
             "labelFontSize": 12,
-            "titleFontSize": 16
+            "titleFontSize": 16,
+            "grid": false,
+            "domainColor": "#333",
+            "domainWidth": 1.5,
+            "tickColor": "#333",
+            "tickWidth": 1.5
           }
         },
         "y": {
@@ -170,6 +176,15 @@
     }
   },
   "config": {
-    "view": {"stroke": "transparent"}
+    "view": {
+      "stroke": null,
+      "fill": "#f9f9f9"
+    },
+    "axis": {
+      "grid": false,
+      "gridColor": "#f9f9f9",
+      "domainColor": "#333",
+      "tickColor": "#333"
+    }
   }
 }

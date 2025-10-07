@@ -91,7 +91,7 @@ vegaEmbed('#cumulative_area', vg_9).then(function(result) {
 }).catch(console.error);
 
 var vg_10 = "sunburst_new.vg.json";
-vegaEmbed('#sunburst', vg_10).then(function(result) {
+vegaEmbed('#sunburst_new', vg_10).then(function(result) {
     // Access the Vega view instance as result.view
 }).catch(console.error);
 

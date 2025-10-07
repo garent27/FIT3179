@@ -6,6 +6,7 @@
     "anchor": "start",
     "offset": 10
   },
+  "background": "#f9f9f9",
   "width": 800,
   "height": 450,
   "data": {
@@ -33,7 +34,7 @@
       "axis": {
         "labelFontSize": 12,
         "titleFontSize": 14,
-        "grid": true,
+        "grid": false,
         "gridOpacity": 0.3,
         "format": "d"
       }
@@ -46,9 +47,9 @@
       "axis": {
         "labelFontSize": 12,
         "titleFontSize": 14,
-        "format": ",d",
-        "grid": true,
-        "gridOpacity": 0.3
+        "grid": false,
+        "gridOpacity": 0.3,
+        "format": ",d"
       }
     },
     "color": {

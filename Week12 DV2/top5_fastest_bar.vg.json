@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#f9f9f9",
   "params": [
     {
       "name": "country_selection",
@@ -8,13 +9,14 @@
   ],
   "title": {
     "text": {
-      "expr": "country_selection == 'World' ? 'Top 5 Fastest Rubik\\'s Cube Single Solves Ever' : 'Top 5 Fastest Solves in ' + country_selection"
+      "expr": "country_selection == 'World' ? 'Top 10 Fastest Rubik\\'s Cube Single Solves Ever' : 'Top 10 Fastest Solves in ' + country_selection"
     },
     "fontSize": 20,
     "anchor": "start"
   },
   "width": 600,
   "height": 400,
+  "padding": {"left": 100, "right": 20, "top": 30, "bottom": 20},
   "data": {
     "url": "data/top10_unique_per_country.csv"
   },
@@ -51,7 +53,7 @@
       ]
     },
     {
-      "filter": "datum.country_rank <= 5"
+      "filter": "datum.country_rank <= 10"
     },
     {
       "calculate": "datum.name",
@@ -62,71 +64,106 @@
       "as": "rank_solver"
     }
   ],
-  "mark": {
-    "type": "bar",
-    "opacity": 0.8,
-    "stroke": "white",
-    "strokeWidth": 1,
-    "cornerRadiusEnd": 4
-  },
-  "encoding": {
-    "x": {
-      "field": "best_time",
-      "type": "quantitative",
-      "title": "Best Solve Time (seconds)",
-      "scale": {
-        "zero": true,
-        "nice": true
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#666666",
+        "strokeWidth": 1
       },
-      "axis": {
-        "labelFontSize": 12,
-        "titleFontSize": 14,
-        "format": ".2f",
-        "grid": true
+      "encoding": {
+        "x": {
+          "field": "best_time",
+          "type": "quantitative",
+          "title": "Best Solve Time (seconds)",
+          "scale": {
+            "zero": true,
+            "nice": true
+          },
+          "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "format": ".2f",
+            "grid": true,
+            "gridColor": "#f9f9f9",
+            "domain": true,
+            "domainWidth": 1.5,
+            "domainColor": "#333",
+            "tickWidth": 1.5,
+            "tickColor": "#333"
+          }
+        },
+        "x2": {"value": 0},
+        "y": {
+          "field": "rank_solver",
+          "type": "nominal",
+          "sort": {
+            "field": "best_time",
+            "order": "ascending"
+          },
+          "title": "World Rank & Solver",
+          "axis": {
+            "labelFontSize": 13,
+            "titleFontSize": 14,
+            "labelLimit": 250,
+            "domain": true,
+            "domainWidth": 1.5,
+            "domainColor": "#333",
+            "tickWidth": 1.5,
+            "tickColor": "#333",
+            "gridColor": "#f9f9f9"
+          }
+        }
       }
     },
-    "y": {
-      "field": "rank_solver",
-      "type": "nominal",
-      "sort": {
-        "field": "best_time",
-        "order": "ascending"
+    {
+      "mark": {
+        "type": "circle",
+        "size": 300,
+        "opacity": 0.9,
+        "stroke": "white",
+        "strokeWidth": 1
       },
-      "title": "World Rank & Solver",
-      "axis": {
-        "labelFontSize": 13,
-        "titleFontSize": 14,
-        "labelLimit": 250
+      "encoding": {
+        "x": {
+          "field": "best_time",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "rank_solver",
+          "type": "nominal",
+          "sort": {
+            "field": "best_time",
+            "order": "ascending"
+          }
+        },
+        "color": {
+          "value": "#4285F4",
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "country_rank", "type": "ordinal", "title": "Rank"},
+          {"field": "name", "type": "nominal", "title": "Solver"},
+          {"field": "countryId", "type": "nominal", "title": "Country"},
+          {"field": "best_time", "type": "quantitative", "title": "Best Time (seconds)", "format": ".3f"},
+          {"field": "personId", "type": "nominal", "title": "WCA ID"}
+        ]
       }
-    },
-    "color": {
-      "field": "country_rank",
-      "type": "ordinal",
-      "scale": {
-        "domain": [1, 2, 3, 4, 5],
-        "range": ["#FFD700", "#C0C0C0", "#CD7F32", "#4285F4", "#34A853"]
-      },
-      "legend": {
-        "title": "Rank",
-        "titleFontSize": 12,
-        "labelFontSize": 11,
-        "orient": "right",
-        "symbolType": "square"
-      }
-    },
-    "tooltip": [
-      {"field": "country_rank", "type": "ordinal", "title": "Rank"},
-      {"field": "name", "type": "nominal", "title": "Solver"},
-      {"field": "countryId", "type": "nominal", "title": "Country"},
-      {"field": "best_time", "type": "quantitative", "title": "Best Time (seconds)", "format": ".3f"},
-      {"field": "personId", "type": "nominal", "title": "WCA ID"}
-    ]
-  },
+    }
+  ],
   "config": {
-    "view": {"stroke": "transparent"},
+    "view": {
+      "stroke": null,
+      "fill": "#f9f9f9"
+    },
     "axis": {
       "labelColor": "#333",
-      "titleColor": "#333"
+      "titleColor": "#333",
+      "domainColor": "#333",
+      "domainWidth": 1.5,
+      "tickColor": "#333",
+      "tickWidth": 1.5,
+      "gridColor": "#ffffff"
     }
   }
 }

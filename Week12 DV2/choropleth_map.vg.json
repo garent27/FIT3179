@@ -9,7 +9,7 @@
     "fontSize": 20,
     "anchor": "start"
   },
-  "background": "#f8f9fa",
+  "background": "#f9f9f9",
 
   "signals": [
     { "name": "tx", "update": "width / 2" },
@@ -180,10 +180,10 @@
     "fill": "color",
     "title": "Solve Time (seconds)",
     "titleAnchor": "start",
-    "direction": "horizontal",
-    "orient": "none",
-    "legendX": 20,
-    "legendY": 460,
+    "direction": "vertical",
+    "orient": "right",
+    "legendX": 750,
+    "legendY": 20,
     "encode": {
       "symbols": {
         "update": {

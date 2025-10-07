@@ -1,11 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Cumulative Rubik's Cube Competitors by Continent (1982-2025)",
+    "text": "Cumulative Rubik's Cube Competitors by Continent (2003-2025)",
     "fontSize": 18,
     "anchor": "start",
     "offset": 10
   },
+  
   "width": 800,
   "height": 450,
   "data": {
@@ -76,13 +77,18 @@
       {"field": "new_competitors", "type": "quantitative", "title": "New That Year", "format": ",d"}
     ]
   },
+  "background": "#f9f9f9",
   "config": {
-    "view": {"stroke": "transparent"},
+    "view": {
+      "stroke": null,
+      "fill": "#f9f9f9"
+    },
     "axis": {
       "labelColor": "#333",
       "titleColor": "#333",
       "domainColor": "#333",
-      "tickColor": "#333"
+      "tickColor": "#333",
+      "gridColor": "#f9f9f9"
     },
     "legend": {
       "labelColor": "#333",
