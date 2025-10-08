@@ -168,6 +168,45 @@
       ]
     },
     {
+      "name": "fastest_country",
+      "source": "countries_with_data",
+      "transform": [
+        {
+          "type": "aggregate",
+          "ops": ["min"],
+          "fields": ["BestSeconds"],
+          "as": ["min_time"]
+        }
+      ]
+    },
+    {
+      "name": "fastest_country_full",
+      "source": "countries_with_data",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "fastest_country",
+          "key": "min_time",
+          "fields": ["BestSeconds"],
+          "as": ["match"]
+        },
+        {
+          "type": "filter",
+          "expr": "datum.match != null"
+        },
+        {
+          "type": "geoshape",
+          "projection": "projection",
+          "as": "shape"
+        },
+        {
+          "type": "formula",
+          "expr": "geoCentroid('projection', datum)",
+          "as": "centroid"
+        }
+      ]
+    },
+    {
       "name": "sea",
       "values": [{"type": "Sphere"}]
     }
@@ -270,6 +309,58 @@
       "transform": [
         { "type": "geoshape", "projection": "projection" }
       ]
+    },
+    {
+      "type": "text",
+      "from": {"data": "fastest_country_full"},
+      "encode": {
+        "enter": {
+          "text": {"signal": "' Fastest Country: ' + datum.properties.NAME"},
+          "align": {"value": "center"},
+          "baseline": {"value": "bottom"},
+          "fontSize": {"value": 14},
+          "fontWeight": {"value": "bold"}
+        },
+        "update": {
+          "x": {"signal": "geoCentroid('projection', datum)[0]"},
+          "y": {"signal": "geoCentroid('projection', datum)[1] - 30"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "fastest_country_full"},
+      "encode": {
+        "enter": {
+          "text": {"signal": "datum.BestSeconds + ' seconds by ' + datum.Person"},
+          "align": {"value": "center"},
+          "baseline": {"value": "bottom"},
+          "fontSize": {"value": 11},
+          "fontWeight": {"value": "normal"}
+        },
+        "update": {
+          "x": {"signal": "geoCentroid('projection', datum)[0]"},
+          "y": {"signal": "geoCentroid('projection', datum)[1] - 12"}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "fastest_country_full"},
+      "encode": {
+        "enter": {
+          "size": {"value": 150},
+          "shape": {"value": "circle"},
+          "fill": {"value": "transparent"},
+          "stroke": {"value": "#cc4c02"},
+          "strokeWidth": {"value": 2.5},
+          "opacity": {"value": 0.8}
+        },
+        "update": {
+          "x": {"signal": "geoCentroid('projection', datum)[0]"},
+          "y": {"signal": "geoCentroid('projection', datum)[1]"}
+        }
+      }
     }
   ]
 }
