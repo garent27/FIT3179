@@ -322,8 +322,8 @@
           "fontWeight": {"value": "bold"}
         },
         "update": {
-          "x": {"signal": "geoCentroid('projection', datum)[0]"},
-          "y": {"signal": "geoCentroid('projection', datum)[1] - 30"}
+          "x": {"signal": "geoCentroid('projection', datum)[0] + 20"},
+          "y": {"signal": "geoCentroid('projection', datum)[1] - 5"}
         }
       }
     },
@@ -332,18 +332,19 @@
       "from": {"data": "fastest_country_full"},
       "encode": {
         "enter": {
-          "text": {"signal": "datum.BestSeconds + ' seconds by ' + datum.Person"},
+          "text": {"signal": "datum.BestSeconds + ' seconds'"},
           "align": {"value": "center"},
           "baseline": {"value": "bottom"},
           "fontSize": {"value": 11},
           "fontWeight": {"value": "normal"}
         },
         "update": {
-          "x": {"signal": "geoCentroid('projection', datum)[0]"},
-          "y": {"signal": "geoCentroid('projection', datum)[1] - 12"}
+          "x": {"signal": "geoCentroid('projection', datum)[0] + 3"},
+          "y": {"signal": "geoCentroid('projection', datum)[1] + 16"}
         }
       }
     },
+
     {
       "type": "symbol",
       "from": {"data": "fastest_country_full"},
@@ -352,7 +353,7 @@
           "size": {"value": 150},
           "shape": {"value": "circle"},
           "fill": {"value": "transparent"},
-          "stroke": {"value": "#cc4c02"},
+          "stroke": {"value": "black"},
           "strokeWidth": {"value": 2.5},
           "opacity": {"value": 0.8}
         },
