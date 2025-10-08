@@ -1,0 +1,125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "params": [
+    {
+      "name": "country_selection",
+      "value": "World"
+    }
+  ],
+  "padding": {"left": 100, "right": 20, "top": 30, "bottom": 20},
+  "background": "#f9f9f9",
+  "title": {
+    "text": {
+      "expr": "country_selection == 'World' ? 'Top 5 Fastest Rubik\\'s Cube Single Solves Ever' : 'Top 5 Fastest Solves in ' + country_selection"
+    },
+    "fontSize": 20,
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "data/top10_unique_per_country.csv"
+  },
+  "transform": [
+    {
+      "filter": "country_selection == 'World' || datum.countryId == country_selection"
+    },
+    {
+      "calculate": "toNumber(datum.single_seconds)",
+      "as": "time_numeric"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "min",
+          "field": "time_numeric",
+          "as": "best_time"
+        }
+      ],
+      "groupby": ["personId", "name", "countryId"]
+    },
+    {
+      "window": [
+        {
+          "op": "row_number",
+          "as": "country_rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "best_time",
+          "order": "ascending"
+        }
+      ]
+    },
+    {
+      "filter": "datum.country_rank <= 5"
+    },
+    {
+      "calculate": "datum.name",
+      "as": "solver_name"
+    },
+    {
+      "calculate": "'#' + datum.country_rank + ': ' + datum.name",
+      "as": "rank_solver"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "opacity": 0.8,
+    "stroke": "white",
+    "strokeWidth": 1,
+    "cornerRadiusEnd": 4
+  },
+  "encoding": {
+    "x": {
+      "field": "best_time",
+      "type": "quantitative",
+      "title": "Best Solve Time (seconds)",
+      "scale": {
+        "zero": true,
+        "nice": true
+      },
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "format": ".2f",
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "rank_solver",
+      "type": "nominal",
+      "sort": {
+        "field": "best_time",
+        "order": "ascending"
+      },
+      "title": "World Rank & Solver",
+      "axis": {
+        "labelFontSize": 13,
+        "titleFontSize": 14,
+        "labelLimit": 250
+      }
+    },
+    "color": {
+      "type": "ordinal",
+      "scale": {
+        "domain": [1, 2, 3, 4, 5],
+        "range": ["#FF700"]
+      }
+    },
+    "tooltip": [
+      {"field": "country_rank", "type": "ordinal", "title": "Rank"},
+      {"field": "name", "type": "nominal", "title": "Solver"},
+      {"field": "countryId", "type": "nominal", "title": "Country"},
+      {"field": "best_time", "type": "quantitative", "title": "Best Time (seconds)", "format": ".3f"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {
+      "labelColor": "#333",
+      "titleColor": "#333"
+    }
+  }
+}

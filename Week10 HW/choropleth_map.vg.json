@@ -1,10 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Interactive world map showing fastest Rubik's Cube solves by country with pan and zoom.",
-  "width": 900,
-  "height": 500,
+  "width": 800,
+  "height": 400,
   "autosize": "none",
-  "padding": {"left": 100, "right": 20, "top": 30, "bottom": 20},
+  "padding": {"top": 50, "left": 5, "right": 100, "bottom": 5},
   "title": {
     "text": "Fastest 3x3 Rubik's Cube Solves by Country",
     "fontSize": 20,
@@ -14,6 +14,7 @@
     "color": "#333",
     "offset": 10
   },
+  
   "background": "#f9f9f9",
 
   "signals": [
@@ -177,7 +178,7 @@
       "name": "color",
       "type": "threshold",
       "domain": [4, 8, 12, 16],
-      "range": ["#006837", "#31a354", "#78c679", "#c2e699", "#ffffcc"]
+      "range": ["#cc4c02", "#ec7014", "#fe9929", "#fec44f", "#fff7bc"]
     }
   ],
 

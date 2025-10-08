@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+<script src="vega_lite_vis.js"></script>
+<link rel="stylesheet" href="layout.css">
+<title>Rubik's Cube Data Visualization</title>
+</head>
+<body>
+<h1>Fastest Rubik's Cube Solves in the World</h1>
+
+<div class="vis-section">
+    <div class="vis-container">
+        <div id="choropleth_map"></div>
+
+    </div>
+    <div class="text-container">
+        <h2>World Map of Fastest Solves</h2>
+        <p>This interactive world map displays the distribution of Rubik's Cube solving speeds across different countries. The color intensity indicates the relative speed of solves, with darker colors representing faster times.</p>
+                  <br>
+          <p>
+            You click & hold to drag and scroll to zoom. Click on any country to see detailed statistics and update the rankings visualization below
+          </p>
+    </div>
+</div>
+
+<div class="vis-section">
+    <div class="vis-container">
+        <div id="top5_fastest"></div>
+    </div>
+    <div class="text-container">
+        <div id="selected-country">Selected Country = "World"</div>
+        <button id="reset-country">Reset</button>
+
+        <h2>Top 5 Fastest Solves of Selected Country</h2>
+        <p>These are the five fastest individual Rubik's Cube solves ever recorded in official competitions from the selected country from the map above. Each bar represents a solver's best time.</p>
+    </div>
+</div>
+
+
+</body>
+</html>

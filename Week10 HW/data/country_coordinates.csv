@@ -1,0 +1,189 @@
+country,longitude,latitude,continent
+United States of America,-95,37,North America
+Germany,10,51,Europe
+France,2,46,Europe
+United Kingdom,-3,55,Europe
+Australia,133,-27,Oceania
+Canada,-106,56,North America
+Brazil,-55,-14,South America
+Netherlands,5.75,52.3,Europe
+Poland,19,52,Europe
+Italy,12,41,Europe
+Spain,-3,40,Europe
+Sweden,18,60,Europe
+China,104,35,Asia
+Japan,138,36,Asia
+South Korea,127.5,35.9,Asia
+Russia,105,61,Europe
+Mexico,-102,23,North America
+Argentina,-64,-34,South America
+Chile,-71,-35,South America
+Colombia,-74,4,South America
+Peru,-76,-9.2,South America
+Venezuela,-66,6.4,South America
+India,78,20,Asia
+Indonesia,113,-0.8,Asia
+Thailand,101,15,Asia
+Malaysia,101.975,4.21,Asia
+Philippines,121.8,12.9,Asia
+Vietnam,108,14,Asia
+Taiwan,121,23.7,Asia
+South Africa,22.9,-30.6,Africa
+Algeria,1.66,28,Africa
+Turkey,35.2,38.96,Asia
+Iran,53.7,32.4,Asia
+Israel,34.85,31.05,Asia
+Saudi Arabia,45.08,23.89,Asia
+Qatar,51.18,25.35,Asia
+United Arab Emirates,53.85,23.42,Asia
+Pakistan,69.35,30.38,Asia
+Bangladesh,90.36,23.68,Asia
+Norway,8.47,60.47,Europe
+Finland,25.75,61.92,Europe
+Denmark,9.5,56.26,Europe
+Belgium,4.47,50.5,Europe
+Switzerland,8.23,46.8,Europe
+Austria,14.55,47.52,Europe
+Bosnia and Herzegovina,17.68,43.92,Europe
+Albania,20.17,41.15,Europe
+Belarus,27.95,53.71,Europe
+Ukraine,31.17,48.38,Europe
+New Zealand,174.89,-40.9,Oceania
+Costa Rica,-84.09,9.75,North America
+Cuba,-77.78,21.52,North America
+Dominican Republic,-70.16,18.74,North America
+Kosovo,20.9,42.6,Europe
+Czech Republic,15.47,49.82,Europe
+Slovakia,19.7,48.67,Europe
+Hungary,19.5,47.16,Europe
+Romania,24.97,45.94,Europe
+Bulgaria,25.48,42.73,Europe
+Serbia,21.01,44.02,Europe
+Croatia,15.2,45.1,Europe
+Slovenia,14.99,46.15,Europe
+Montenegro,19.37,42.71,Europe
+North Macedonia,21.75,41.61,Europe
+Greece,21.82,39.07,Europe
+Cyprus,33.43,35.13,Europe
+Portugal,-8.22,39.4,Europe
+Lithuania,23.88,55.17,Europe
+Latvia,24.6,56.88,Europe
+Estonia,25.01,58.6,Europe
+Iceland,-19.02,64.96,Europe
+Ireland,-8.24,53.41,Europe
+Luxembourg,6.13,49.82,Europe
+Armenia,45.04,40.07,Asia
+Azerbaijan,47.58,40.14,Asia
+Georgia,43.36,42.32,Asia
+Kazakhstan,66.92,48.02,Asia
+Uzbekistan,64.59,41.38,Asia
+Kyrgyzstan,74.77,41.2,Asia
+Tajikistan,71.28,38.86,Asia
+Turkmenistan,59.56,38.97,Asia
+Afghanistan,67.71,33.94,Asia
+Myanmar,95.96,21.91,Asia
+Cambodia,104.99,12.57,Asia
+Laos,102.5,19.86,Asia
+Mongolia,103.85,46.86,Asia
+Nepal,84.12,28.39,Asia
+Bhutan,90.43,27.51,Asia
+Sri Lanka,80.77,7.87,Asia
+Bangladesh,90.36,23.68,Asia
+Moldova,28.37,47.41,Europe
+Jordan,36.24,30.59,Asia
+Lebanon,35.86,33.85,Asia
+Syria,38.99,34.8,Asia
+Iraq,43.68,33.22,Asia
+Kuwait,47.48,29.31,Asia
+Oman,55.92,21.51,Asia
+Yemen,48.52,15.55,Asia
+Egypt,30,26,Africa
+Morocco,-7.1,31.8,Africa
+Tunisia,9.54,33.9,Africa
+Libya,17.23,26.34,Africa
+Sudan,30.22,12.86,Africa
+Ethiopia,40.5,9.15,Africa
+Eritrea,39.78,15.34,Africa
+Somalia,46.2,5.15,Africa
+Kenya,37.9,-0.02,Africa
+Uganda,32.3,1.37,Africa
+Tanzania,34.9,-6.37,Africa
+Rwanda,29.87,-1.94,Africa
+Burundi,29.92,-3.37,Africa
+Dem. Rep. Congo,21.76,-4.04,Africa
+Congo,15.28,-0.23,Africa
+Central African Republic,20.94,6.61,Africa
+Chad,18.73,15.45,Africa
+Niger,8.08,17.61,Africa
+Mali,-3.99,17.57,Africa
+Burkina Faso,-2.18,12.24,Africa
+Mauritania,-10.94,21.01,Africa
+Senegal,-14.45,14.5,Africa
+Gambia,-15.31,13.44,Africa
+Guinea-Bissau,-15.18,11.8,Africa
+Guinea,-9.7,9.95,Africa
+Sierra Leone,-11.78,8.46,Africa
+Liberia,-9.43,6.43,Africa
+Ivory Coast,-5.55,7.54,Africa
+Ghana,-1.02,7.95,Africa
+Togo,0.82,8.62,Africa
+Benin,2.32,9.31,Africa
+Nigeria,8,9.1,Africa
+Cameroon,12.35,7.37,Africa
+Equatorial Guinea,10.27,1.65,Africa
+Gabon,11.61,-0.8,Africa
+Sao Tome and Principe,6.61,0.19,Africa
+Angola,17.9,-11.2,Africa
+Zambia,27.8,-13.1,Africa
+Malawi,34.3,-13.25,Africa
+Mozambique,35.53,-18.67,Africa
+Zimbabwe,29.2,-19,Africa
+Botswana,24.7,-22.3,Africa
+South Africa,22.9,-30.6,Africa
+Namibia,18.5,-22.6,Africa
+Lesotho,28.23,-29.61,Africa
+Swaziland,31.47,-26.52,Africa
+Madagascar,46.87,-18.77,Africa
+Mauritius,57.55,-20.35,Africa
+Seychelles,55.49,-4.68,Africa
+Comoros,43.87,-11.88,Africa
+Guatemala,-90.23,15.78,North America
+Belize,-88.77,17.19,North America
+El Salvador,-88.9,13.79,North America
+Honduras,-86.24,15.2,North America
+Nicaragua,-85.21,12.87,North America
+Panama,-80.78,8.54,North America
+Jamaica,-77.3,18.11,North America
+Haiti,-72.29,18.97,North America
+Bahamas,-77.4,25.03,North America
+Trinidad and Tobago,-61.22,10.69,North America
+Barbados,-59.54,13.19,North America
+Grenada,-61.68,12.12,North America
+Saint Vincent and the Grenadines,-61.2,13.25,North America
+Saint Lucia,-60.98,13.9,North America
+Dominica,-61.37,15.41,North America
+Antigua and Barbuda,-61.8,17.06,North America
+Saint Kitts and Nevis,-62.78,17.36,North America
+Guyana,-58.93,4.86,South America
+Suriname,-56.03,3.92,South America
+French Guiana,-53.13,3.93,South America
+Uruguay,-56,-33,South America
+Paraguay,-58,-23,South America
+Bolivia,-65,-17,South America
+Ecuador,-78.2,-1.8,South America
+Fiji,179.41,-16.58,Oceania
+Papua New Guinea,143.95,-6.31,Oceania
+Solomon Islands,160.16,-9.65,Oceania
+Vanuatu,166.96,-15.38,Oceania
+New Caledonia,165.62,-20.9,Oceania
+Samoa,-172.1,-13.76,Oceania
+Tonga,-175.2,-21.18,Oceania
+Tuvalu,179.22,-7.11,Oceania
+Kiribati,-157.36,1.87,Oceania
+Nauru,166.93,-0.52,Oceania
+Palau,134.58,7.51,Oceania
+Marshall Islands,171.18,7.13,Oceania
+Micronesia,158.15,6.92,Oceania
+Brunei,114.73,4.54,Asia
+Timor-Leste,125.73,-8.87,Asia
+Maldives,73.54,3.2,Asia
