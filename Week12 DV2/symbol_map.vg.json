@@ -5,8 +5,8 @@
     "fontSize": 20,
     "anchor": "middle"
   },
-  "width": 900,
-  "height": 500,
+  "width": 600,
+  "height": 400,
   "projection": {
     "type": "equalEarth",
     "scale": {"expr": "zoom_level * (center_to == 'World' ? 1 : 2.33)"},
@@ -29,10 +29,10 @@
     },
     {
       "name": "zoom_level",
-      "value": 150,
+      "value": 110,
       "bind": {
         "input": "range",
-        "min": 150,
+        "min": 110,
         "max": 1000,
         "step": 50,
         "name": "Zoom Level: "
@@ -127,6 +127,94 @@
           {"field": "total_competitions", "type": "quantitative", "title": "Total Competitions"}
         ]
       }
+    },
+    {
+      "data": {
+        "url": "data/competitions_with_fastest.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.year == Year_selection"
+        },
+        {
+          "aggregate": [{"op": "sum", "field": "competitions", "as": "total_competitions"}],
+          "groupby": ["countryId"]
+        },
+        {
+          "lookup": "countryId",
+          "from": {
+            "data": {
+              "url": "data/country_coordinates.csv"
+            },
+            "key": "country",
+            "fields": ["longitude", "latitude"]
+          }
+        },
+        {
+          "filter": "datum.longitude != null && datum.total_competitions > 0"
+        },
+        {
+          "window": [{"op": "rank", "as": "rank"}],
+          "sort": [{"field": "total_competitions", "order": "descending"}]
+        },
+        {
+          "filter": "datum.rank == 1"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "point",
+            "shape": "circle",
+            "size": 150,
+            "fill": "transparent",
+            "stroke": "#000",
+            "strokeWidth": 3
+          },
+          "encoding": {
+            "longitude": {"field": "longitude", "type": "quantitative"},
+            "latitude": {"field": "latitude", "type": "quantitative"}
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 15,
+            "dy": -15,
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "fill": "#000",
+            "stroke": "#fff",
+            "strokeWidth": 3
+          },
+          "encoding": {
+            "longitude": {"field": "longitude", "type": "quantitative"},
+            "latitude": {"field": "latitude", "type": "quantitative"},
+            "text": {
+              "field": "total_competitions",
+              "type": "quantitative",
+              "format": ""
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 15,
+            "dy": -15,
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "fill": "#000"
+          },
+          "encoding": {
+            "longitude": {"field": "longitude", "type": "quantitative"},
+            "latitude": {"field": "latitude", "type": "quantitative"},
+            "text": {"value": ["Highest Total", "Competition"] }
+          }
+        }
+      ]
     }
   ],
   "config": {
