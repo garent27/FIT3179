@@ -5,10 +5,11 @@
     "fontSize": 20,
     "anchor": "start"
   },
+  
   "background": "#f9f9f9",
     "padding": {"left": 10, "right": -50, "top": 30, "bottom": 25},
   "width": 500,
-  "height": 400,
+  "height": 350,
   "data": {
     "url": "data/competitions_with_fastest.csv"
   },

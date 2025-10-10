@@ -6,9 +6,9 @@
     "anchor": "start",
     "offset": 10
   },
-  
-  "width": 800,
-  "height": 450,
+  "padding": {"left": 0, "right": 10, "top": 0, "bottom": 0},
+  "width": 500,
+  "height": 400,
   "data": {
     "url": "data/competitor_growth_by_continent.csv"
   },

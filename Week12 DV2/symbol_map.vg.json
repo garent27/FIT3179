@@ -5,6 +5,7 @@
     "fontSize": 20,
     "anchor": "middle"
   },
+  "padding": {"left": 0, "right": 40, "top": 30, "bottom": 0},
   "width": 600,
   "height": 400,
   "projection": {
@@ -29,7 +30,7 @@
     },
     {
       "name": "zoom_level",
-      "value": 110,
+      "value": 100,
       "bind": {
         "input": "range",
         "min": 110,
@@ -120,7 +121,12 @@
             "domain": [5, 15, 30, 50, 100, 250],
             "range": [100, 200, 400, 600, 800, 1000, 1200]
           },
-          "legend": {"title": "Total Competitions"}
+          "legend": {
+            "title": "Total Competitions",
+            "orient": "right",
+            "offset": -40,
+            "direction": "vertical"
+          }
         },
         "tooltip": [
           {"field": "countryId", "type": "nominal", "title": "Country"},
