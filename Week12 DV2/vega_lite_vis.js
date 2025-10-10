@@ -105,6 +105,11 @@ vegaEmbed('#line_chart', vg_12).then(function(result) {
     // Access the Vega view instance as result.view
 }).catch(console.error);
 
+var vg_13 = "gender_participation.vg.json";
+vegaEmbed('#gender_participation', vg_13).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
 // Add reset button functionality
 document.addEventListener('DOMContentLoaded', function() {
     const resetButton = document.getElementById('reset-country');

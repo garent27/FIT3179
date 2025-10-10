@@ -1,0 +1,215 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gender Participation by Event Over Time",
+    "fontSize": 18,
+    "anchor": "middle"
+  },
+  "data": {
+    "url": "data/gender_participation_by_event_year.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.gender == 'f' || datum.gender == 'm'"
+    }
+  ],
+  "spacing": 20,
+  "concat": [
+    {
+      "title": "2x2 Cube (222)",
+      "width": 280,
+      "height": 300,
+      "transform": [
+        {"filter": "datum.eventId == '222'"}
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 10
+          }
+        },
+        "y": {
+          "field": "participants",
+          "type": "quantitative",
+          "title": "Number of Participants",
+          "scale": {
+            "domain": [0, 60000]
+          },
+          "axis": {
+            "labelFontSize": 11
+          }
+        },
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["f", "m"],
+            "range": ["#e74c3c", "#3498db"]
+          },
+          "legend": {
+            "title": "Gender",
+            "labelExpr": "datum.value == 'f' ? 'Female' : 'Male'"
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "gender", "type": "nominal", "title": "Gender", "format": ""},
+          {"field": "participants", "type": "quantitative", "title": "Participants"}
+        ]
+      }
+    },
+    {
+      "title": "3x3 Cube (333)",
+      "width": 280,
+      "height": 300,
+      "transform": [
+        {"filter": "datum.eventId == '333'"}
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 10
+          }
+        },
+        "y": {
+          "field": "participants",
+          "type": "quantitative",
+          "title": "Number of Participants",
+          "scale": {
+            "domain": [0, 60000]
+          },
+          "axis": {
+            "labelFontSize": 11
+          }
+        },
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["f", "m"],
+            "range": ["#e74c3c", "#3498db"]
+          },
+          "legend": {
+            "title": "Gender",
+            "labelExpr": "datum.value == 'f' ? 'Female' : 'Male'"
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "gender", "type": "nominal", "title": "Gender", "format": ""},
+          {"field": "participants", "type": "quantitative", "title": "Participants"}
+        ]
+      }
+    },
+    {
+      "title": "4x4 Cube (444)",
+      "width": 280,
+      "height": 300,
+      "transform": [
+        {"filter": "datum.eventId == '444'"}
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 10
+          }
+        },
+        "y": {
+          "field": "participants",
+          "type": "quantitative",
+          "title": "Number of Participants",
+          "scale": {
+            "domain": [0, 60000]
+          },
+          "axis": {
+            "labelFontSize": 11
+          }
+        },
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["f", "m"],
+            "range": ["#e74c3c", "#3498db"]
+          },
+          "legend": {
+            "title": "Gender",
+            "labelExpr": "datum.value == 'f' ? 'Female' : 'Male'"
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "gender", "type": "nominal", "title": "Gender", "format": ""},
+          {"field": "participants", "type": "quantitative", "title": "Participants"}
+        ]
+      }
+    },
+    {
+      "title": "5x5 Cube (555)",
+      "width": 280,
+      "height": 300,
+      "transform": [
+        {"filter": "datum.eventId == '555'"}
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelAngle": -45,
+            "labelFontSize": 10
+          }
+        },
+        "y": {
+          "field": "participants",
+          "type": "quantitative",
+          "title": "Number of Participants",
+          "scale": {
+            "domain": [0, 60000]
+          },
+          "axis": {
+            "labelFontSize": 11
+          }
+        },
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["f", "m"],
+            "range": ["#e74c3c", "#3498db"]
+          },
+          "legend": {
+            "title": "Gender",
+            "labelExpr": "datum.value == 'f' ? 'Female' : 'Male'"
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "gender", "type": "nominal", "title": "Gender", "format": ""},
+          {"field": "participants", "type": "quantitative", "title": "Participants"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": "transparent"},
+    "background": "#f9f9f9"
+  }
+}
