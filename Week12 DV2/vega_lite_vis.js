@@ -95,6 +95,16 @@ vegaEmbed('#sunburst_new', vg_10).then(function(result) {
     // Access the Vega view instance as result.view
 }).catch(console.error);
 
+var vg_11 = "bump_chart.vg.json";
+vegaEmbed('#bump_chart', vg_11).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
+var vg_12 = "line_chart.vg.json";
+vegaEmbed('#line_chart', vg_12).then(function(result) {
+    // Access the Vega view instance as result.view
+}).catch(console.error);
+
 // Add reset button functionality
 document.addEventListener('DOMContentLoaded', function() {
     const resetButton = document.getElementById('reset-country');

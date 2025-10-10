@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Fastest Solve Times by Top 5 Countries (2010-2025)",
+    "fontSize": 20,
+    "anchor": "middle"
+  },
+  "width": 1200,
+  "height": 400,
+  "background": "#f9f9f9",
+  "data": {
+    "url": "data/fastest_3x3_top5countries.csv"
+  },
+  "params": [
+    {
+      "name": "country_selection",
+      "select": {"type": "point", "fields": ["country"]},
+      "bind": "legend"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "fastest_seconds",
+      "type": "quantitative",
+      "title": "Fastest Time (seconds)",
+      "scale": {
+        "domain": [3, 9],
+        "nice": true
+      },
+      "axis": {
+        "grid": true,
+        "gridDash": [2, 2]
+      }
+    },
+    "color": {
+      "field": "country",
+      "type": "nominal",
+      "title": "Country",
+      "scale": {
+        "scheme": "category10"
+      },
+      "legend": {
+        "orient": "none",
+        "legendX": 1050,
+        "legendY": 10,
+        "direction": "vertical",
+        "title": "Country (Click to highlight)",
+        "titleFontSize": 12,
+        "labelFontSize": 11,
+        "fillColor": "white",
+        "strokeColor": "#ccc",
+        "padding": 10,
+        "cornerRadius": 5
+      }
+    },
+    "opacity": {
+      "condition": {"param": "country_selection", "value": 1},
+      "value": 0.2
+    },
+    "strokeWidth": {
+      "condition": {"param": "country_selection", "value": 4},
+      "value": 2
+    },
+    "tooltip": [
+      {"field": "country", "type": "nominal", "title": "Country"},
+      {"field": "year", "type": "ordinal", "title": "Year"},
+      {"field": "fastest_seconds", "type": "quantitative", "title": "Fastest Time (s)", "format": ".2f"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 13
+    }
+  }
+}
