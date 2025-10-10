@@ -65,9 +65,9 @@
     },
     {
       "data": {
-        "graticule": {"step": [30, 30]}
+        "graticule": {"step": [15, 15]}
       },
-      "mark": {"type": "geoshape", "fill": null, "stroke": "#e0e0e0", "strokeWidth": 0.3}
+      "mark": {"type": "geoshape", "fill": null, "stroke": "#999", "strokeWidth": 0.5}
     },
     {
       "data": {

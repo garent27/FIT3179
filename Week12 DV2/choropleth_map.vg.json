@@ -169,6 +169,12 @@
     {
       "name": "sea",
       "values": [{"type": "Sphere"}]
+    },
+    {
+      "name": "graticule",
+      "transform": [
+        { "type": "graticule", "step": [15, 15] }
+      ]
     }
   ],
 
@@ -230,6 +236,20 @@
       },
       "transform": [
         {"type": "geoshape", "projection": "projection"}
+      ]
+    },
+    {
+      "type": "shape",
+      "from": {"data": "graticule"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 0.5},
+          "stroke": {"value": "#999"},
+          "fill": {"value": null}
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
       ]
     },
     {
