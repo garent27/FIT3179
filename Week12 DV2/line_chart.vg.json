@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Fastest Solve Times by Top 5 Countries (2010-2025)",
+    "text": "Fastest Solve Each Year by Top 5 Countries",
     "fontSize": 20,
     "anchor": "middle"
   },
-  "width": 1200,
+  "width": 2000,
   "height": 400,
   "background": "#f9f9f9",
   "data": {
@@ -38,7 +38,7 @@
       "type": "quantitative",
       "title": "Fastest Time (seconds)",
       "scale": {
-        "domain": [3, 9],
+        "domain": [0, 9],
         "nice": true
       },
       "axis": {
