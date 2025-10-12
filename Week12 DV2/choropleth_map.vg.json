@@ -4,15 +4,12 @@
   "width": 650,
   "height": 400,
   "autosize": "none",
-  "padding": {"left": 0, "right": 0, "top": 30, "bottom": 25},
+  "padding": {"left": 0, "right": 0, "top": 40, "bottom": 25},
   "title": {
     "text": "Fastest 3x3 Rubik's Cube Solves by Country",
-    "fontSize": 20,
-    "font": "Arial, sans-serif",
-    "fontWeight": "bold",
+    "fontSize": 26,
     "anchor": "start",
-    "color": "#333",
-    "offset": 10
+    "color": "black"
   },
   "background": "transparent",
 

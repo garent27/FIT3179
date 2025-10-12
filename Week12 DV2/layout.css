@@ -25,14 +25,16 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+	font-size: 26px;
     margin-top: 0;
-    color: #333;
-    text-align: left;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 p {
-    color: #666;
+    font-size: 18px;
+    color: black;
     line-height: 1.6;
 }
 
@@ -100,13 +102,14 @@ footer {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+
 }
 
 .text-container {
     padding: 1rem;
     text-align: center;
     flex-shrink: 0;
-    max-width: 50%;
+    max-width: 85%;
     margin: 0 auto;
 }
 

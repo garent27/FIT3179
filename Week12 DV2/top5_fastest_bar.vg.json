@@ -11,12 +11,12 @@
     "text": {
       "expr": "country_selection == 'World' ? 'Top 10 Fastest Rubik\\'s Cube Single Solves Ever' : 'Top 10 Fastest Solves in ' + country_selection"
     },
-    "fontSize": 20,
+    "fontSize": 26,
     "anchor": "start"
   },
   "width": 550,
   "height": 350,
-  "padding": {"left": 10, "right": 0, "top": 30, "bottom": 20},
+  "padding": {"left": 0, "right": 0, "top": 30, "bottom": 20},
   "data": {
     "url": "data/top10_unique_per_country.csv"
   },
