@@ -14,8 +14,8 @@
     "fontSize": 20,
     "anchor": "start"
   },
-  "width": 500,
-  "height": 315,
+  "width": 650,
+  "height": 400,
   "padding": {"left": 10, "right": 0, "top": 30, "bottom": 20},
   "data": {
     "url": "data/top10_unique_per_country.csv"

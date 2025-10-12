@@ -7,9 +7,9 @@
   },
   
   "background": "#f9f9f9",
-    "padding": {"left": 10, "right": -50, "top": 30, "bottom": 25},
-  "width": 500,
-  "height": 350,
+    "padding": {"left": 0, "right": 0, "top": 30, "bottom": 25},
+  "width": 600,
+  "height": 400,
   "data": {
     "url": "data/competitions_with_fastest.csv"
   },

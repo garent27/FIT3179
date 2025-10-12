@@ -8,119 +8,129 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 <script src="vega_lite_vis.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
 <link rel="stylesheet" href="layout.css">
 <title>Rubik's Cube Data Visualization</title>
 </head>
 <body>
+<div class="page">
 <h1>Fastest Rubik's Cube Solves by Country</h1>
 
-<!-- Row 1: Choropleth Map and Top 5 Fastest Side by Side -->
-<div class="vis-row">
-    <div class="vis-item">
-        <div class="vis-container">
-            <div id="choropleth_map"></div>
-        </div>
+<!-- Map and bar chart section -->
+<div class="pure-g">
+    <div class="pure-u-1-2">
+        <div class="vis-container" id="choropleth_map"></div>
+    </div>
+    <div class="pure-u-1-2">
+        <div class="vis-container" id="top5_fastest"></div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1-2">
         <div class="text-container">
             <h2>World Map of Fastest Solves</h2>
             <p>This interactive world map displays the distribution of Rubik's Cube solving speeds across different countries. The color intensity indicates the relative speed of solves, with darker colors representing faster times. You can click on any country to see detailed statistics and update the rankings visualization below.</p>
         </div>
     </div>
-    
-    <div class="vis-item">
-        <div class="vis-container">
-            <div id="top5_fastest"></div>
-        </div>
+    <div class="pure-u-1-2">    
         <div class="text-container">
             <div id="selected-country">Selected Country = "None"</div>
             <button id="reset-country">Reset</button>
-            <h2>Top 5 Fastest Solves of Selected Country</h2>
-            <p>These are the five fastest individual Rubik's Cube solves ever recorded in official competitions. Each bar represents a solver's best time, showcasing the incredible speed and precision achieved by top competitors. These times represent the absolute pinnacle of human achievement in speedcubing.</p>
+            <h2>Top 5 Fastest Solves</h2>
+            <p>These are the five fastest individual Rubik's Cube solves ever recorded in official competitions for the selected country.</p>
         </div>
     </div>
 </div>
 
-<!-- Row 2: Line Chart (Full Width) -->
-<div class="vis-row">
-    <div class="vis-item full-width">
-        <div class="vis-container">
-            <div id="line_chart"></div>
-        </div>
+<!-- Line chart section -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <div class="vis-container" id="line_chart"></div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1">
         <div class="text-container">
             <h2>Fastest Solve Times Progression</h2>
-            <p>This line chart shows how the fastest solve times have improved over the years for the top 5 countries. The downward trend illustrates the remarkable progress in speedcubing performance, with times dropping from over 8 seconds in 2010 to below 3.5 seconds in recent years. Click on a country in the legend to highlight and compare individual progression.</p>
+            <p>This line chart shows how the fastest solve times have improved over the years for the top 5 countries.</p>
         </div>
     </div>
 </div>
 
-<!-- Row 3: Symbol Map and Heatmap Side by Side -->
-<div class="vis-row">
-    <div class="vis-item">
-        <div class="vis-container">
-            <div id="symbol_map"></div>
-        </div>
+<!-- Symbol map and heatmap section -->
+<div class="pure-g">
+    <div class="pure-u-1-2">
+        <div class="vis-container" id="symbol_map"></div>
+    </div>
+    <div class="pure-u-1-2">
+        <div class="vis-container" id="heatmap"></div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1-2">
         <div class="text-container">
             <h2>Total Competitions by Country</h2>
-            <p>This symbol map visualizes the geographic distribution of Rubik's Cube competitions worldwide. The size of each circle represents the number of competitions held in that country, helping identify regions with strong competitive scenes and those with potential for growth in the speedcubing community.</p>
+            <p>Geographic distribution of Rubik's Cube competitions worldwide. Circle size represents competition count.</p>
         </div>
     </div>
-    
-    <div class="vis-item">
-        <div class="vis-container">
-            <div id="heatmap"></div>
-        </div>
+    <div class="pure-u-1-2">
         <div class="text-container">
-            <h2>Competition Activity by Year and Continent</h2>
-            <p>The heatmap shows how competition activity has evolved across different continents over time. Darker colors indicate higher competition frequency, allowing us to track the global growth of the sport. This visualization reveals patterns in regional development and seasonal variations in competitive activity.</p>
+            <h2>Competition Activity</h2>
+            <p>Evolution of competition activity across continents over time. Darker colors indicate higher activity.</p>
         </div>
     </div>
 </div>
 
-<!-- Row 4: Treemap (Full Width) -->
-<div class="vis-row">
-    <div class="vis-item full-width">
-        <div class="vis-container">
-            <div id="treemap"></div>
-        </div>
+<!-- Treemap section -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <div class="vis-container" id="treemap"></div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1">
         <div class="text-container">
             <h2>Competition Solves by Event</h2>
-            <p>This treemap breaks down the relative popularity of different Rubik's Cube events in competitions. The size of each rectangle represents the number of solves in that category, showing which events attract the most participation and how competitors distribute their efforts across different puzzle types.</p>
+            <p>Breakdown of different Rubik's Cube events popularity in competitions.</p>
         </div>
     </div>
 </div>
 
-<!-- Row 5: Gender Participation (Full Width) -->
-<div class="vis-row">
-    <div class="vis-item full-width">
-        <div class="vis-container">
-            <div id="gender_participation"></div>
-        </div>
+<!-- Gender participation section -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <div class="vis-container" id="gender_participation"></div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1">
         <div class="text-container">
-            <h2>Gender Participation by Event Over Time</h2>
-            <p>These four stacked bar charts show the participation of male and female competitors across different cube sizes (2x2, 3x3, 4x4, and 5x5) from 2010 to 2025. The blue bars represent male participants while red bars represent female participants, revealing trends in gender participation and the growth of each event category over time.</p>
+            <h2>Gender Participation Over Time</h2>
+            <p>Gender distribution across different cube sizes from 2010 to 2025.</p>
         </div>
     </div>
 </div>
 
-
-<!-- Row 6: Stacked Area and Cumulative Area Side by Side -->
-<div class="vis-row">
-    <div class="vis-item">
-        <div class="vis-container">
-            <div id="stacked_area"></div>
-        </div>
+<!-- Area charts section -->
+<div class="pure-g">
+    <div class="pure-u-1-2">
+        <div class="vis-container" id="stacked_area"></div>
+    </div>
+    <div class="pure-u-1-2">
+        <div class="vis-container" id="cumulative_area"></div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1-2">
         <div class="text-container">
-            <h2>Growth of New Competitors by Continent</h2>
-            <p>This stacked area chart tracks how the number of new competitors has grown over time in different continents. Each colored area represents a continent's contribution to the overall growth, helping us understand regional trends in the sport's expansion and identifying periods of significant community growth.</p>
+            <h2>New Competitors Growth</h2>
+            <p>Growth of new competitors over time by continent.</p>
         </div>
     </div>
-    
-    <div class="vis-item">
-        <div class="vis-container">
-            <div id="cumulative_area"></div>
-        </div>
+    <div class="pure-u-1-2">
         <div class="text-container">
-            <h2>Cumulative Growth of Competitors</h2>
-            <p>The cumulative area chart shows the total number of competitors over time by continent. This visualization helps us understand the overall growth trajectory of the speedcubing community and how different regions have contributed to its expansion throughout the years.</p>
+            <h2>Total Competitors Growth</h2>
+            <p>Cumulative growth of total competitors by continent.</p>
         </div>
     </div>
 </div>

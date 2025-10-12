@@ -5,9 +5,9 @@
     "fontSize": 20,
     "anchor": "middle"
   },
-  "padding": {"left": 0, "right": 40, "top": 30, "bottom": 0},
-  "width": 600,
-  "height": 400,
+  "padding": {"left": 0, "right": 0, "top": 30, "bottom": 0},
+  "width": 800,
+  "height": 450,
   "projection": {
     "type": "equalEarth",
     "scale": {"expr": "zoom_level * (center_to == 'World' ? 1 : 2.33)"},
@@ -30,7 +30,7 @@
     },
     {
       "name": "zoom_level",
-      "value": 100,
+      "value": 140,
       "bind": {
         "input": "range",
         "min": 110,
@@ -124,7 +124,7 @@
           "legend": {
             "title": "Total Competitions",
             "orient": "right",
-            "offset": -40,
+            "offset": -100,
             "direction": "vertical"
           }
         },
