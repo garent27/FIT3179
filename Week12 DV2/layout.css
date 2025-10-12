@@ -9,7 +9,7 @@ body {
 }
 
 .page {
-    width: 1600px;
+    width: 1400px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -28,7 +28,7 @@ h2 {
     font-size: 24px;
     margin-top: 0;
     color: #333;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -73,7 +73,7 @@ footer {
     margin-bottom: 40px;
     display: flex;
     align-items: stretch;
-    gap: 10px;
+    gap: 0px;
     justify-content: space-between;
 }
 
@@ -86,10 +86,7 @@ footer {
     flex-shrink: 0;
 }
 
-/* Override Pure.css widths to account for gap */
-.pure-u-1-2 {
-    width: calc(50% - 20px) !important;
-}
+
 
 
 .pure-u-1 {

@@ -5,9 +5,9 @@
     "fontSize": 20,
     "anchor": "middle"
   },
-  "width": 1400,
+  "width": 800,
   "height": 400,
-  "background": "#f9f9f9",
+  "background": "transparent",
   "data": {
     "url": "data/fastest_3x3_top5countries.csv"
   },
@@ -55,7 +55,7 @@
       },
       "legend": {
         "orient": "none",
-        "legendX": 1050,
+        "legendX": 550,
         "legendY": 10,
         "direction": "vertical",
         "title": "Country (Click to highlight)",

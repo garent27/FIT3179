@@ -8,8 +8,12 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 <script src="vega_lite_vis.js"></script>
+
+
 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
 <link rel="stylesheet" href="layout.css">
+
+
 <title>Rubik's Cube Data Visualization</title>
 </head>
 <body>
@@ -44,13 +48,11 @@
 
 <!-- Line chart section -->
 <div class="pure-g">
-    <div class="pure-u-1">
+    <div class="pure-u-2-3">
         <div class="vis-container" id="line_chart"></div>
     </div>
-</div>
-<div class="pure-g">
-    <div class="pure-u-1">
-        <div class="text-container">
+    <div class="pure-u-1-3">
+        <div class="text-container description-right">
             <h2>Fastest Solve Times Progression</h2>
             <p>This line chart shows how the fastest solve times have improved over the years for the top 5 countries.</p>
         </div>
@@ -83,13 +85,11 @@
 
 <!-- Treemap section -->
 <div class="pure-g">
-    <div class="pure-u-1">
+    <div class="pure-u-2-3">
         <div class="vis-container" id="treemap"></div>
     </div>
-</div>
-<div class="pure-g">
-    <div class="pure-u-1">
-        <div class="text-container">
+    <div class="pure-u-1-3">
+        <div class="text-container description-right">
             <h2>Competition Solves by Event</h2>
             <p>Breakdown of different Rubik's Cube events popularity in competitions.</p>
         </div>
@@ -98,13 +98,11 @@
 
 <!-- Gender participation section -->
 <div class="pure-g">
-    <div class="pure-u-1">
+    <div class="pure-u-2-3">
         <div class="vis-container" id="gender_participation"></div>
     </div>
-</div>
-<div class="pure-g">
-    <div class="pure-u-1">
-        <div class="text-container">
+    <div class="pure-u-1-3">
+        <div class="text-container description-right">
             <h2>Gender Participation Over Time</h2>
             <p>Gender distribution across different cube sizes from 2010 to 2025.</p>
         </div>
@@ -113,24 +111,13 @@
 
 <!-- Area charts section -->
 <div class="pure-g">
-    <div class="pure-u-1-2">
+    <div class="pure-u-2-3">
         <div class="vis-container" id="stacked_area"></div>
     </div>
-    <div class="pure-u-1-2">
-        <div class="vis-container" id="cumulative_area"></div>
-    </div>
-</div>
-<div class="pure-g">
-    <div class="pure-u-1-2">
-        <div class="text-container">
+    <div class="pure-u-1-3">
+        <div class="text-container description-right">
             <h2>New Competitors Growth</h2>
             <p>Growth of new competitors over time by continent.</p>
-        </div>
-    </div>
-    <div class="pure-u-1-2">
-        <div class="text-container">
-            <h2>Total Competitors Growth</h2>
-            <p>Cumulative growth of total competitors by continent.</p>
         </div>
     </div>
 </div>

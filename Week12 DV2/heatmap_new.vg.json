@@ -6,10 +6,10 @@
     "anchor": "start"
   },
   
-  "background": "#f9f9f9",
+  "background": "transparent",
     "padding": {"left": 0, "right": 0, "top": 30, "bottom": 25},
-  "width": 600,
-  "height": 400,
+  "width": 550,
+  "height": 350,
   "data": {
     "url": "data/competitions_with_fastest.csv"
   },

@@ -77,11 +77,11 @@
       {"field": "new_competitors", "type": "quantitative", "title": "New That Year", "format": ",d"}
     ]
   },
-  "background": "#f9f9f9",
+  "background": "transparent",
   "config": {
     "view": {
       "stroke": null,
-      "fill": "#f9f9f9"
+      "fill": "transparent"
     },
     "axis": {
       "labelColor": "#333",

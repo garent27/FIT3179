@@ -5,8 +5,8 @@
     "fontSize": 20,
     "anchor": "middle"
   },
-  "padding": {"left": 0, "right": 0, "top": 30, "bottom": 0},
-  "width": 800,
+  "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
+  "width": 650,
   "height": 450,
   "projection": {
     "type": "equalEarth",
@@ -15,7 +15,7 @@
       "expr": "center_to == 'World' ? [0, 0] : center_to == 'North America' ? [-100, 45] : center_to == 'South America' ? [-60, -15] : center_to == 'Europe' ? [10, 54] : center_to == 'Asia' ? [100, 30] : center_to == 'Africa' ? [20, 0] : center_to == 'Oceania' ? [140, -25] : [0, 0]"
     }
   },
-  "background": "#f9f9f9",
+  "background": "transparent",
   "params": [
     {
       "name": "Year_selection",
@@ -30,7 +30,7 @@
     },
     {
       "name": "zoom_level",
-      "value": 140,
+      "value": 120,
       "bind": {
         "input": "range",
         "min": 110,
@@ -123,9 +123,12 @@
           },
           "legend": {
             "title": "Total Competitions",
-            "orient": "right",
-            "offset": -100,
-            "direction": "vertical"
+            "orient": "bottom-right",
+            "offset": 10,
+            "direction": "horizontal",
+            "symbolSize": 80,
+            "labelFontSize": 10,
+            "titleFontSize": 11
           }
         },
         "tooltip": [
