@@ -26,7 +26,7 @@
             <p class="subtitle">Exploring Global Speedcubing Performance and Trends</p>
         </div>
         <div class="header-image">
-            <img src="data/rubik's_cube_3x3.png" alt="Rubik's Cube">
+            <!-- <img src="data/rubik's_cube_3x3.png" alt="Rubik's Cube"> -->
             <img src="data\rubiks-cube-6366.gif" alt="Rubik's Cube">
         </div>
     </div>
@@ -53,13 +53,13 @@
     <div class="pure-u-1-2">
         <div class="text-container">
             <h2>World Map of Fastest Solves</h2>
-            <p>This interactive world map displays the distribution of Rubik's Cube solving speeds across different countries. The color intensity indicates the relative speed of solves, with darker colors representing faster times. You can click on any country to see detailed statistics and update the rankings visualization below.</p>
+            <p>This map provides a bird's-eye view of the fastest official 3x3 Rubik's Cube solve ever achieved in each country. The deeper the shade of green, the faster the national record time. Click on a country to dive deeper and see its top 10 champions in the chart on the right.</p>
         </div>
     </div>
     <div class="pure-u-1-2">    
         <div class="text-container">
             <h2>Top 10 of Selected Country</h2>
-            <p>These are the ten fastest individual Rubik's Cube solves ever recorded in official competitions for the selected country.</p>
+            <p>TThis chart ranks the best individual 3x3 solves in seconds. By default, it shows the top 10 fastest solvers in the world. When you select a country from the map, this list updates to reveal the top 10 record-holders for that specific nation, offering a focused look at its local talent.</p>
         </div>
     </div>
 </div>
@@ -74,7 +74,20 @@
         <div style = "margin-top: 70px;"></div>
         <div class="text-container description-right">
             <h2>Fastest Solve Times Progression</h2>
-            <p>This line chart shows how the fastest solve times have improved over the years for the top 5 countries.</p>
+            <p>Follow the year-by-year improvement in 3x3 Rubik's Cube solve times for the world's speedcubing powerhouses. This visual shows not only the fierce competition between nations but also the overall advancement of the sport. The clear drop in times highlights how new techniques and dedicated practice have shattered previous records.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Treemap section -->
+<div class="pure-g">
+    <div class="pure-u-2-3">
+        <div class="vis-container" id="treemap"></div>
+    </div>
+    <div class="pure-u-1-3">
+        <div class="text-container description-right">
+            <h2>Competition Solves by Event</h2>
+            <p>Explore the breakdown of competitive solves for each official WCA event. In this treemap, the size and color intensity of each block represent the total number of solves for that puzzle type. This provides a clear and immediate comparison, highlighting the overwhelming popularity of the standard 3x3x3 cube.</p>
         </div>
     </div>
 </div>
@@ -94,29 +107,18 @@
     <div class="pure-u-1-2">
         <div class="text-container">
             <h2>Total Competitions by Country</h2>
-            <p>Geographic distribution of Rubik's Cube competitions worldwide. Circle size represents competition count.</p>
+            <p>This world map pinpoints the epicenters of the competitive Rubik's Cube scene. Each red circle represents a country, and its size directly corresponds to the total number of competitions held there. Use the Year slider to travel through time and watch how the sport's popularity has grown and shifted across the globe.</p>
         </div>
     </div>
     <div class="pure-u-1-2">
         <div class="text-container">
             <h2>Competition Activity</h2>
-            <p>Evolution of competition activity across continents over time. Darker colors indicate higher activity.</p>
+            <p>This heatmap reveals the explosive growth of speedcubing competitions across continents since 2010. The deeper the shade of blue, the higher the number of events held in that region for a specific year. You can instantly see the sport's incredible expansion in Asia and North America and the powerful rebound in activity worldwide after 2021.</p>
         </div>
     </div>
 </div>
 
-<!-- Treemap section -->
-<div class="pure-g">
-    <div class="pure-u-2-3">
-        <div class="vis-container" id="treemap"></div>
-    </div>
-    <div class="pure-u-1-3">
-        <div class="text-container description-right">
-            <h2>Competition Solves by Event</h2>
-            <p>Breakdown of different Rubik's Cube events popularity in competitions.</p>
-        </div>
-    </div>
-</div>
+
 
 <!-- Gender participation section -->
 <div class="pure-g">
@@ -126,7 +128,7 @@
     <div class="pure-u-1-3">
         <div class="text-container description-right">
             <h2>Gender Participation Over Time</h2>
-            <p>Gender distribution across different cube sizes from 2010 to 2025.</p>
+            <p>These charts track the year-over-year growth in male and female participation for the most popular puzzle events. Each stacked bar shows the total number of competitors, highlighting both the explosive overall growth of the sport and the consistent gender ratio within the community. As expected, the classic 3x3 Cube attracts the largest and most diverse field of competitors.</p>
         </div>
     </div>
 </div>
@@ -139,13 +141,19 @@
     <div class="pure-u-1-3">
         <div class="text-container description-right">
             <h2>New Competitors Growth</h2>
-            <p>Growth of new competitors over time by continent.</p>
+            <p>This chart visualizes the annual influx of first-time competitors, revealing the geographic waves of the sport's popularity. The stacked areas show how different continents have contributed to the cubing community's growth over time. Notice the dramatic surge in newcomers from Asia and Europe post-2022, signaling a powerful global expansion and a resilient comeback after the 2020 dip.</p>
         </div>
     </div>
 </div>
 
 
 <footer style="margin-top: 40px; padding: 20px; text-align: center; border-top: 1px solid #ddd; background-color: #ffffff;">
+    <p style="margin: 10px 0; font-size: 14px; color: #333; font-weight: 600;">
+        Author: Garent Ngor Jun Hoe
+    </p>
+        <p style="margin: 10px 0; font-size: 14px; color: #333; font-weight: 600;">
+        Data Source : https://www.worldcubeassociation.org/
+    </p>
     <p style="margin: 10px 0; font-size: 12px; color: #888;">
         Rubik's Cube Data Visualization Dashboard
     </p>

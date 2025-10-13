@@ -56,7 +56,7 @@
           "title": "Country",
           "scale": {
             "domain": ["China", "Netherlands", "Poland", "Australia", "United States"],
-            "range": ["#FF0000", "#FFD700", "#FFA500", "#1f77b4", "#c19ee0"]
+            "range": ["#FF0000", "#27F5C5", "#FFA500", "#1f77b4", "#c19ee0"]
           },
           "legend": {
             "orient": "none",

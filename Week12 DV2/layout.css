@@ -10,7 +10,7 @@ body {
 
 .page {
     width: 1400px;
-    background-color: white;
+    background-color: #FCFCFC;
     margin: auto;
     padding: 50px;
     padding-top: 35px;
@@ -49,9 +49,9 @@ body {
 }
 
 .header-image img {
-    width: 120px;
-    height: 120px;
-    animation: rotate 3s linear infinite;
+    width: 200px;
+    height: 200px;
+    animation: rotate 20s linear infinite;
 }
 
 @keyframes rotate {
