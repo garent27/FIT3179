@@ -2,11 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Total Rubik's Cube Competitions by Country",
-    "fontSize": 20,
-    "anchor": "middle"
+    "fontSize": 26,
+    "anchor": "start",
+    "color": "black"
   },
   "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
-  "width": 650,
+  "width": 600,
   "height": 450,
   "projection": {
     "type": "equalEarth",
@@ -30,7 +31,7 @@
     },
     {
       "name": "zoom_level",
-      "value": 120,
+      "value": 110,
       "bind": {
         "input": "range",
         "min": 110,
@@ -123,7 +124,7 @@
           },
           "legend": {
             "title": "Total Competitions",
-            "orient": "bottom-right",
+            "orient": "bottom-left",
             "offset": 10,
             "direction": "horizontal",
             "symbolSize": 80,

@@ -22,8 +22,8 @@
 <header class="main-header">
     <div class="header-content">
         <div class="header-text">
-            <h1>Rubik's Cube World Records & Competition Analytics</h1>
-            <p class="subtitle">Exploring Global Speedcubing Performance and Trends from 2003-2025</p>
+            <h1>Rubik's Cube World Records and Competition Analytics</h1>
+            <p class="subtitle">Exploring Global Speedcubing Performance and Trends</p>
         </div>
         <div class="header-image">
             <img src="data/rubik's_cube_3x3.png" alt="Rubik's Cube">
@@ -35,9 +35,17 @@
 <!-- Map and bar chart section -->
 <div class="pure-g">
     <div class="pure-u-1-2">
+        <div style = "margin-top: 5px;"></div>
+        <p style="text-align: left; font-size: 14px; color: #555; margin-bottom: 10px; font-style: italic;">
+        Click to select country • Drag to pan • Scroll to zoom
+        </p>
         <div class="vis-container" id="choropleth_map"></div>
     </div>
     <div class="pure-u-1-2">
+        <p style="text-align: left; font-size: 14px; color: #555; margin-bottom: 10px; font-style: italic;">
+            Click to reset selected country: <span id="selected-country" style="font-weight: bold; color: #333;">Currently Selected = "World"</span>
+            <button id="reset-country" style="margin-left: 10px; padding: 4px 12px; font-size: 12px;">Reset</button>
+        </p>
         <div class="vis-container" id="top5_fastest"></div>
     </div>
 </div>
@@ -51,8 +59,6 @@
     <div class="pure-u-1-2">    
         <div class="text-container">
             <h2>Top 10 of Selected Country</h2>
-                <div id="selected-country">Selected Country = "World"</div>  
-            <button id="reset-country">Reset</button>
             <p>These are the ten fastest individual Rubik's Cube solves ever recorded in official competitions for the selected country.</p>
         </div>
     </div>
@@ -61,9 +67,11 @@
 <!-- Line chart section -->
 <div class="pure-g">
     <div class="pure-u-2-3">
-        <div class="vis-container" id="line_chart"></div>
+        <div style = "margin-top: 70px;"></div>
+        <div class="vis-container" id="line_chart" ></div>
     </div>
     <div class="pure-u-1-3">
+        <div style = "margin-top: 70px;"></div>
         <div class="text-container description-right">
             <h2>Fastest Solve Times Progression</h2>
             <p>This line chart shows how the fastest solve times have improved over the years for the top 5 countries.</p>
@@ -74,9 +82,11 @@
 <!-- Symbol map and heatmap section -->
 <div class="pure-g">
     <div class="pure-u-1-2">
+        <div style = "margin-top: 50px;"></div>
         <div class="vis-container" id="symbol_map"></div>
     </div>
     <div class="pure-u-1-2">
+        <div style = "margin-top: 20px;"></div>
         <div class="vis-container" id="heatmap"></div>
     </div>
 </div>

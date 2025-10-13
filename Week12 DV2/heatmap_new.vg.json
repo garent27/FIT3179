@@ -2,12 +2,14 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Rubik's Cube Competition Activity: Year vs Continent",
-    "fontSize": 20,
-    "anchor": "start"
+    "fontSize": 26,
+    "anchor": "start",
+    "color": "black",
+    "offset": 70
   },
   
   "background": "transparent",
-    "padding": {"left": 0, "right": 0, "top": 30, "bottom": 25},
+    "padding": {"left": 0, "right": 0, "top": 30, "bottom": 0},
   "width": 550,
   "height": 350,
   "data": {
@@ -54,11 +56,14 @@
       "scale": {
         "type": "sequential",
         "scheme": "blues",
-        "range": ["#f7fbff", "#08519c"]
+        "range": ["#f7fbff", "#08519c"],
+        "domainMin": 0
       },
       "legend": {
+        "direction": "horizontal",
         "title": "Competitions Count",
-        "orient": "right"
+        "orient": "bottom",
+        "titleAnchor": "middle"
       }
     },
     "tooltip": [

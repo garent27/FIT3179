@@ -7,8 +7,10 @@
   
   "title": {
     "text": {"signal": "'Competition Solves by Event (' + yearSelect + ')'"},
-    "fontSize": 18,
-    "anchor": "start"
+    "fontSize": 26,
+    "anchor": "start",
+    "color": "black",
+    "offset": 30
   },
 
   "signals": [

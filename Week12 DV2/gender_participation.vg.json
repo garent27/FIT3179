@@ -2,8 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Gender Participation by Event Over Time",
-    "fontSize": 18,
-    "anchor": "middle"
+    "fontSize": 26,
+    "anchor": "start",
+    "color": "black",
+    "offset": 40
   },
   "data": {
     "url": "data/gender_participation_by_event_year.csv"

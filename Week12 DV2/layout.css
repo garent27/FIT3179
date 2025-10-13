@@ -86,7 +86,7 @@ h1 {
     font-weight: 900;
     margin-top: 0;
     color: #333;
-    text-align: center;
+    text-align: left    ;
 }
 
 h2 {
@@ -141,7 +141,6 @@ footer {
     display: flex;
     align-items: stretch;
     gap: 0px;
-    justify-content: space-between;
 }
 
 .pure-u-1-2,
