@@ -51,7 +51,7 @@ body {
 .header-image img {
     width: 120px;
     height: 120px;
-    animation: rotate 1s linear infinite;
+    animation: rotate 3s linear infinite;
 }
 
 @keyframes rotate {
@@ -171,7 +171,7 @@ footer {
 
 .text-container {
     padding: 1rem;
-    text-align: center;
+    text-align: justify;
     flex-shrink: 0;
     max-width: 85%;
     margin: 0 auto;
@@ -184,6 +184,7 @@ footer {
 
 .description-right {
     padding-left: 20px;
+    text-align: justify;
 }
 
 .description-left {
