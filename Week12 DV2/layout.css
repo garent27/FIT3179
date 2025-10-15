@@ -98,7 +98,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     line-height: 1.6;
 }
@@ -173,7 +173,7 @@ footer {
     padding: 1rem;
     text-align: justify;
     flex-shrink: 0;
-    max-width: 85%;
+    max-width: 87%;
     margin: 0 auto;
 }
 

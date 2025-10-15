@@ -8,7 +8,7 @@
     "offset": 50
   },
   "width": 800,
-  "height": 400,
+  "height": 350,
   "background": "transparent",
   "data": {
     "url": "data/fastest_3x3_top5countries.csv"

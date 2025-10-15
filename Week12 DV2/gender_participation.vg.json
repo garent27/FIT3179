@@ -20,8 +20,8 @@
       "hconcat": [
         {
           "title": "2x2 Cube (222)",
-          "width": 280,
-          "height": 250,
+          "width": 322,
+          "height": 160,
           "transform": [
             {"filter": "datum.eventId == '222'"}
           ],
@@ -68,8 +68,8 @@
         },
         {
           "title": "3x3 Cube (333)",
-          "width": 280,
-          "height": 250,
+          "width": 322,
+          "height": 160,
           "transform": [
             {"filter": "datum.eventId == '333'"}
           ],
@@ -120,8 +120,8 @@
       "hconcat": [
         {
           "title": "4x4 Cube (444)",
-          "width": 280,
-          "height": 250,
+          "width": 322,
+          "height": 160,
           "transform": [
             {"filter": "datum.eventId == '444'"}
           ],
@@ -168,8 +168,8 @@
         },
         {
           "title": "5x5 Cube (555)",
-          "width": 280,
-          "height": 250,
+          "width": 322,
+          "height": 160,
           "transform": [
             {"filter": "datum.eventId == '555'"}
           ],

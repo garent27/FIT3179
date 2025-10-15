@@ -10,7 +10,7 @@
   
   "background": "transparent",
     "padding": {"left": 0, "right": 0, "top": 30, "bottom": 0},
-  "width": 550,
+  "width": 700,
   "height": 350,
   "data": {
     "url": "data/competitions_with_fastest.csv"
@@ -60,10 +60,11 @@
         "domainMin": 0
       },
       "legend": {
-        "direction": "horizontal",
+        "direction": "vertical",
         "title": "Competitions Count",
-        "orient": "bottom",
-        "titleAnchor": "middle"
+        "orient": "right",
+        "titleAnchor": "start",
+        "offset": 20
       }
     },
     "tooltip": [

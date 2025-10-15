@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Treemap of Rubik's Cube competition solves by event",
-  "width": 800,
-  "height": 500,
+  "width": 785,
+  "height": 400,
   "padding": 5,
   
   "title": {
