@@ -112,9 +112,9 @@
       ],
       "mark": {
         "type": "text",
-        "align": "left",
-        "dx": 10,
-        "dy": -10,
+        "align": "center",
+        "dx": 0,
+        "dy": 15,
         "fontSize": 11,
         "fontWeight": "bold"
       },
@@ -133,9 +133,9 @@
       ],
       "mark": {
         "type": "text",
-        "align": "left",
-        "dx": 10,
-        "dy": 5,
+        "align": "center",
+        "dx": 0,
+        "dy": 30,
         "fontSize": 10
       },
       "encoding": {
