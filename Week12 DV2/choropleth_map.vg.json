@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Interactive world map showing fastest Rubik's Cube solves by country with pan and zoom.",
-  "width": 650,
+  "width": 600,
   "height": 400,
   "autosize": "none",
   "padding": {"left": 0, "right": 0, "top": -20, "bottom": 25},
@@ -17,7 +17,7 @@
     { "name": "ty", "update": "height / 2" },
     {
       "name": "scale",
-      "value": 119,
+      "value": 110,
       "on": [{
         "events": {"type": "wheel", "consume": true},
         "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 110, 3000)"

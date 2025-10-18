@@ -9,73 +9,105 @@
   },
   "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
   "background": "transparent",
-  "width": 600,
+  "width": 660,
   "height": 350,
-  "data": {
-    "url": "data/competitor_growth_by_continent.csv"
-  },
-  "transform": [
+  "layer": [
     {
-      "calculate": "replace(datum.continentId, '_', '')",
-      "as": "continent"
+      "data": {
+        "url": "data/competitor_growth_by_continent.csv"
+      },
+      "transform": [
+        {
+          "calculate": "replace(datum.continentId, '_', '')",
+          "as": "continent"
+        }
+      ],
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "opacity": 0.8,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": "Year",
+          "scale": {"domain": [2003, 2025]},
+          "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "grid": false,
+            "gridOpacity": 0.3,
+            "format": "d"
+          }
+        },
+        "y": {
+          "field": "new_competitors",
+          "type": "quantitative",
+          "stack": true,
+          "title": "New Competitors",
+          "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 14,
+            "grid": false,
+            "gridOpacity": 0.3,
+            "format": ",d"
+          }
+        },
+        "color": {
+          "field": "continent",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Asia", "Europe", "North America", "South America", "Oceania", "Africa"],
+            "range": ["#ffaa00", "#ffd700", "#ff9966", "#5eb3f6", "#d966ff", "#cc9966"]
+          },
+          "legend": {
+            "title": "Continent",
+            "titleFontSize": 14,
+            "labelFontSize": 12,
+            "orient": "right",
+            "symbolType": "square",
+            "symbolSize": 200
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "quantitative", "title": "Year", "format": "d"},
+          {"field": "continent", "type": "nominal", "title": "Continent"},
+          {"field": "new_competitors", "type": "quantitative", "title": "New Competitors", "format": ",d"}
+        ]
+      }
+    },
+    {
+      "data": {"values": [{"year": 2020}]},
+      "mark": {
+        "type": "rule",
+        "color": "#d32f2f",
+        "strokeWidth": 2,
+        "strokeDash": [5, 5]
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {"values": [{"year": 2020, "label": "COVID-19 Impact"}]},
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "dx": 10,
+        "dy": -15,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "fill": "#d32f2f"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
     }
   ],
-  "mark": {
-    "type": "area",
-    "interpolate": "monotone",
-    "opacity": 0.8,
-    "stroke": "white",
-    "strokeWidth": 1
-  },
-  "encoding": {
-    "x": {
-      "field": "year",
-      "type": "quantitative",
-      "title": "Year",
-      "scale": {"domain": [2003, 2025]},
-      "axis": {
-        "labelFontSize": 12,
-        "titleFontSize": 14,
-        "grid": false,
-        "gridOpacity": 0.3,
-        "format": "d"
-      }
-    },
-    "y": {
-      "field": "new_competitors",
-      "type": "quantitative",
-      "stack": true,
-      "title": "New Competitors",
-      "axis": {
-        "labelFontSize": 12,
-        "titleFontSize": 14,
-        "grid": false,
-        "gridOpacity": 0.3,
-        "format": ",d"
-      }
-    },
-    "color": {
-      "field": "continent",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Asia", "Europe", "North America", "South America", "Oceania", "Africa"],
-        "range": ["#ffbf69", "#fcf6bd", "#fec8c3", "#a9def9", "#e4c1f9", "#ddbea9"]
-      },
-      "legend": {
-        "title": "Continent",
-        "titleFontSize": 14,
-        "labelFontSize": 12,
-        "orient": "right",
-        "symbolType": "square",
-        "symbolSize": 200
-      }
-    },
-    "tooltip": [
-      {"field": "year", "type": "quantitative", "title": "Year", "format": "d"},
-      {"field": "continent", "type": "nominal", "title": "Continent"},
-      {"field": "new_competitors", "type": "quantitative", "title": "New Competitors", "format": ",d"}
-    ]
-  },
   "config": {
     "view": {"stroke": "transparent"},
     "axis": {

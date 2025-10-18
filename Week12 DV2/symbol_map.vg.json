@@ -7,7 +7,7 @@
     "color": "black"
   },
   "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
-  "width": 1400,
+  "width": 1300,
   "height": 500,
   "projection": {
     "type": "equalEarth",

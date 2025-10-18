@@ -73,9 +73,9 @@
         <div class="vis-container" id="line_chart" ></div>
     </div>
     <div class="pure-u-1-3">
-        <div style = "margin-top: 70px;"></div>
+        <div style = "margin-top: 100px;"></div>
         <div class="text-container description-right">
-            <h2>Fastest Solve Times Progression</h2>
+            <h2>Fastest Solve Progression</h2>
             <p>Follow the <b>year-by-year improvement in 3x3 Rubik's Cube solve times</b> for the world's speedcubing powerhouses. This visual shows not only the <b>fierce competition between nations</b> but also the <b>overall advancement of the sport</b>. The clear drop in times highlights how <b>new techniques and dedicated practice</b> have shattered previous records.</p>
         </div>
     </div>
@@ -86,7 +86,7 @@
     <div class="pure-u-2-3">
         <div class="vis-container" id="treemap"></div>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-3" style="margin-top: 40px;">
         <div class="text-container description-right">
             <h2>Competition Solves by Event</h2>
             <p>Explore the <b>breakdown of competitive solves for each official WCA event</b>. In this treemap, the <b>size and color intensity of each block represent the total number of solves</b> for that puzzle type. This provides a clear and immediate comparison, highlighting the <b>overwhelming popularity of the standard 3x3x3 cube</b>.</p>
@@ -111,10 +111,10 @@
 <!-- Heatmap section -->
 <div class="pure-g">
     <div class="pure-u-2-3">
-        <div style = "margin-top: 20px;"></div>
+        <div style = "margin-top: -20px;"></div>
         <div class="vis-container" id="heatmap"></div>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-3" style="margin-top: 30px;">
         <div class="text-container description-right">
             <h2>Competition Activity</h2>
             <p>This heatmap reveals the <b>explosive growth of speedcubing competitions across continents since 2010</b>. The <b>deeper the shade of blue, the higher the number of events</b> held in that region for a specific year. You can instantly see the <b>sport's incredible expansion in Asia and North America</b> and the <b>powerful rebound in activity worldwide after 2021</b>.</p>
@@ -129,9 +129,9 @@
     <div class="pure-u-2-3">
         <div class="vis-container" id="gender_participation"></div>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-3" style="margin-top: 40px;">
         <div class="text-container description-right">
-            <h2>Gender Participation Over Time</h2>
+            <h2>Gender Participation</h2>
             <p>These charts track the <b>year-over-year growth in male and female participation</b> for the most popular puzzle events. Each stacked bar shows the <b>total number of competitors</b>, highlighting both the <b>explosive overall growth of the sport</b> and the <b>consistent gender ratio within the community</b>. As expected, the <b>classic 3x3 Cube attracts the largest and most diverse field of competitors</b>.</p>
         </div>
     </div>
@@ -142,25 +142,35 @@
     <div class="pure-u-2-3">
         <div class="vis-container" id="stacked_area"></div>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-3" style="margin-top: 30px;">
         <div class="text-container description-right">
             <h2>New Competitors Growth</h2>
-            <p>This chart visualizes the <b>annual influx of first-time competitors</b>, revealing the <b>geographic waves of the sport's popularity</b>. The stacked areas show how <b>different continents have contributed to the cubing community's growth</b> over time. Notice the <b>dramatic surge in newcomers from Asia and Europe post-2022</b>, signaling a <b>powerful global expansion and a resilient comeback after the 2020 dip</b>.</p>
+            <p>This chart visualizes the <b>annual influx of first-time competitors</b>, revealing the geographic waves of the sport's popularity. The stacked areas show how <b>different continents have contributed to the cubing community's growth</b> over time. Notice that <b>covid-19 caused a huge drop in new participants</b> but went back to normal after 2022.</p>
         </div>
     </div>
 </div>
 
 
-<footer style="margin-top: 40px; padding: 20px; text-align: center; border-top: 1px solid #ddd; background-color: #ffffff;">
-    <p style="margin: 10px 0; font-size: 14px; color: #333; font-weight: 600;">
-        Author: Garent Ngor Jun Hoe
-    </p>
-        <p style="margin: 10px 0; font-size: 14px; color: #333; font-weight: 600;">
-        Data Source : https://www.worldcubeassociation.org/
-    </p>
-    <p style="margin: 10px 0; font-size: 12px; color: #888;">
-        Rubik's Cube Data Visualization Dashboard
-    </p>
+<footer style="margin-top: 40px; padding: 30px 50px; text-align: left; border-top: 2px solid #4285F4; background-color: #f9f9f9;">
+    <div style="max-width: 1300px; margin: 0 auto;">
+        <p style="margin: 0 0 15px 0; font-size: 14px; color: #333; font-weight: 600;">
+            <b>Author:</b> Garent Ngor Jun Hoe
+        </p>
+        <p style="margin: 0 0 8px 0; font-size: 13px; color: #666;">
+            <b>Data Sources:</b>
+        </p>
+        <ul style="margin: 5px 0 15px 20px; padding: 0; list-style: none;">
+            <li style="margin: 5px 0; font-size: 13px; color: #666;">
+                <a href="https://www.worldcubeassociation.org/export/results" style="color: #4285F4; text-decoration: none;">World Cube Association - Competition Results</a>
+            </li>
+            <li style="margin: 5px 0; font-size: 13px; color: #666;">
+                <a href="https://www.kaggle.com/datasets/darshanvss/top-1000-fastest-rubiks-cube-solves" style="color: #4285F4; text-decoration: none;">Kaggle - Top 1000 Fastest Rubik's Cube Solves</a>
+            </li>
+        </ul>
+        <p style="margin: 10px 0 0 0; font-size: 12px; color: #999;">
+            Rubik's Cube Data Visualization Dashboard | FIT3179
+        </p>
+    </div>
 </footer>
 
 </body>
