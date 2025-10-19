@@ -228,6 +228,7 @@
     }
   ],
   "config": {
-    "view": {"stroke": "transparent"}
+    "view": {"stroke": "transparent"},
+    "title": {"anchor": "start", "offset": 30}
   }
 }
