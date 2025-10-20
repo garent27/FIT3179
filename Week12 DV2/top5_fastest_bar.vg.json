@@ -19,7 +19,7 @@
   },
   "width": 350,
   "height": 315,
-  "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
+  "padding": {"left": 20, "right": 0, "top": 0, "bottom": 0},
   "data": {
     "url": "data/top10_unique_per_country.csv"
   },
@@ -63,7 +63,7 @@
       "as": "solver_name"
     },
     {
-      "calculate": "length(datum.name) > 14 ? substring(datum.name, 0, 14) : datum.name",
+      "calculate": "length(datum.name) > 12 ? substring(datum.name, 0, 12) : datum.name",
       "as": "truncated_name"
     },
     {
