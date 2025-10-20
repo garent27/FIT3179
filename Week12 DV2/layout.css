@@ -1,5 +1,5 @@
 body * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 .page {
-    width: 1300px;
+    width: 1200px;
     background-color: #FCFCFC;
     margin: auto;
     padding: 50px;
@@ -72,7 +72,7 @@ body {
     color: #1a1a1a;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .subtitle {
@@ -101,9 +101,11 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     line-height: 1.6;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Controls styling */
@@ -167,7 +169,7 @@ footer {
 
 .vis-container {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
