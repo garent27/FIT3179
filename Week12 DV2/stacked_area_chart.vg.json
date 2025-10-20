@@ -1,10 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Growth of New Rubik's Cube Competitors by Continent (2003-2025)",
+    "text": "Growth of New Rubik's Cube Competitors by Continent",
     "fontSize": 26,
     "anchor": "start",
     "color": "black",
+    "font": "Roboto",
     "offset": 40
   },
   "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},

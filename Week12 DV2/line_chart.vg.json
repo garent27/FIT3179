@@ -5,7 +5,8 @@
     "fontSize": 26,
     "anchor": "start",
     "color": "black",
-    "offset": 50
+    "font": "Roboto",
+    "offset": 40
   },
   "width": 700,
   "height": 320,

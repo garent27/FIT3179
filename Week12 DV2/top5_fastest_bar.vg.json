@@ -13,10 +13,12 @@
     },
     "fontSize": 26,
     "anchor": "start",
+    "color": "black",
+    "font": "Roboto",
     "offset": 40
   },
   "width": 350,
-  "height": 350,
+  "height": 315,
   "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
   "data": {
     "url": "data/top10_unique_per_country.csv"

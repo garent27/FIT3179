@@ -10,7 +10,8 @@
     "fontSize": 26,
     "anchor": "start",
     "color": "black",
-    "offset": 30
+    "font": "Roboto",
+    "offset": 40
   },
 
   "signals": [

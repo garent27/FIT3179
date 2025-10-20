@@ -5,6 +5,7 @@
     "fontSize": 26,
     "anchor": "start",
     "color": "black",
+    "font": "Roboto",
     "offset": 40
   },
   

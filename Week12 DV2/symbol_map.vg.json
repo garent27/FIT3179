@@ -4,7 +4,8 @@
     "text": "Total Rubik's Cube Competitions by Country",
     "fontSize": 26,
     "anchor": "start",
-    "color": "black"
+    "color": "black",
+    "font": "Roboto"
   },
   "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
   "width": 1050,

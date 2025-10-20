@@ -8,7 +8,8 @@
   "title": {
     "fontSize": 26,
     "anchor": "start",
-    "color": "black"
+    "color": "black",
+    "font": "Roboto"
   },
   "background": "transparent",
 
