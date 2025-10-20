@@ -56,8 +56,8 @@
       "title": "Total Competitions",
       "scale": {
         "type": "sequential",
-        "scheme": "blues",
-        "range": ["#f7fbff", "#08519c"],
+        "scheme": "oranges",
+        "range": ["#fff7f0", "#d94701"],
         "domainMin": 0
       },
       "legend": {
